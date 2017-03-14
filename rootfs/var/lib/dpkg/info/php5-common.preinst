@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e
+
+if [ -d /var/lib/php5/module/ ]; then
+   cp -a /var/lib/php5/module/ /var/lib/php5/modules/
+   rm -rf /var/lib/php5/module/
+fi
+
+for dsoname in pdo opcache ; do
+    inifile=${dsoname}.ini
+    dpkg-maintscript-helper mv_conffile /etc/php5/conf.d/${inifile} /etc/php5/mods-available/${inifile} 5.4.0~rc6-1 -- "$@";
+done
+
+
+
+exit 0

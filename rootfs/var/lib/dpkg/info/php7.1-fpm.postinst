@@ -1,0 +1,103 @@
+#!/bin/sh
+
+set -e
+
+if [ -e /usr/share/apache2/apache2-maintscript-helper ]; then
+    . /usr/share/apache2/apache2-maintscript-helper
+
+    php_enable() {
+	# Don't enable PHP FPM by default when Apache 2 is installed
+	apache2_msg notice "NOTICE: Not enabling PHP 7.1 FPM by default."
+	apache2_msg notice "NOTICE: To enable PHP 7.1 FPM in Apache2 do:"
+	apache2_msg notice "NOTICE: a2enmod proxy_fcgi setenvif"
+	apache2_msg notice "NOTICE: a2enconf php7.1-fpm"
+	apache2_msg notice "NOTICE: You are seeing this message because you have apache2 package installed."
+	return 1
+    }
+else
+    php_enable() {
+	# Don't enable PHP FPM by default when Apache 2 is not installed
+	return 1
+    }
+fi
+
+if [ "$1" = "triggered" ] && [ "$2" = "/etc/php/7.1/fpm/conf.d" ]; then
+    invoke-rc.d php7.1-fpm restart
+fi
+
+CONFDIR=/etc/php/7.1/fpm/conf.d
+
+if [ "$1" = "configure" ]; then
+    phpini="/etc/php/7.1/fpm/php.ini"
+
+    if [ "fpm" = "cli" ]; then
+	ucf /usr/lib/php/7.1/php.ini-production.fpm $phpini
+    else
+	ucf /usr/lib/php/7.1/php.ini-production $phpini
+    fi
+    ucfr php7.1-fpm $phpini
+
+    if [ -e /usr/lib/php/php-maintscript-helper ]; then
+	. /usr/lib/php/php-maintscript-helper
+	
+	mods=$(phpquery -M -v 7.1)
+	for mod in $mods; do
+	    php_invoke enmod 7.1 fpm $mod
+	done
+    fi
+
+    if [ -n "$2" ] && dpkg --compare-versions "$2" lt "7.0.3-2~"; then
+	rm -f /etc/php/7.1/fpm/conf.d/20-opcache.ini;
+    fi	    
+fi
+
+# Automatically added by dh_apache2
+if php_enable; then
+	if [ -e /usr/share/apache2/apache2-maintscript-helper ] ; then
+		. /usr/share/apache2/apache2-maintscript-helper
+		for conf in php7.1-fpm  ; do
+			apache2_invoke enconf $conf  || exit $?
+		done
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_systemd_enable
+# This will only remove masks created by d-s-h on package removal.
+deb-systemd-helper unmask php7.1-fpm.service >/dev/null || true
+
+# was-enabled defaults to true, so new installations run enable.
+if deb-systemd-helper --quiet was-enabled php7.1-fpm.service; then
+	# Enables the unit on first installation, creates new
+	# symlinks on upgrades if the unit file has changed.
+	deb-systemd-helper enable php7.1-fpm.service >/dev/null || true
+else
+	# Update the statefile to add new symlinks (if any), which need to be
+	# cleaned up on purge. Also remove old symlinks.
+	deb-systemd-helper update-state php7.1-fpm.service >/dev/null || true
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
+	# In case this system is running systemd, we need to ensure that all
+	# necessary tmpfiles (if any) are created before starting.
+	if [ -d /run/systemd/system ] ; then
+		systemd-tmpfiles --create /usr/lib/tmpfiles.d/php7.1-fpm.conf >/dev/null || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
+	if [ -x "/etc/init.d/php7.1-fpm" ]; then
+		update-rc.d php7.1-fpm defaults >/dev/null
+		if [ -n "$2" ]; then
+			_dh_action=restart
+		else
+			_dh_action=start
+		fi
+		invoke-rc.d php7.1-fpm $_dh_action || exit $?
+	fi
+fi
+# End automatically added section
+
+
+exit 0

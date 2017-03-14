@@ -1,0 +1,57 @@
+#!/bin/sh
+
+set -e
+
+
+php_enable() { return 0; }
+
+if [ "$1" = "remove" ]; then
+    if [ -e /usr/lib/php/php-maintscript-helper ]; then
+	. /usr/lib/php/php-maintscript-helper
+
+	mods=$(phpquery -M -v 7.1)
+	for mod in $mods; do
+	    php_invoke dismod 7.1 cli $mod
+	done
+    else
+	for mod in /etc/php/7.1/conf.d/*.ini; do 
+	    rm -f $mod
+	    for ext in '~' '%' .bak .ucf-new .ucf-old .ucf-dist;  do
+		rm -f $mod$ext
+	    done
+	done
+    fi
+fi
+
+if [ "$1" = "purge" ]; then
+    phpini=/etc/php/7.1/cli/php.ini
+    # remove the flag to remember the original state
+    if [ -e /etc/php/7.1/cli/.start ]; then
+	rm -f /etc/php/7.1/cli/.start
+    fi
+    for ext in '~' '%' .bak .ucf-new .ucf-old .ucf-dist;  do
+	rm -f $phpini$ext
+    done
+    rm -f $phpini
+    if which ucf >/dev/null; then
+	ucf --purge $phpini
+    fi
+    if which ucfr >/dev/null; then
+	ucfr --purge php7.1-cli $phpini
+    fi
+
+    for dir in \
+	/etc/php/7.1/cli/conf.d \
+	/etc/php/7.1/cli \
+	/etc/php/7.1/ \
+	/etc/php; do
+	
+	if [ -d $dir ]; then
+	    rmdir --ignore-fail-on-non-empty $dir
+	fi
+    done
+fi
+
+
+
+exit 0

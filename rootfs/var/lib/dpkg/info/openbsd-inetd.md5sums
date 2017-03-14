@@ -1,0 +1,6 @@
+8c39079f24b145f1c02080e19630d75e  lib/systemd/system/inetd.service
+8b4b4d0a3f8e5b783b40b2bc64dca387  usr/sbin/inetd
+7df2f330f450b476f0828fd59d194e4d  usr/share/doc/openbsd-inetd/changelog.Debian.gz
+1fa80e39ea38de5cd05b2ea3a7b4ba24  usr/share/doc/openbsd-inetd/changelog.gz
+7f46b91511198567dd93583ccd840f4f  usr/share/doc/openbsd-inetd/copyright
+3fd746fec749f78fca4f0b612f7f6e01  usr/share/man/man8/inetd.8.gz

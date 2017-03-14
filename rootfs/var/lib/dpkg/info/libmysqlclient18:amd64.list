@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmysqlclient18
+/usr/share/doc/libmysqlclient18/changelog.Debian.gz
+/usr/share/doc/libmysqlclient18/NEWS.Debian.gz
+/usr/share/doc/libmysqlclient18/changelog.gz
+/usr/share/doc/libmysqlclient18/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libmysqlclient.so.18.0.0
+/usr/lib/x86_64-linux-gnu/libmysqlclient_r.so.18.0.0
+/usr/lib/x86_64-linux-gnu/libmysqlclient_r.so.18
+/usr/lib/x86_64-linux-gnu/libmysqlclient.so.18

@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "remove" -o "$1" = "deconfigure" ]; then
+    for binary in php phar phar phar.phar; do
+        update-alternatives --remove ${binary} /usr/bin/${binary}7.1
+    done
+fi
+
+php_enable() { return 0; }
+
+
+
+exit 0

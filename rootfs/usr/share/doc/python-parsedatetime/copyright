@@ -1,0 +1,37 @@
+This package was debianized by Bernd Zeimetz <bzed@debian.org> on
+Mon, 05 Nov 2007 01:29:28 +0100.
+
+It was downloaded from http://code.google.com/p/parsedatetime/downloads/list
+
+Upstream Authors: 
+
+    Mike Taylor <bear@code-bear.com>
+    Darshana Chhajed <darshana@osafoundation.org>
+
+Copyright: 
+
+    Copyright (c) 2004-2007 Mike Taylor
+    Copyright (c) 2006-2007 Darshana Chhajed
+    All rights reserved.
+
+License:
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+On Debian systems a full copy of the License can be found in
+/usr/share/common-licenses/Apache-2.0
+
+The Debian packaging is
+Copyright (C) 2007-2009 Bernd Zeimetz <bzed@debian.org>
+and is licensed under the Apache License, Version 2.0, see above.
+

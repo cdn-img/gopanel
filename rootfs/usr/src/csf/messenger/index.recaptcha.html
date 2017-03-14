@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Unauthorized Access</title>
+	<meta charset="UTF-8">
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+	<img src="csf_small.png" />
+	<h1>Your connection to this server has been blocked in this server's firewall.</h1>
+	<p>You need to contact the server owner or hosting provider for further information.</p>
+	<p>Your blocked IP address is: <b>[IPADDRESS]</b></p>
+	<p>This server's hostname is: <b>[HOSTNAME]</b></p>
+
+	<br />
+	<p>If you are a human you can unblock yourself using ReCAPTCHA:</p>
+	<p>Please note: Not all unblock requests will be successful as it is dependent on how your IP address is being blocked. If the unblock fails you will need to contact the server owner or hosting provider for further information.</p>
+
+	<!-- This form MUST be set to use the GET method -->
+	<form action='unblk' method='GET'>
+
+		<!-- lfd will replace the [RECAPTCHA_SITEKEY] option with the csf.conf
+		     RECAPTCHA_SITEKEY setting. Do not enter it here.
+		-->
+		<div class='g-recaptcha' data-sitekey='[RECAPTCHA_SITEKEY]'></div>
+		<input type='submit' value='Unblock'>
+	</form>
+	<h4>
+		<!-- These options are replaced according to the response received from
+		     Google reCAPTCHA.
+			 
+			 You can modify the text within the double quotes including the use
+			 of HTML, etc. However the format of the options must remain the
+			 same and no additional double quotes can be used.
+
+			 If an error is found, it will be appended after the
+			 RECAPTCHA_ERROR text.
+		-->
+		[RECAPTCHA_SUCCESS="Passed human test. Please wait a few seconds and your IP address should be unblocked."]
+	    [RECAPTCHA_FAILURE="Failed to pass human test. Please try again."]
+	    [RECAPTCHA_ERROR="There has been a problem:"]
+	</h4>
+
+	<!-- Note: After making any changes to the MESSENGER templates, lfd MUST be
+	     restarted to reload them.
+	-->
+</body>
+</html>

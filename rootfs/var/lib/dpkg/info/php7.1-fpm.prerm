@@ -1,0 +1,28 @@
+#!/bin/sh
+
+set -e
+
+
+php_enable() { return 0; }
+
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/php7.1-fpm" ] && [ "$1" = remove ]; then
+	invoke-rc.d php7.1-fpm stop || exit $?
+fi
+# End automatically added section
+# Automatically added by dh_apache2
+if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ] ; then
+	if php_enable; then
+		if [ -e /usr/share/apache2/apache2-maintscript-helper ] ; then
+			. /usr/share/apache2/apache2-maintscript-helper
+
+			for conf in php7.1-fpm  ; do
+				apache2_invoke disconf $conf  || exit $?
+			done
+		fi
+	fi
+fi
+# End automatically added section
+
+
+exit 0

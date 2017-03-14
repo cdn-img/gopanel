@@ -1,0 +1,12 @@
+/etc/init.d/postfix
+/etc/insserv.conf.d/postfix
+/etc/network/if-down.d/postfix
+/etc/network/if-up.d/postfix
+/etc/postfix/post-install
+/etc/postfix/postfix-files
+/etc/postfix/postfix-script
+/etc/ppp/ip-down.d/postfix
+/etc/ppp/ip-up.d/postfix
+/etc/resolvconf/update-libc.d/postfix
+/etc/rsyslog.d/postfix.conf
+/etc/ufw/applications.d/postfix

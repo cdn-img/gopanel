@@ -1,0 +1,5 @@
+3607196c365309603fdc3e4a247d7e9d  usr/lib/php/20160303/intl.so
+0b05fa39906fc4d624a8fa5fd0db38eb  usr/share/bug/php7.1-intl/control
+63ecd37a866959cdeef633b007205a71  usr/share/bug/php7.1-intl/script
+efc87d7158c03f42d65764fbac73c078  usr/share/lintian/overrides/php7.1-intl
+66dd72756634f83008541a4d4bce2342  usr/share/php7.1-intl/intl/intl.ini

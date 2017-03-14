@@ -1,0 +1,7 @@
+54942f81ad0d61af01dc5574977563cb  usr/bin/php-cgi7.1
+54942f81ad0d61af01dc5574977563cb  usr/lib/cgi-bin/php7.1
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/php/7.1/sapi/cgi
+26707d94c4b951710ee1efadc2338390  usr/share/bug/php7.1-cgi/control
+b872e4e1c5ab6b7dcb22d15a1a9c14ec  usr/share/bug/php7.1-cgi/script
+7dc904300f74ff164681172f42bf1b65  usr/share/lintian/overrides/php7.1-cgi
+34cffc1c62bdd3abbb75d89b07872008  usr/share/man/man1/php-cgi7.1.1.gz

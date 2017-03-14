@@ -1,0 +1,8 @@
+/etc/apparmor.d/usr.sbin.mysqld
+/etc/init.d/mysql
+/etc/logcheck/ignore.d.paranoid/mysql-server-5_5
+/etc/logcheck/ignore.d.server/mysql-server-5_5
+/etc/logcheck/ignore.d.workstation/mysql-server-5_5
+/etc/logrotate.d/mysql-server
+/etc/mysql/conf.d/mysqld_safe_syslog.cnf
+/etc/mysql/debian-start

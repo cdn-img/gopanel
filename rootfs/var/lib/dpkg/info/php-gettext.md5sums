@@ -1,0 +1,15 @@
+fb84507467c6c6f34de11a31a7446bfc  usr/share/doc/php-gettext/AUTHORS
+34dc8fc0d4829b41ac6360e6520d37a8  usr/share/doc/php-gettext/README.gz
+f2271dca8f7ada26d7adeec449009109  usr/share/doc/php-gettext/changelog.Debian.gz
+d658973ad397febbe7954bfd30bca106  usr/share/doc/php-gettext/copyright
+67357e8f67b1436ee8747278c749aa36  usr/share/doc/php-gettext/examples/index.php
+4cf6811259e64b940c2c64e576ba90cc  usr/share/doc/php-gettext/examples/locale/de_CH/LC_MESSAGES/messages.mo
+1c59da919ea1df3567b092b200d37afa  usr/share/doc/php-gettext/examples/locale/de_CH/LC_MESSAGES/messages.po
+67b801e671b8c5f49ed65a542e055f7d  usr/share/doc/php-gettext/examples/locale/sr_CS/LC_MESSAGES/messages.mo
+2cab6a8773d7f2bf5f139753bc365431  usr/share/doc/php-gettext/examples/locale/sr_CS/LC_MESSAGES/messages.po
+20caece787d4b6da5d3f5e0505e72f3a  usr/share/doc/php-gettext/examples/pigs_dropin.php
+2661905ae714702ddea86788e6a9a906  usr/share/doc/php-gettext/examples/pigs_fallback.php
+e857f936316fe15d51326c0e13461094  usr/share/doc/php-gettext/examples/update
+ea338919a3401fb04bfe7aa3dc5baf3d  usr/share/php/php-gettext/gettext.inc
+c9e61233c4a1f2971dc6204b764147e3  usr/share/php/php-gettext/gettext.php
+c5b7f319bca847c097c874a72cf51928  usr/share/php/php-gettext/streams.php

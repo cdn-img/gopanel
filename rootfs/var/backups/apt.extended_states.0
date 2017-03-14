@@ -1,0 +1,424 @@
+Package: klibc-utils
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libklibc
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-image-3.16.0-4-amd64
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libuuid-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpci3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libusb-1.0-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xkb-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: console-setup-linux
+Architecture: amd64
+Auto-Installed: 1
+
+Package: kbd
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdiscover2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: discover-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libexpat1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: emacsen-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblog-message-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnl-genl-3-200
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xdg-user-dirs
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libparams-util-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: iw
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dbus
+Architecture: amd64
+Auto-Installed: 1
+
+Package: rename
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libiw30
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsoftware-license-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblog-message-simple-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmodule-signature-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpcsclite1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: wireless-regdb
+Architecture: amd64
+Auto-Installed: 1
+
+Package: util-linux-locales
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libclass-c3-xs-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bluetooth
+Architecture: amd64
+Auto-Installed: 1
+
+Package: anacron
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcap-ng0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ibritish
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsub-install-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ispell
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libalgorithm-c3-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libglib2.0-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: powertop
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpod-readme-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmodule-build-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdbus-1-3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnl-3-200
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libclass-c3-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcgi-pm-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libterm-ui-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libglib2.0-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ienglish-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: iamerican
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dictionaries-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: perl-modules
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcpan-meta-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsub-exporter-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bluez
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpod-latex-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libregexp-common-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfcgi-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: sgml-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtext-soundex-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdata-optlist-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: crda
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmodule-pluggable-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: wpasupplicant
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xml-core
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtext-template-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpackage-constants-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: wamerican
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libarchive-extract-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdaemon0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: avahi-autoipd
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdata-section-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: shared-mime-info
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmro-compat-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: wireless-tools
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcgi-fast-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: gettext-base
+Architecture: amd64
+Auto-Installed: 1
+
+Package: os-prober
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpng12-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfreetype6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libasprintf0c2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfuse2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub2-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub-pc-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ucf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libedit2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ncurses-term
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxau6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxext6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgssapi-krb5-2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libkrb5-3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libx11-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxcb1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: openssh-sftp-server
+Architecture: amd64
+Auto-Installed: 1
+
+Package: krb5-locales
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxdmcp6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: openssh-client
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbsd0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxmuu1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwrap0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: xauth
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libkeyutils1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libx11-6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libkrb5support0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libk5crypto3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: tcpd
+Architecture: amd64
+Auto-Installed: 1
+

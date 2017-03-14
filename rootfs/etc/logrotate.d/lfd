@@ -1,0 +1,5 @@
+/var/log/lfd.log {
+        weekly
+        rotate 1
+        compress
+}

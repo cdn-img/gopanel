@@ -1,0 +1,13 @@
+4ac144413e3c5a9e7802e99d330e9794  usr/lib/dovecot/imap
+20e74ab354684ed928e562727e5765c9  usr/lib/dovecot/imap-login
+3e14e11f7af0fc8a1653cda07a76e3de  usr/lib/dovecot/imap-urlauth
+c9b85a1d21f6fe0ce5e003376a710e06  usr/lib/dovecot/imap-urlauth-login
+02d14f7434c8a474be56fabc51dbf852  usr/lib/dovecot/imap-urlauth-worker
+3e1e64cd343bfad6272fca680234e8d6  usr/lib/dovecot/modules/lib02_imap_acl_plugin.so
+40de4d487998510495e11827ac97e109  usr/lib/dovecot/modules/lib11_imap_quota_plugin.so
+8a53ddb6b7aede02f07bc5641c4d944a  usr/lib/dovecot/modules/lib30_imap_zlib_plugin.so
+70402ed62e28ef4bd196e722dd848c15  usr/lib/dovecot/modules/lib95_imap_stats_plugin.so
+83c6eca7d2314d34fa3c979b8bd8e9f4  usr/share/doc/dovecot-imapd/changelog.Debian.gz
+2bc7ba91309c23704d4009c2bf7646f6  usr/share/doc/dovecot-imapd/changelog.gz
+72f5d634266d31a510c2ee87b700ecda  usr/share/doc/dovecot-imapd/copyright
+6e199c4f9916ef4870fe074a72fc6163  usr/share/dovecot/conf.d/20-imap.conf

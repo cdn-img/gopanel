@@ -1,0 +1,12 @@
+/etc/ftpallow
+/etc/logrotate.d/pure-ftpd-common
+/etc/pam.d/pure-ftpd
+/etc/pure-ftpd/conf/AltLog
+/etc/pure-ftpd/conf/FSCharset
+/etc/pure-ftpd/conf/MinUID
+/etc/pure-ftpd/conf/NoAnonymous
+/etc/pure-ftpd/conf/PAMAuthentication
+/etc/pure-ftpd/conf/PureDB
+/etc/pure-ftpd/conf/TLSCipherSuite
+/etc/pure-ftpd/conf/UnixAuthentication
+/etc/pure-ftpd/pureftpd-dir-aliases

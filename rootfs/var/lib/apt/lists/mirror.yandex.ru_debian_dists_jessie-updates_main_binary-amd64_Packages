@@ -1,0 +1,1716 @@
+Package: libc-icap-mod-urlcheck
+Source: c-icap-modules (1:0.3.2-2)
+Version: 1:0.3.2-2+b1
+Installed-Size: 72
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: amd64
+Replaces: c-icap
+Provides: libc-icap-module
+Depends: libc6 (>= 2.4), libdb5.3, libicapapi3 (>= 0.1.4), c-icap (>= 1:0.2.5~)
+Pre-Depends: multiarch-support
+Breaks: c-icap (<< 1:0.2.5~)
+Description: URL Check Service for c-icap
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: 8200a081f38385b61d3569124b1e21cb
+Tag: implemented-in::c, role::shared-lib, use::filtering
+Section: net
+Priority: extra
+Filename: pool/main/c/c-icap-modules/libc-icap-mod-urlcheck_0.3.2-2+b1_amd64.deb
+Size: 27238
+MD5sum: 92ac26ce4ef7db8ec4d8deeaddf79e70
+SHA1: 7de510cbb3a2650cf486b730f53a04e4fd7bdf0f
+SHA256: 3a448f863931540f35efda031f1e4515500720610bb31aa2bc88519ac4889e82
+
+Package: libc-icap-mod-virus-scan
+Source: c-icap-modules (1:0.3.2-2)
+Version: 1:0.3.2-2+b1
+Installed-Size: 93
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: amd64
+Replaces: c-icap
+Provides: libc-icap-module
+Depends: libc6 (>= 2.7), libclamav7 (>= 0.99~rc1), zlib1g (>= 1:1.1.4), clamav, c-icap (>= 1:0.2.5~)
+Pre-Depends: multiarch-support
+Breaks: c-icap (<< 1:0.1.3-1)
+Description: Antivirus Service for c-icap
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: 9a1feb12d473b8a6d38b3d0fdcbffc97
+Section: net
+Priority: extra
+Filename: pool/main/c/c-icap-modules/libc-icap-mod-virus-scan_0.3.2-2+b1_amd64.deb
+Size: 31586
+MD5sum: 18b25751ce445440f2f0b28fb1105828
+SHA1: 2cf8b6cbbff33b3165a31d0c6b4840b9c5663b2e
+SHA256: a4f2341179fb249e2ddce8d19cf2933c552b7b508daaa310e18417685454e4dc
+
+Package: clamav
+Version: 0.99+dfsg-0+deb8u2
+Installed-Size: 719
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: clamav-freshclam (>= 0.99+dfsg) | clamav-data, libc6 (>= 2.15), libclamav7 (>= 0.99~rc1), libcurl3 (>= 7.16.2), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.3.3)
+Recommends: clamav-base
+Suggests: clamav-docs
+Description: anti-virus utility for Unix - command-line interface
+Multi-Arch: foreign
+Homepage: http://www.clamav.net/
+Description-md5: fb7be82d5591a0f3facf827f0a60c5d6
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, security::antivirus, use::scanning, works-with::file,
+ works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav_0.99+dfsg-0+deb8u2_amd64.deb
+Size: 331958
+MD5sum: 3bca73c6608a6f2c8061b9a2c7b1ac15
+SHA1: 6ee341b11f5e293b6f7b58e1783f9c0f67f73d8f
+SHA256: 64741ab7626c97c22837f3ae0cfb42927e92e6d9ba18ef384075f1adce17c1a9
+
+Package: clamav-base
+Source: clamav
+Version: 0.99+dfsg-0+deb8u2
+Installed-Size: 305
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: adduser, logrotate, ucf, debconf (>= 0.5) | debconf-2.0
+Recommends: clamav
+Description: anti-virus utility for Unix - base package
+Homepage: http://www.clamav.net/
+Description-md5: 701912f0a2cc626b57570094858a5b1d
+Tag: interface::commandline, role::app-data, security::antivirus,
+ use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-base_0.99+dfsg-0+deb8u2_all.deb
+Size: 289248
+MD5sum: fa2996ee7078b6fa3b80d36929be677c
+SHA1: 0069d48f7e7b6e52e59d8cd00876e0a6b7e07b92
+SHA256: c4e9fd766687f350775f1d975b8d4e4239b6dcaee9ab805e72dc32330fde0af2
+
+Package: clamav-daemon
+Source: clamav
+Version: 0.99+dfsg-0+deb8u2
+Installed-Size: 917
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: clamav-base (<< 0.98.1+dfsg-6)
+Depends: adduser, clamav-base (= 0.99+dfsg-0+deb8u2), clamav-freshclam (>= 0.99+dfsg) | clamav-data, dpkg (>= 1.16.1), lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libc6 (>= 2.15), libclamav7 (>= 0.99~rc1), libncurses5 (>= 5.5-5~), libssl1.0.0 (>= 1.0.0), libsystemd0, libtinfo5, zlib1g (>= 1:1.2.0.2)
+Recommends: clamdscan
+Suggests: apparmor, clamav-docs, daemon
+Breaks: clamav-base (<< 0.98.1+dfsg-6)
+Description: anti-virus utility for Unix - scanner daemon
+Homepage: http://www.clamav.net/
+Description-md5: dc258511e9e1f62ef33172c190a0fad6
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ mail::filters, network::server, role::program, security::antivirus,
+ use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-daemon_0.99+dfsg-0+deb8u2_amd64.deb
+Size: 440038
+MD5sum: 593b65d31daf68f6564679a73c94ea6f
+SHA1: 0bd7567184dbb02e08931059e33225a2ed9c983d
+SHA256: eebf4dce981a71fb229233fcc7a20c558448bc194a7c80118a203b94059bdc28
+
+Package: clamav-dbg
+Source: clamav
+Version: 0.99+dfsg-0+deb8u2
+Installed-Size: 11014
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: clamav (= 0.99+dfsg-0+deb8u2), libclamav7
+Description: debug symbols for ClamAV
+Homepage: http://www.clamav.net/
+Description-md5: b161fcac7822f321b1f9101d061dd53c
+Tag: implemented-in::c, role::debug-symbols
+Section: debug
+Priority: extra
+Filename: pool/main/c/clamav/clamav-dbg_0.99+dfsg-0+deb8u2_amd64.deb
+Size: 2592776
+MD5sum: 07ae5db2fe465e82ecc4e9a31e5febc5
+SHA1: 9120b67af39bfd9f302fd61ec509cb80fd1145a3
+SHA256: 4fd1a0d0ab6c54821a7afa95ea81427b1d94c1d5a559db9657d93d37ae5639f0
+
+Package: clamav-docs
+Source: clamav
+Version: 0.99+dfsg-0+deb8u2
+Installed-Size: 1473
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - documentation
+Homepage: http://www.clamav.net/
+Description-md5: af78818bbdf8851b6358c15693a31419
+Tag: made-of::html, made-of::pdf, mail::filters, role::documentation,
+ security::antivirus, works-with::file, works-with::mail
+Section: doc
+Priority: optional
+Filename: pool/main/c/clamav/clamav-docs_0.99+dfsg-0+deb8u2_all.deb
+Size: 1230104
+MD5sum: d2420692ad4aec45ed5319c58c0add2f
+SHA1: f98920eec2df8f05a4124ed36790744d9615558e
+SHA256: 260703b93ff3d74c5f8f0c5cd6a4672ac356110016de01f0c5299f5b90b9ad16
+
+Package: clamav-freshclam
+Source: clamav
+Version: 0.99+dfsg-0+deb8u2
+Installed-Size: 569
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: clamav-data
+Depends: clamav-base (>= 0.99+dfsg-0+deb8u2), dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libc6 (>= 2.15), libclamav7 (>= 0.99~rc1), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.3.3)
+Suggests: apparmor, clamav-docs
+Conflicts: clamav-data, libclamav2, libclamav3
+Description: anti-virus utility for Unix - virus database update utility
+Homepage: http://www.clamav.net/
+Description-md5: 82c68e4f7c984e3d6bdc720ae842fca8
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ role::program, scope::utility, security::antivirus, use::downloading,
+ works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-freshclam_0.99+dfsg-0+deb8u2_amd64.deb
+Size: 356260
+MD5sum: 79f63d9b8404a4b5cb43c2c6273aa9ff
+SHA1: 7a1027972a6aa982924a095cf939847574bce696
+SHA256: c798f76239404a3792535faa06d2c10c5114b64e390195c44895ac6829430bc4
+
+Package: clamav-milter
+Source: clamav
+Version: 0.99+dfsg-0+deb8u2
+Installed-Size: 650
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: adduser, clamav-base (>= 0.99+dfsg-0+deb8u2), clamav-freshclam (>= 0.99+dfsg) | clamav-data, dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.15), libmilter1.0.1, libssl1.0.0 (>= 1.0.0)
+Recommends: clamav-daemon
+Suggests: clamav-docs, daemon
+Description: anti-virus utility for Unix - sendmail integration
+Homepage: http://www.clamav.net/
+Description-md5: e47a1194215b5fbde13fb9217c44d83f
+Tag: implemented-in::c, interface::daemon, mail::filters, network::server,
+ role::program, security::antivirus, use::scanning, works-with::mail
+Section: utils
+Priority: extra
+Filename: pool/main/c/clamav/clamav-milter_0.99+dfsg-0+deb8u2_amd64.deb
+Size: 396310
+MD5sum: fc96be280dc020996385d8591c2719b5
+SHA1: 159916633b4d85a46f408f2c6b83f5df4cc2f00f
+SHA256: 52b1e8735479fc790b6e2a26eedb78ce5464a29d1624f3e5cf4bf9f7bdc559f2
+
+Package: clamav-testfiles
+Source: clamav
+Version: 0.99+dfsg-0+deb8u2
+Installed-Size: 6724
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - test files
+Homepage: http://www.clamav.net/
+Description-md5: 29437a0b8c82cc8179b64405688f062e
+Tag: devel::testing-qa, interface::commandline, role::app-data,
+ security::antivirus, use::checking
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-testfiles_0.99+dfsg-0+deb8u2_all.deb
+Size: 3105288
+MD5sum: c400be80a545d928c39b3aa2cb68c0bb
+SHA1: 953b6fc227627145303a404d13270cb0e513aece
+SHA256: 6633c2cb4e78acceba914f8daf29c9294c17655a2980b2b257791498c708dfa7
+
+Package: clamdscan
+Source: clamav
+Version: 0.99+dfsg-0+deb8u2
+Installed-Size: 430
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: clamd (<< 0.98.5~beta1+dfsg-3)
+Depends: clamav-base (= 0.99+dfsg-0+deb8u2), libc6 (>= 2.15), libssl1.0.0 (>= 1.0.0)
+Suggests: clamav-daemon, clamav-docs
+Breaks: clamd (<< 0.98.5~beta1+dfsg-3)
+Description: anti-virus utility for Unix - scanner client
+Homepage: http://www.clamav.net/
+Description-md5: ad077e4c74b9870b6e7bb55aef11c547
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamdscan_0.99+dfsg-0+deb8u2_amd64.deb
+Size: 305558
+MD5sum: ed3369861ccf802af403781fbe6f8df4
+SHA1: 9814c25185fe89beec269e5ebd3286fa21cc05f5
+SHA256: 7458877c9c6c9425fbafc3ac1efd8ed6f9ca771fbfb8c8463f8fd19d7ed5d805
+
+Package: libclamav-dev
+Source: clamav
+Version: 0.99+dfsg-0+deb8u2
+Installed-Size: 288
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libbz2-dev, libc6-dev | libc-dev, libclamav7 (= 0.99+dfsg-0+deb8u2), libidn11-dev, libssl-dev, libtommath-dev, zlib1g-dev
+Description: anti-virus utility for Unix - development files
+Homepage: http://www.clamav.net/
+Description-md5: 3dc197b6ebfb15522a4b7913ea796763
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib,
+ security::antivirus, use::scanning
+Section: libdevel
+Priority: optional
+Filename: pool/main/c/clamav/libclamav-dev_0.99+dfsg-0+deb8u2_amd64.deb
+Size: 249826
+MD5sum: 32e51da0889689874d62137f09c42e93
+SHA1: f767b6300a9194a4ddb0c48076e147b617b89a58
+SHA256: 482a2dc5dd3cbc7404cc8cde3cba5efc37097919ed9a52770c0b8c16cc701af2
+
+Package: libclamav7
+Source: clamav
+Version: 0.99+dfsg-0+deb8u2
+Installed-Size: 2297
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libjson-c2 (>= 0.10), libllvm3.5, libltdl7 (>= 2.4.2), libmspack0 (>= 0.4), libpcre3 (>= 1:8.35), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.1.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.3.4)
+Suggests: libclamunrar7
+Description: anti-virus utility for Unix - library
+Homepage: http://www.clamav.net/
+Description-md5: bf2e797d0e7e410776d9200761e01bd6
+Section: libs
+Priority: optional
+Filename: pool/main/c/clamav/libclamav7_0.99+dfsg-0+deb8u2_amd64.deb
+Size: 985476
+MD5sum: dc70d90f5692fe1473a90c310d9b8a89
+SHA1: 867779a578a86931eb7ce93e64cbd311f41c5a90
+SHA256: c8cc20d1adbe06c08f678fff9dbd4b6b0e6f74db10e784c58f50b1a38cf407b8
+
+Package: dansguardian
+Source: dansguardian (2.10.1.1-5.1)
+Version: 2.10.1.1-5.1+b2
+Installed-Size: 1432
+Maintainer: Alexander Wirt <formorer@debian.org>
+Architecture: amd64
+Depends: adduser, clamav (>= 0.80), perl, libc6 (>= 2.15), libclamav7 (>= 0.99~rc1), libgcc1 (>= 1:4.1.1), libpcre3 (>= 1:8.35), libstdc++6 (>= 4.9), zlib1g (>= 1:1.1.4)
+Suggests: clamav-freshclam, squid
+Description: Web content filtering
+Description-md5: e49d916232fc830dd2aaeb359bd27098
+Tag: interface::daemon, mail::filters, network::server, protocol::http,
+ role::program, use::proxying, web::server
+Section: web
+Priority: optional
+Filename: pool/main/d/dansguardian/dansguardian_2.10.1.1-5.1+b2_amd64.deb
+Size: 399154
+MD5sum: f2e1914b8a3fc52267184d57e4ac6f29
+SHA1: d2f42867e221d2e449ae6f834b3a423a00f3b751
+SHA256: 3fa6480743d6443405144158dff9ed04c8eb2127b9a5c3a65d255bd336cbad32
+
+Package: fusionforge-full
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 89
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge
+Provides: gforge
+Depends: debconf (>= 1.0.32) | debconf-2.0, ucf, gforge-common (= 5.3.2+20141104-3+deb8u3), gforge-web-apache2 | gforge-web, gforge-web-apache2-vhosts, gforge-db-postgresql | gforge-db, gforge-mta-exim4 | gforge-mta, gforge-shell-postgresql | gforge-shell, gforge-lists-mailman | gforge-lists, fusionforge-plugin-contribtracker, fusionforge-plugin-headermenu, fusionforge-plugin-globalsearch, fusionforge-plugin-moinmoin, fusionforge-plugin-projectlabels, fusionforge-plugin-scmarch, fusionforge-plugin-scmbzr, fusionforge-plugin-scmcvs, fusionforge-plugin-scmdarcs, fusionforge-plugin-scmgit, fusionforge-plugin-scmhg, fusionforge-plugin-scmsvn, fusionforge-plugin-blocks, fusionforge-plugin-hudson, fusionforge-plugin-scmhook
+Conflicts: gforge, gforge-common (<< 5.3.2+20141104-3+deb8u3), gforge-cvs, sourceforge
+Description: FusionForge collaborative development tool - full metapackage
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 1807a9ca0dca8f7f4a95f8edf34c5fe4
+Tag: role::metapackage
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-full_5.3.2+20141104-3+deb8u3_all.deb
+Size: 63444
+MD5sum: a6b14660f1688351d33c8c3bce327e1c
+SHA1: 627a8981f45e30b1616ec5cec5bd7a25fae57a25
+SHA256: d16352cb5f0d1a6754217fdfd9e23de81a856c82e267b70ae0c48200ee6fc699
+
+Package: fusionforge-minimal
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 89
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge
+Provides: gforge
+Depends: debconf (>= 1.0.32) | debconf-2.0, ucf, gforge-common (>= 5.3.2+20141104-3+deb8u3), gforge-web-apache2 | gforge-web, gforge-db-postgresql | gforge-db
+Recommends: gforge-lists-mailman
+Conflicts: gforge, gforge-common (<< 5.3.2+20141104-3+deb8u3), gforge-cvs, sourceforge
+Description: FusionForge collaborative development tool - minimal metapackage
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: fb1a5505d9b0fc9f3a45637796953ebe
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-minimal_5.3.2+20141104-3+deb8u3_all.deb
+Size: 63314
+MD5sum: 96de8712ec27d43d819fd75cac71bb8c
+SHA1: ac59496e34c72beee46972f37d1bcbf17902a9f6
+SHA256: 5731bb8fa30cdfa99937b28e4a24d2316faa62d1315be84a147b5d63ec653067
+
+Package: fusionforge-plugin-admssw
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 186
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, php-http, fusionforge-plugin-doaprdf, libgraphite-php
+Description: collaborative development tool - ADMS.SW plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 097d1ada3e97c46aaa16fc35f9fc801c
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-admssw_5.3.2+20141104-3+deb8u3_all.deb
+Size: 75354
+MD5sum: 6fd4da0d6217cfdc32f41a1307373e1b
+SHA1: bf658fea69a4dde458b4dfe5c053dd4e85b50f8d
+SHA256: 6c310a9a03043d6fabd229a2a61dd4a18a047f9d22a3ffe86b479b919aeafd4a
+
+Package: fusionforge-plugin-authcas
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 131
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, php-cas
+Description: collaborative development tool - CAS authentication plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: b1515ec06469baa88cea8f78ff65f197
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-authcas_5.3.2+20141104-3+deb8u3_all.deb
+Size: 64456
+MD5sum: 1881b18afbe6edb64908de706130522b
+SHA1: e2719b9372978630a28232a2a11af9f0e03beaef
+SHA256: 4133f32e0efa3abbac9ad89a57510b6d4159b922b9263dd4df31add35e3debd3
+
+Package: fusionforge-plugin-authhttpd
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 128
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web
+Description: collaborative development tool - HTTPD authentication plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: f2d0df83281db6b30fc3a538e0572bda
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-authhttpd_5.3.2+20141104-3+deb8u3_all.deb
+Size: 63338
+MD5sum: 10f06969c13a2e752fb86f59c88274b1
+SHA1: f33c3180585db59680f66e001b9df42a503b5045
+SHA256: 417fe7e781bc3cccc7a99ddd245158c3d332bf8011c78b9231aba23cedc04b58
+
+Package: fusionforge-plugin-authldap
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 137
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, php5-ldap
+Description: collaborative development tool - LDAP authentication plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: ac3922f78cc5811c0ad5df5456a1155b
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-authldap_5.3.2+20141104-3+deb8u3_all.deb
+Size: 65888
+MD5sum: f67e2a4feeebc35da8bed12336895f6c
+SHA1: c91a621b9d8b5db1d53af2fc839ede2033a857a8
+SHA256: 96e6515b94178b4cf866f65c9d588a3323781612810324d92d72f0d0f734ebc9
+
+Package: fusionforge-plugin-blocks
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 153
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2, php5-cli
+Description: collaborative development tool - Blocks plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 09c6a4ef5622ccc6f35e84931216840f
+Tag: role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-blocks_5.3.2+20141104-3+deb8u3_all.deb
+Size: 70796
+MD5sum: 89c480cb1458e63e3e8dcc2c3d02a7f6
+SHA1: c2e35aae601870742b79c213da8245b67eb01ffe
+SHA256: 805c43db459dc7e0e258293d7949a16e324ed030ac1f7f4a86fdf3a6f1ffac31
+
+Package: fusionforge-plugin-compactpreview
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 201
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web
+Description: collaborative development tool - Compact Preview plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 9ff016388345282456ba219395e3d05d
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-compactpreview_5.3.2+20141104-3+deb8u3_all.deb
+Size: 82562
+MD5sum: d44828a222da5a4000940bebecac800b
+SHA1: 1018249c1d007d6e72e24eb04a9aa7453517ff6e
+SHA256: 0794da1b1114ab4c8023a847d766c63778a3b45fbcfb7495715d3ffb6bff6515
+
+Package: fusionforge-plugin-contribtracker
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 196
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge-plugin-contribtracker (<< 5.0.51-2)
+Depends: gforge-common (>= 4.6.99), gforge-db-postgresql (>= 4.6.99) | gforge-db, gforge-web-apache2 (>= 4.6.99) | gforge-web
+Conflicts: gforge-plugin-contribtracker (<< 5.0.51-2)
+Description: Contribution tracker plugin for FusionForge
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: b4ac97a843248b1c8553636313ca6614
+Tag: role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-contribtracker_5.3.2+20141104-3+deb8u3_all.deb
+Size: 69768
+MD5sum: ab76647ca94cc38831cef7f7392f7c46
+SHA1: 11a590624d86cd62f50c235c1f65903288fb1c1d
+SHA256: 658aa89ae98539917b3df729cd8c38a1d5e8da9412c4737fe9d69ea9061389c8
+
+Package: fusionforge-plugin-doaprdf
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 138
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, php-http, libarc-php
+Description: collaborative development tool - DOAP RDF plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 9cadc82bfd6da43ba8a6f93c2af97853
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-doaprdf_5.3.2+20141104-3+deb8u3_all.deb
+Size: 66590
+MD5sum: 394117a1dde56b3d30c35826149f88a0
+SHA1: b7dded4c4898ad6ffaf84a2321b6676a3943e3ff
+SHA256: 974ab54d66f59dfe807a85445aa3d71d39c3852c9dad576e1fb09d5bc538da0f
+
+Package: fusionforge-plugin-extsubproj
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 193
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, libarc-php, fusionforge-plugin-compactpreview
+Description: collaborative development tool - extsubproj plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 57c38878bd9f3d1fdf264824e4cd20c0
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-extsubproj_5.3.2+20141104-3+deb8u3_all.deb
+Size: 72258
+MD5sum: bcccdb97496b55eeb20e52232fbbd6fb
+SHA1: ed9a2ac775161bafe5cc074e9056b85174d22e7e
+SHA256: 7528feeeca56eb012efa9ab56a2e7dd026aa2ee252ee8538eb3eaa1aecb0cae7
+
+Package: fusionforge-plugin-foafprofiles
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 139
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, libarc-php
+Description: collaborative development tool - FOAF Profiles plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: c9448c2acbab739371c779df8c614a48
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-foafprofiles_5.3.2+20141104-3+deb8u3_all.deb
+Size: 66630
+MD5sum: b8bc0ff31cc91d98b2b4f2c5f25de5c5
+SHA1: 65ce29664b57ad4f7aeb36fd70d6755500f5bcfa
+SHA256: b1f887e8e5798d156e402d628d6fe6fd49904d34c01b608c30f5bfb461843502
+
+Package: fusionforge-plugin-globalsearch
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 168
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge-plugin-globalsearch (<< 5.0.51-2)
+Provides: gforge-plugin-globalsearch
+Depends: gforge-common (>= 4.6.99), gforge-db-postgresql (>= 4.6.99) | gforge-db, gforge-web-apache2 (>= 4.6.99) | gforge-web, libxml-rss-perl, libgetopt-mixed-perl, libdbi-perl, libwww-perl, libcrypt-ssleay-perl, libunicode-string-perl
+Conflicts: gforge-plugin-globalsearch (<< 5.0.51-2)
+Description: Globalsearch plugin for FusionForge
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 5dd9a6f142c4bff7905efad15bf81cf8
+Tag: role::plugin, use::searching
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-globalsearch_5.3.2+20141104-3+deb8u3_all.deb
+Size: 69710
+MD5sum: c395876a3cfdc2ec73a9b992c2aae7c6
+SHA1: 609d35a8678687e6d6d945a164571f63905277b3
+SHA256: b6c9c2d7e5064391553beb2c466eeff3331d6e40fff8e69ce9b06bd9f84a3b4b
+
+Package: fusionforge-plugin-gravatar
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 119
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, php5-cli
+Description: collaborative development tool - Gravatar plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: ae15a4ddb602eec4acc7bebe02071b29
+Tag: role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-gravatar_5.3.2+20141104-3+deb8u3_all.deb
+Size: 61734
+MD5sum: 0388defc513c00bf3108f7bf6ec14a11
+SHA1: 693e361fdf6b83c478dde4a2e041b67b3c3a55e9
+SHA256: aefcd7db36c8c32c1fec4fba918b2224d906d2825ec9e004d7a4b8a361b067ec
+
+Package: fusionforge-plugin-headermenu
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 202
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge-plugin-extratabs
+Provides: gforge-plugin-extratabs
+Depends: gforge-common (>= 4.6.99), gforge-db-postgresql (>= 4.6.99) | gforge-db, gforge-web-apache2 (>= 4.6.99) | gforge-web
+Conflicts: gforge-plugin-extratabs
+Description: Headermenu plugin for FusionForge
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 112e29dcacfe43fda8fc96a48d481b69
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-headermenu_5.3.2+20141104-3+deb8u3_all.deb
+Size: 70094
+MD5sum: ce331d84d1ae15ef235ce0d719560e66
+SHA1: 590f202436e64780877dcded9ceb92c6b67d5df4
+SHA256: 35bf91e2d6858297fde3c65387442411187151b255dbf91d4076fc5b6b5a6460
+
+Package: fusionforge-plugin-hudson
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 572
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2, php5-cli
+Description: collaborative development tool - Hudson plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: fe3621082857f2b52b1942447721dfb1
+Tag: role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-hudson_5.3.2+20141104-3+deb8u3_all.deb
+Size: 306758
+MD5sum: fce5508da4b9c271508c8b629e1a3fc0
+SHA1: 87130b175a442fed269ab4a2ca9c6eaea1104e78
+SHA256: a2e018eba7095acad235848470793ccb6a249949e72317fbe90c781e0f979502
+
+Package: fusionforge-plugin-message
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 136
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-web-apache2
+Description: Message plugin for FusionForge
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: aedd32ccf60d7f047c3cb1c6e396a587
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-message_5.3.2+20141104-3+deb8u3_all.deb
+Size: 63594
+MD5sum: 445fc384e2863340c9f81744148f52c6
+SHA1: ab8048c256aeccc5e3cb7fedc4d6215182e75221
+SHA256: f0f2e9e32e66b06de696ab28ad873d82231a9b9a65505289385ad8f1cb5bbf1d
+
+Package: fusionforge-plugin-moinmoin
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 225
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common (>= 4.8), gforge-db-postgresql (>= 4.8) | gforge-db, gforge-web-apache2 (>= 4.8) | gforge-web, python-moinmoin, python-psycopg2, libapache2-mod-wsgi, php5-cli
+Description: MoinMoinWiki plugin for FusionForge
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 09ac92fc02f291f523f7c8b210abea0c
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-moinmoin_5.3.2+20141104-3+deb8u3_all.deb
+Size: 69586
+MD5sum: d8591ea75496fccb52c0b3ff0b139aae
+SHA1: 3a16c3d382cc67df995e03b1b85ed4ac6f847811
+SHA256: 8811151364cfcf296bb851ce57883b1e3b7edd2f92cada8f82d6c517590642bd
+
+Package: fusionforge-plugin-projectlabels
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 142
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge-plugin-projectlabels (<< 5.0.51-2)
+Provides: gforge-plugin-projectlabels
+Depends: gforge-common (>= 4.6.99), gforge-db-postgresql (>= 4.6.99) | gforge-db, gforge-web-apache2 (>= 4.6.99) | gforge-web
+Conflicts: gforge-plugin-projectlabels (<< 5.0.51-2)
+Description: Projectlabels plugin for FusionForge
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 96716417d9140018d4c4aa9e397495c5
+Tag: role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-projectlabels_5.3.2+20141104-3+deb8u3_all.deb
+Size: 64028
+MD5sum: d3c2df8cc1e1e06b731bb132b596f5ad
+SHA1: 8b1cfc1402346e4bcb70fa2cfb1dd1608dc58326
+SHA256: 32d42c59d4951cd5748fced0fb6b6c71414b03a478689162b6bd870371f7e380
+
+Package: fusionforge-plugin-scmarch
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 145
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge-plugin-scmarch
+Provides: fusionforge-plugin-scm, gforge-plugin-scmarch
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, gforge-shell-postgresql | gforge-shell, php5-cli, tla
+Conflicts: gforge-plugin-scmarch
+Description: collaborative development tool - GNU Arch plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 747e7ac4bca47320eb3efa58461e4ae1
+Tag: role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-scmarch_5.3.2+20141104-3+deb8u3_all.deb
+Size: 62286
+MD5sum: 5c4e5aeca8274238bc5e482300809334
+SHA1: 4e8ddbeae782bd7ebfa37706f075dc6c599b1732
+SHA256: 73399b4a83f41b9db559df945fb77bf50da9add3f7e202eba2644774bd40a232
+
+Package: fusionforge-plugin-scmbzr
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 188
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge-plugin-scmbzr
+Provides: fusionforge-plugin-scm, gforge-plugin-scmbzr
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, gforge-shell-postgresql | gforge-shell, bzr, php5-cli, libapache2-mod-wsgi, loggerhead (>= 1.19~bzr477~), python-pastedeploy
+Conflicts: gforge-plugin-scmbzr
+Description: collaborative development tool - Bazaar plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: bc84963da2a9da82282976ca17cd4aeb
+Tag: devel::rcs, role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-scmbzr_5.3.2+20141104-3+deb8u3_all.deb
+Size: 66416
+MD5sum: 91c2b941a733819c234ae6c209e7600c
+SHA1: 3113366c05b8f41438055253b73943b51d87cfa3
+SHA256: 489bba992d2b9d792cd9afda25326053d1ff727faa31ed35bbfca3ae82a2b34b
+
+Package: fusionforge-plugin-scmcvs
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 240
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge-plugin-scmcvs
+Provides: fusionforge-plugin-scm, gforge-plugin-scmcvs
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, gforge-shell-postgresql | gforge-shell, libipc-run-perl, rcs, liburi-perl, cvs, php5-cli, python, libphp-snoopy, openbsd-inetd | inet-superserver, update-inetd
+Conflicts: gforge-plugin-scmcvs
+Description: collaborative development tool - CVS plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: a00876303d1a2430c52b6138560d05bf
+Tag: devel::rcs, role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-scmcvs_5.3.2+20141104-3+deb8u3_all.deb
+Size: 79786
+MD5sum: 7b6ea6ef1003f21f632a991c6060be4b
+SHA1: 6279564d2d8fe717126940c187280468f13c3ae4
+SHA256: 69a062d57b11d538fc0fe76df2fd475f3524367f91496cc97ed0bffba8a52ae5
+
+Package: fusionforge-plugin-scmdarcs
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 183
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge-plugin-scmdarcs
+Provides: fusionforge-plugin-scm, gforge-plugin-scmdarcs
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, gforge-shell-postgresql | gforge-shell, darcs, darcsweb, php5-cli
+Conflicts: gforge-plugin-scmdarcs
+Description: collaborative development tool - Darcs plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: e6db6d1f596f710ffea5da4c49ffc231
+Tag: devel::rcs, role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-scmdarcs_5.3.2+20141104-3+deb8u3_all.deb
+Size: 67222
+MD5sum: 92fae610add230ecd4cbd1411733fb8c
+SHA1: e08636fd9b95125f1af812a25448a11ac6a8d7e1
+SHA256: 77700801527e8071d281563eed3b61d63550d4b7feba4940dfc250c3841ced85
+
+Package: fusionforge-plugin-scmgit
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 204
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge-plugin-scmgit (<< 5.0.51-2)
+Provides: fusionforge-plugin-scm, gforge-plugin-scmgit
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, gforge-shell-postgresql | gforge-shell, git (>= 1:1.7) | git-core, gitweb (>= 1:1.7.4.1), php5-cli
+Conflicts: gforge-plugin-scmgit (<< 5.0.51-2)
+Description: collaborative development tool - Git plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: cccb3fc41a768ad9c7c8a5a92e7393f6
+Tag: devel::rcs, role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-scmgit_5.3.2+20141104-3+deb8u3_all.deb
+Size: 73136
+MD5sum: e0c46449aa4c6ec4e405fee74c41c9ff
+SHA1: 6473ef5b66334a10b57c919fb0e4db0e743a9ba3
+SHA256: 02d6cd7a4c1ef9c0ad4e3f5a11f1193c81649914c095470313f47aacd3eea7ca
+
+Package: fusionforge-plugin-scmhg
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 164
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge-plugin-scmhg
+Provides: fusionforge-plugin-scm, gforge-plugin-scmhg
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, gforge-shell-postgresql | gforge-shell, mercurial, php5-cli
+Conflicts: gforge-plugin-scmhg
+Description: collaborative development tool - Mercurial (Hg) plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 47e9520f1c7238bbb2c528daddc022eb
+Tag: devel::rcs, role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-scmhg_5.3.2+20141104-3+deb8u3_all.deb
+Size: 67220
+MD5sum: e5eda90458c08cdabedc40a0e9ce3fa7
+SHA1: 78afbbd7ed6ddc96dc52a9e37ce50b9a138769c7
+SHA256: 979a163267019644a0bb721c1cebebd76ee8c667911c029630fc33a17cf57e0e
+
+Package: fusionforge-plugin-scmhook
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 387
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2 | gforge-web, gforge-shell-postgresql | gforge-shell, php5-cli, libphp-snoopy
+Description: collaborative development tool - SCM Hook plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: e858ba84ae93c928330572c31a3523ef
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-scmhook_5.3.2+20141104-3+deb8u3_all.deb
+Size: 91128
+MD5sum: 2e96de77aae1845a3e96a9f2441f86df
+SHA1: a113ffd0ce3c592d2fcdb92ce3c16896bdc9a0ec
+SHA256: 111b9e755dbadd8e6ca125ee9f1dcc6535bd1103174a9b4d835cbe0ba83303f2
+
+Package: fusionforge-plugin-scmsvn
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 268
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge-plugin-scmsvn
+Provides: fusionforge-plugin-scm, gforge-plugin-scmsvn
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-shell-postgresql | gforge-shell, subversion, subversion-tools, python-subversion, python (>= 2.3), php5-cli, openbsd-inetd | inet-superserver, update-inetd
+Recommends: libapache2-svn, gforge-web-apache2 | gforge-web
+Conflicts: gforge-plugin-scmsvn
+Description: collaborative development tool - Subversion plugin
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 11e7826adf94157ce84f01dff2469d3c
+Tag: devel::rcs, role::plugin
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-scmsvn_5.3.2+20141104-3+deb8u3_all.deb
+Size: 78156
+MD5sum: 3f72585a6904f5af8a531d5b8969dd2c
+SHA1: bd8dc494164195d2e82ab87a5ebc2b38200914a0
+SHA256: ec3f483f7f9e139a8cb384786b61ea11eff00d690be44b020982dc3151fa79f3
+
+Package: fusionforge-plugin-sysauthldap
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 140
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-web-apache2, php5-cli, php5-ldap
+Recommends: slapd, ldap-utils
+Description: collaborative development tool - system authentication via LDAP
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: b34372a911ef5b12c742e044a1882e51
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-plugin-sysauthldap_5.3.2+20141104-3+deb8u3_all.deb
+Size: 65192
+MD5sum: 887b8971e5cf5f8f136cbc9e0ac911fe
+SHA1: cda30a3b507d8dc9c8ac18c2339ecbb31fd246c5
+SHA256: ddbdaf504de40f6fca3ac4e743af89547c7fe6c7d3676fecdc788074d3dc3cd2
+
+Package: fusionforge-standard
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 91
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Replaces: gforge
+Provides: gforge
+Depends: debconf (>= 1.0.32) | debconf-2.0, ucf, gforge-common (= 5.3.2+20141104-3+deb8u3), gforge-web-apache2 | gforge-web, gforge-db-postgresql | gforge-db, gforge-mta-exim4 | gforge-mta, gforge-shell-postgresql | gforge-shell, gforge-lists-mailman | gforge-lists
+Recommends: fusionforge-plugin-scmsvn | fusionforge-plugin-scm
+Conflicts: gforge-common (<< 5.3.2+20141104-3+deb8u3), gforge-cvs, sourceforge
+Description: FusionForge collaborative development tool - standard metapackage
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 59a916543acaf0c12e3451948149e721
+Tag: role::metapackage
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/fusionforge-standard_5.3.2+20141104-3+deb8u3_all.deb
+Size: 64302
+MD5sum: dc7707c33baf89a10f18be878c992cb5
+SHA1: 77d1ecb59f0d201d34f7717505816506391a0112
+SHA256: 67e5874cfe58fa6dab7d6ff3f578cbbc538763bedd0a1d70abac6a951672a1c1
+
+Package: gforge
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 86
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: fusionforge-standard
+Description: Dummy upgrade package for FusionForge
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: adc3917dd5c2f9bf042b3f571746f04c
+Tag: admin::user-management, devel::bugtracker, devel::rcs,
+ implemented-in::perl, implemented-in::php, interface::web, mail::list,
+ protocol::http, role::metapackage, role::program, suite::gforge,
+ web::application, works-with::bugs, works-with::file,
+ works-with::people, works-with::software:source
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge_5.3.2+20141104-3+deb8u3_all.deb
+Size: 59678
+MD5sum: 16df15964b58ad63ce4bddeebe728ac3
+SHA1: 6e7a324d52aae30572b1c39543b4fc23605d4e3c
+SHA256: 1c573492155a902c4c5aaaa93ee03ce2f58eeb5454b7c9a37f4e932ba3ba214c
+
+Package: gforge-common
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 5031
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: debconf (>= 1.0.32) | debconf-2.0, ucf, cpio, lockfile-progs, adduser, php5-cli, php-htmlpurifier (>= 4.0), libphp-simplepie, python, libdbi-perl, libdbd-pg-perl
+Conflicts: gforge-plugin-scmccase (<< 4.1), gforge-plugin-scmcvs (<< 4.1), gforge-plugin-scmsvn (<< 4.1), gforge-theme-starterpack (<< 4.0), sourceforge
+Description: collaborative development tool - shared files
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 964b1af8dca2d5ec0794f9a4155bf79c
+Tag: admin::user-management, implemented-in::perl, implemented-in::php,
+ interface::web, protocol::http, role::app-data, suite::gforge,
+ use::configuring, web::application
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge-common_5.3.2+20141104-3+deb8u3_all.deb
+Size: 892928
+MD5sum: d12a449dc471d61c2b7cc2c4506cd8e9
+SHA1: 604345a6fd88c31d59de08397e4493a8c769b140
+SHA256: d5834ed226e802a6deade7a3b5f36cb0b04237bb3e2029de8f6a755dd9d4d58e
+
+Package: gforge-db-postgresql
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 1004
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Provides: gforge-db
+Depends: gforge-common, postgresql (>= 8.4), perl, libdbi-perl, libdbd-pg-perl, libmime-base64-perl, libhtml-parser-perl, libtext-autoformat-perl, libmail-sendmail-perl, libsort-versions-perl, debianutils (>= 1.7), debconf (>= 1.0.32) | debconf-2.0, ucf, php5-cli, php5-pgsql
+Conflicts: gforge-db
+Description: collaborative development tool - database (using PostgreSQL)
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: b127425d81f845b4dd611c64da427886
+Tag: devel::lang:sql, implemented-in::perl, implemented-in::php,
+ interface::web, protocol::http, role::plugin, suite::gforge,
+ web::application, works-with::db
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge-db-postgresql_5.3.2+20141104-3+deb8u3_all.deb
+Size: 183158
+MD5sum: 505aa303efd07122ac4eb96b127c7ae8
+SHA1: 918743025056f8c4b6d00dc6319d68c35294f382
+SHA256: 3d879e37bfb057667b51b6069337177deaf6814996bd7f880227aef966843864
+
+Package: gforge-db-remote
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 86
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Provides: gforge-db
+Conflicts: gforge-db
+Description: collaborative development tool - database (remote)
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 31a6c3db4c766dc3972d748ddb96f242
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge-db-remote_5.3.2+20141104-3+deb8u3_all.deb
+Size: 59750
+MD5sum: e903fed9002ef5a2fe99c21cf058ad4d
+SHA1: 677ce0223e721bbffe63f7d1dc0c04c13bb740bc
+SHA256: c44ec0ca5875164425cc58c82b096141b68a4ea6d7333a634ff87e7b97d79fac
+
+Package: gforge-dns-bind9
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 148
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Provides: gforge-dns
+Depends: gforge-common, gforge-db-postgresql | gforge-db, perl, libdbi-perl, libdbd-pg-perl, debianutils (>= 1.7), debconf (>= 1.0.32) | debconf-2.0, ucf, bind9
+Conflicts: gforge-dns
+Description: collaborative development tool - DNS management (using Bind9)
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 1bd38baa7626227e6bde7269319cc459
+Tag: implemented-in::perl, implemented-in::php, interface::web,
+ protocol::dns, protocol::http, role::plugin, suite::gforge,
+ use::configuring, web::application
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge-dns-bind9_5.3.2+20141104-3+deb8u3_all.deb
+Size: 67290
+MD5sum: 5682c24eeefa64a6e86a6dc3412bbdd7
+SHA1: acb1631ce66d5338cf5c5b46a07900e7a1f327f3
+SHA256: fb8e8c2668e7c890436acdf64acc6dac162f8d08fa538844bd8fb4c08c411711
+
+Package: gforge-ftp-proftpd
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 154
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Provides: gforge-ftp
+Depends: gforge-common, gforge-shell-postgresql | gforge-shell, proftpd, perl, debianutils (>= 1.7), debconf (>= 1.0.32) | debconf-2.0, ucf, php5-cli
+Conflicts: gforge-ftp
+Description: collaborative development tool - FTP management (using ProFTPd)
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 94771c923e08329895a597b80ea3b2b6
+Tag: implemented-in::perl, implemented-in::php, interface::web,
+ protocol::ftp, protocol::http, role::plugin, suite::gforge,
+ use::downloading, web::application, works-with::file
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge-ftp-proftpd_5.3.2+20141104-3+deb8u3_all.deb
+Size: 66864
+MD5sum: 135fa7944af7f58559ff0d1efaab53e8
+SHA1: 05d11051acd37666c8b057cdb377001c9705d8b6
+SHA256: 62359c4c12adf133d1cbb56b6c0a85431f8d19e210aa6b5ae33efa697557981c
+
+Package: gforge-lists-mailman
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 154
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Provides: gforge-lists
+Depends: gforge-common, gforge-db-postgresql | gforge-db, gforge-mta-exim4 | gforge-mta, perl, libdbi-perl, libdbd-pg-perl, debianutils (>= 1.7), debconf (>= 1.0.32) | debconf-2.0, ucf, mailman (>= 2.1-3), php5-cli
+Conflicts: gforge-lists
+Description: collaborative development tool - mailing-lists (using Mailman)
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 2eb4904e3d327210ecd793f9057593bb
+Tag: implemented-in::perl, implemented-in::php, interface::web, mail::list,
+ protocol::http, protocol::smtp, role::plugin, suite::gforge,
+ web::application, works-with::mail
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge-lists-mailman_5.3.2+20141104-3+deb8u3_all.deb
+Size: 68526
+MD5sum: bc2a6028b47d6fac9848513d4e68f7d1
+SHA1: 2c9199aec1f5d27a7e3a08d6fcfa818cccb4956d
+SHA256: 6851e6f4d15d52b6dac468824b186967ffd688659442827da01d55a3ccb5ce34
+
+Package: gforge-mta-exim4
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 137
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Provides: gforge-mta
+Depends: gforge-common, gforge-db-postgresql | gforge-db, perl, debianutils (>= 1.7), debconf (>= 1.0.32) | debconf-2.0, ucf, exim4-daemon-heavy
+Conflicts: gforge-mta
+Description: collaborative development tool - mail tools (using Exim 4)
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 2553fd2914c6db688520193aa94d8d5b
+Tag: implemented-in::perl, mail::smtp, protocol::smtp, role::plugin,
+ suite::gforge, works-with::mail
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge-mta-exim4_5.3.2+20141104-3+deb8u3_all.deb
+Size: 67426
+MD5sum: 7c43b3479a69151618d0eac8729c79a3
+SHA1: eb4b5d6f68f7a5ad8cfa0a2888b1c34ef5fdf134
+SHA256: be700a13ab0d9ba7bfb44fa631cfc97c1c0a7a64289d54a9ceeb6a7c09b4663f
+
+Package: gforge-mta-postfix
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 133
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Provides: gforge-mta
+Depends: gforge-common, gforge-db-postgresql | gforge-db, perl, debianutils (>= 1.7), debconf (>= 1.0.32) | debconf-2.0, ucf, postfix, postfix-pgsql
+Conflicts: gforge-mta
+Description: collaborative development tool - mail tools (using Postfix)
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 6f6fa46ecdf780c678f4757b8f3492d7
+Tag: implemented-in::perl, mail::smtp, protocol::smtp, role::plugin,
+ suite::gforge, works-with::mail
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge-mta-postfix_5.3.2+20141104-3+deb8u3_all.deb
+Size: 66694
+MD5sum: 5cb423bb191798d63bce4c3e1bb831c5
+SHA1: 1aaf119e7e8e7292f4a5e8e92224328a307f6c9e
+SHA256: 18b8f409929c9641ea0bd62e3dc698288010bbea04e2ed02fe62d7026cdb00af
+
+Package: gforge-shell-postgresql
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 174
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Provides: gforge-shell
+Depends: gforge-common, gforge-db-postgresql | gforge-db-remote, perl, debianutils (>= 1.7), debconf (>= 1.0.32) | debconf-2.0, ucf, openssh-server, libnss-pgsql2, unscd | nscd, php5-cli
+Conflicts: gforge-shell
+Description: collaborative development tool - shell accounts (using PostgreSQL)
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 83bd30796c36e4e77e1937575e5dfa09
+Tag: admin::user-management, implemented-in::perl, role::plugin,
+ suite::gforge
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge-shell-postgresql_5.3.2+20141104-3+deb8u3_all.deb
+Size: 69902
+MD5sum: 89b09f1a2fcc120c185cae1c0cb6d632
+SHA1: 9331a26fbfc3d58e2e8bf19dcc6aace1c4ac1ce5
+SHA256: 698bbb697e79ce92c05b564ab7bf358f167472b4dd251451f58f6b1ca91551a0
+
+Package: gforge-web-apache2
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 7134
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Provides: gforge-web
+Depends: gforge-common, gforge-db-postgresql | gforge-db, libapache2-mod-php5, php5-cgi, php5-pgsql, php5-gd, perl, libdbi-perl, libdbd-pg-perl, debianutils (>= 1.7), debconf (>= 1.0.32) | debconf-2.0, ucf, python, ssl-cert, libnusoap-php, libphp-simplepie, php-http, php-http-webdav-server, libjs-jquery, libjs-jquery-tipsy, libjs-jquery-ui, libjs-jquery-ui-theme-overcast, javascript-common
+Recommends: locales | locales-all
+Conflicts: gforge-web
+Description: collaborative development tool - web part (using Apache)
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 862c5209a0e8f5a414a252daac8514c6
+Tag: suite::gforge
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge-web-apache2_5.3.2+20141104-3+deb8u3_all.deb
+Size: 1998838
+MD5sum: 0275e36f8f719820d88e911b2d7ce753
+SHA1: e62ba2c241dd30a416a717b71357f673d9cc8f15
+SHA256: 2ccea188e1c6ec55bfbc3878f4e77b4fdf68438c63fcb9283f673acce9a14c16
+
+Package: gforge-web-apache2-vhosts
+Source: fusionforge
+Version: 5.3.2+20141104-3+deb8u3
+Installed-Size: 146
+Maintainer: Roland Mas <lolando@debian.org>
+Architecture: all
+Depends: gforge-web-apache2, php5-cli
+Description: collaborative development tool - web vhosts (using Apache)
+Homepage: https://fusionforge.org/
+Apport: No
+Description-md5: 15ed300cc49917d47ea6724f0896ce6d
+Tag: suite::gforge
+Section: devel
+Priority: optional
+Filename: pool/main/f/fusionforge/gforge-web-apache2-vhosts_5.3.2+20141104-3+deb8u3_all.deb
+Size: 63268
+MD5sum: 81977cdae3704723cb49c3313457dc9c
+SHA1: 8e553aa4a5e31303333dbf6821b9605a9ac974e7
+SHA256: 2adc49c2860e6aba6bc0e8dcbca1bec736a5e4ce8476a9fccafd9493586db2cf
+
+Package: havp
+Source: havp (0.92a-3)
+Version: 0.92a-3+b2
+Installed-Size: 512
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.15), libclamav7 (>= 0.99~rc1), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9), debconf (>= 0.5) | debconf-2.0, adduser, lsb-base (>= 3.2-13)
+Pre-Depends: debconf | debconf-2.0
+Recommends: clamav-freshclam
+Suggests: squid
+Description: HTTP Anti Virus Proxy
+Homepage: http://www.server-side.de/
+Description-md5: 9a86c1dfa5f633dbbde0d75c2edbb28a
+Tag: implemented-in::c++, network::server, role::program,
+ security::antivirus, use::proxying
+Section: net
+Priority: optional
+Filename: pool/main/h/havp/havp_0.92a-3+b2_amd64.deb
+Size: 133018
+MD5sum: 2b3a90af6ce9a2164a815028b492389a
+SHA1: f6ef56482ad6661465d087f5956a9f351d41b7ed
+SHA256: 5bbb17e5dec5235931e67295333f6f6556d8320c283c61f2aee4259504b2b4b3
+
+Package: libdatetime-timezone-perl
+Version: 1:1.75-2+2016j
+Installed-Size: 6520
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: perl, libclass-load-perl, libclass-singleton-perl, liblist-allutils-perl, libparams-validate-perl
+Recommends: libdatetime-perl
+Description: framework exposing the Olson time zone database to Perl
+Homepage: http://datetime.perl.org/
+Description-md5: 49fff32146b7c0ac14d7bcca1f92bfe6
+Tag: devel::lang:perl, devel::library, implemented-in::perl, use::timekeeping
+Section: perl
+Priority: optional
+Filename: pool/main/libd/libdatetime-timezone-perl/libdatetime-timezone-perl_1.75-2+2016j_all.deb
+Size: 270930
+MD5sum: f650b84aa43e2ea08c68070314507ef0
+SHA1: efecfa5ce814f35907a17c9d694a243da1b72f4a
+SHA256: d407c961bd4ab5b87116c5e1f0d9432453ebaf65f99a6d57c17305279d2fc722
+
+Package: libdevel-declare-perl
+Version: 0.006017-1+deb8u1
+Installed-Size: 155
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: perl (>= 5.20.2-3+deb8u5), perlapi-5.20.2, libc6 (>= 2.14), libb-hooks-endofscope-perl, libb-hooks-op-check-perl (>= 0.19), libsub-name-perl
+Description: module to add new syntax to Perl
+Homepage: https://metacpan.org/release/Devel-Declare
+Description-md5: b1fb2e3a206c7c529fa629292fa647a0
+Tag: devel::lang:perl, devel::library, implemented-in::c,
+ implemented-in::perl
+Section: perl
+Priority: optional
+Filename: pool/main/libd/libdevel-declare-perl/libdevel-declare-perl_0.006017-1+deb8u1_amd64.deb
+Size: 36602
+MD5sum: 5b40a29b404710c4cf95b0a93871422c
+SHA1: 5375276963012e3e69d9e3d1e409f07e04414299
+SHA256: 3b0e29f133ed2d992f59cb07baee5e75bdcaff123cc9b9adbcbbd63461b20441
+
+Package: linux-compiler-gcc-4.8-x86
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 317
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: amd64
+Depends: gcc-4.8
+Description: Compiler for Linux on x86 (meta-package)
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description-md5: 07390d44d60e795ce75e75f74dcfb371
+Section: kernel
+Priority: optional
+Filename: pool/main/l/linux/linux-compiler-gcc-4.8-x86_3.16.7-ckt25-2_amd64.deb
+Size: 322900
+MD5sum: b82d9f7eb683e222143f857c13b8c07f
+SHA1: 82adccba46ebe8b8ffb8bf273bba7fde7741da50
+SHA256: a73091fd534ac825062ce799ce13824bc397c20b4a17736c13616a59adf63b29
+
+Package: linux-doc-3.16
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 28142
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Description: Linux kernel specific documentation for version 3.16
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description-md5: 3b8f12a01f78ef516ba5e9c9d5d0bf0f
+Tag: admin::kernel, implemented-in::c, made-of::html, role::documentation
+Section: doc
+Priority: optional
+Filename: pool/main/l/linux/linux-doc-3.16_3.16.7-ckt25-2_all.deb
+Size: 8272100
+MD5sum: 18eec6812dc5f7e9318358c4c858de58
+SHA1: 9ce7f5aec87d339b41a8011a7eeaf83e9ec7f0e3
+SHA256: 4a7fc5bb174f13e667154ef498156e0820965645411a8e7b26217f66a938bec0
+
+Package: linux-headers-3.16.0-4-all
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 317
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: amd64
+Depends: linux-headers-3.16.0-4-all-amd64 (= 3.16.7-ckt25-2)
+Description: All header files for Linux 3.16 (meta-package)
+Homepage: https://www.kernel.org/
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Section: kernel
+Priority: optional
+Filename: pool/main/l/linux/linux-headers-3.16.0-4-all_3.16.7-ckt25-2_amd64.deb
+Size: 322930
+MD5sum: 28bae768eda0019f311bf6ebc0df1ebc
+SHA1: 8385eae02f90d7b8f5520c6f6d9960049f305f00
+SHA256: 146490425a027c2255b9d085a7b211db71e0ab3e639869853f08191086440ee7
+
+Package: linux-headers-3.16.0-4-all-amd64
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 317
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: amd64
+Depends: linux-headers-3.16.0-4-amd64 (= 3.16.7-ckt25-2)
+Description: All header files for Linux 3.16 (meta-package)
+Homepage: https://www.kernel.org/
+Description-md5: e77064f75f23f5104ee0516103e281b5
+Section: kernel
+Priority: optional
+Filename: pool/main/l/linux/linux-headers-3.16.0-4-all-amd64_3.16.7-ckt25-2_amd64.deb
+Size: 322934
+MD5sum: 81639b8365cb22167a6057e47868437a
+SHA1: 8aabc18a5baa01097532e618ec82c5f53d95927e
+SHA256: 3c1ed2b9f6e13a4590f4e55f8aeb1716d917cb140fff1497e445b1acf541617e
+
+Package: linux-headers-3.16.0-4-amd64
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 2259
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: amd64
+Depends: linux-headers-3.16.0-4-common (= 3.16.7-ckt25-2), linux-kbuild-3.16, linux-compiler-gcc-4.8-x86
+Description: Header files for Linux 3.16.0-4-amd64
+Homepage: https://www.kernel.org/
+Description-md5: cbf21fb1a9f722193df5ce406738257f
+Section: kernel
+Priority: optional
+Filename: pool/main/l/linux/linux-headers-3.16.0-4-amd64_3.16.7-ckt25-2_amd64.deb
+Size: 450280
+MD5sum: 14a30efc18e4def15377fa32dcf04fac
+SHA1: fe79208315a8660a50ebe1e2b729607b52ea9650
+SHA256: b45448ab614a107647201c709588bb566ed85a2f0f16e2df0fca9f6004ab372e
+
+Package: linux-headers-3.16.0-4-common
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 21957
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: amd64
+Description: Common header files for Linux 3.16.0-4
+Homepage: https://www.kernel.org/
+Description-md5: 658653ebe375fb448948108320535714
+Section: kernel
+Priority: optional
+Filename: pool/main/l/linux/linux-headers-3.16.0-4-common_3.16.7-ckt25-2_amd64.deb
+Size: 4518744
+MD5sum: 0e54c8b48d5eee7a4acee2a4c76e4929
+SHA1: d0fac557af97c56b40b209de700876c4401656d9
+SHA256: 21ea5f9ef31cbc8ab227c35025ce7e553dfdcbc190d80259a8889bb28e1e1c13
+
+Package: linux-image-3.16.0-4-amd64
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 159495
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: amd64
+Provides: linux-modules-3.16.0-4-amd64
+Depends: kmod | module-init-tools, linux-base (>= 3~), debconf (>= 0.5) | debconf-2.0, initramfs-tools (>= 0.110~) | linux-initramfs-tool
+Pre-Depends: debconf | debconf-2.0
+Recommends: firmware-linux-free (>= 3~), irqbalance
+Suggests: linux-doc-3.16, debian-kernel-handbook, grub-pc | grub-efi | extlinux
+Breaks: at (<< 3.1.12-1+squeeze1), initramfs-tools (<< 0.110~)
+Description: Linux 3.16 for 64-bit PCs
+Homepage: https://www.kernel.org/
+Description-md5: eb8d19ca58e771c137b96a59fda87ca7
+Section: kernel
+Priority: optional
+Filename: pool/main/l/linux/linux-image-3.16.0-4-amd64_3.16.7-ckt25-2_amd64.deb
+Size: 33863786
+MD5sum: f4b54e1e9e39c634cdb33c5dcd023b3a
+SHA1: b8373555ca0257c1041bf8daddd24f4ce83db15c
+SHA256: f8d4968fe1468e0f6fcb332a42cb4887475cc2453746a6fab777095f58f6e01e
+
+Package: linux-image-3.16.0-4-amd64-dbg
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 2430223
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: amd64
+Description: Debugging symbols for Linux 3.16.0-4-amd64
+Homepage: https://www.kernel.org/
+Description-md5: 8c26dca1771f49da6036819b6a89483e
+Section: debug
+Priority: extra
+Filename: pool/main/l/linux/linux-image-3.16.0-4-amd64-dbg_3.16.7-ckt25-2_amd64.deb
+Size: 350714534
+MD5sum: 9bec1ea0a1b64afa1507554bab6fda9c
+SHA1: 24274ff68fe770c5c679c72b1ea6d5487277cd8d
+SHA256: 48a889f6a28981208df323ffe6af8486764ff4d2207ae6245aba2bb84b4dc214
+
+Package: linux-libc-dev
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 3368
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: amd64
+Replaces: linux-kernel-headers
+Provides: linux-kernel-headers
+Conflicts: linux-kernel-headers
+Description: Linux support headers for userspace development
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Description-md5: f310daf8fb891639ee6eeeb4020a7c13
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib
+Section: devel
+Priority: optional
+Filename: pool/main/l/linux/linux-libc-dev_3.16.7-ckt25-2_amd64.deb
+Size: 1023266
+MD5sum: fb4262e0eed9bd8beee3fc7f1a4d6e9a
+SHA1: 0dee9b8f6f54c79a9c199779244c75d9e140080a
+SHA256: e9b9bb6b1447747f123c24475e3eeb264cd46a7e51e851ebcb565dc663d7bb9a
+
+Package: linux-manual-3.16
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 4029
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Replaces: linux-manual
+Provides: linux-manual
+Conflicts: linux-manual
+Description: Linux kernel API manual pages for version 3.16
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description-md5: 276b5788a7e4d667f1c2a94e2ec4e952
+Tag: admin::kernel, implemented-in::c, made-of::man, role::documentation
+Section: doc
+Priority: optional
+Filename: pool/main/l/linux/linux-manual-3.16_3.16.7-ckt25-2_all.deb
+Size: 3699824
+MD5sum: 0e211abc8925aa7844d6df503c6708d8
+SHA1: 62a22360b4c9c7a13a16a3e792c0a26be3c37461
+SHA256: f286b090ea238f7b146b02ec367d67420fa9332207d77983b2a0852f3dec2532
+
+Package: linux-source-3.16
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 81701
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Depends: binutils, xz-utils
+Recommends: libc6-dev | libc-dev, gcc, make, bc
+Suggests: libncurses-dev | ncurses-dev, libqt4-dev, pkg-config
+Description: Linux kernel source for version 3.16 with Debian patches
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description-md5: 150fd1fc695786c4a4a7506f77975e02
+Section: kernel
+Priority: optional
+Filename: pool/main/l/linux/linux-source-3.16_3.16.7-ckt25-2_all.deb
+Size: 83603878
+MD5sum: eb44b73e22b7157920bfafdc6b2f3ed3
+SHA1: a0738f5bc152248a1149581c3c9a1adad47de9e9
+SHA256: 48995e4f9ac47928eeb9e3a5fa72382f266e3fde2ec72bfe6fe2a39f951994c8
+
+Package: linux-support-3.16.0-4
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 449
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Depends: python:any (>= 2.6.6-7~), python-six
+Description: Support files for Linux 3.16
+Multi-Arch: foreign
+Homepage: https://www.kernel.org/
+Description-md5: 89975a6239acce6c9e6fbde2f804f100
+Tag: admin::kernel, devel::lang:c, devel::library, implemented-in::c,
+ role::devel-lib
+Section: devel
+Priority: optional
+Filename: pool/main/l/linux/linux-support-3.16.0-4_3.16.7-ckt25-2_all.deb
+Size: 341538
+MD5sum: c044d05a55f0da5ad1966cbb4b5409f0
+SHA1: 109b3361f32ff4d5cd44c01149f6393825d48e62
+SHA256: 2cd43bdaf44cab12c5e8e58934a2a3321cfe7057ec2a83260f0ff39a2a4c4693
+
+Package: xen-linux-system-3.16.0-4-amd64
+Source: linux
+Version: 3.16.7-ckt25-2
+Installed-Size: 317
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: amd64
+Depends: linux-image-3.16.0-4-amd64 (= 3.16.7-ckt25-2), xen-system-amd64
+Description: Xen system with Linux 3.16 on 64-bit PCs (meta-package)
+Homepage: https://www.kernel.org/
+Description-md5: 120400f93ebde659304f3ab95ba77fc7
+Section: metapackages
+Priority: optional
+Filename: pool/main/l/linux/xen-linux-system-3.16.0-4-amd64_3.16.7-ckt25-2_amd64.deb
+Size: 322916
+MD5sum: 8116d0cd48ea3f6868810291806b9d01
+SHA1: 8f744e7b33c4d74894b2bad45d3287e303e7d851
+SHA256: ed59a8b0b77625b8d0b058318b459cf9dce42f43ca3e55357f6d89eda3e4560f
+
+Package: python-pyclamav
+Source: python-clamav (0.4.1-7)
+Version: 0.4.1-7+b2
+Installed-Size: 29
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: python-clamav (<< 0.4.1-4~)
+Provides: python-clamav
+Depends: libc6 (>= 2.4), libclamav7 (>= 0.99~rc1), python (>= 2.7), python (<< 2.8), clamav-freshclam
+Breaks: python-clamav (<< 0.4.1-4~)
+Description: Python bindings to ClamAV
+Homepage: http://xael.org/norman/python/pyclamav/index.html
+Description-md5: ca502c4caa9aef15df928f6d524ffb35
+Tag: security::antivirus
+Section: python
+Priority: optional
+Filename: pool/main/p/python-clamav/python-pyclamav_0.4.1-7+b2_amd64.deb
+Size: 16518
+MD5sum: dfad1c45c0fc79ed184612a6aa088c8a
+SHA1: f0c36b12d43a4699196be597143d5c64e0adf23d
+SHA256: 22dac940c2dd9659c7b8a7de0c94aae5d82b21e15cd0d8f3060f74577cbd64c9
+
+Package: tzdata
+Version: 2016j-0+deb8u1
+Installed-Size: 1551
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Replaces: libc0.1, libc0.3, libc6, libc6.1
+Provides: tzdata-jessie
+Depends: debconf (>= 0.5) | debconf-2.0
+Description: time zone and daylight-saving time data
+Multi-Arch: foreign
+Homepage: http://www.iana.org/time-zones
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Tag: role::app-data, use::timekeeping
+Section: localization
+Priority: required
+Filename: pool/main/t/tzdata/tzdata_2016j-0+deb8u1_all.deb
+Size: 186458
+MD5sum: 2f0a47c36842c1ba9946bfce09a150ef
+SHA1: cc2523fa73b21dc33073205db5ab613354b07808
+SHA256: b074ef33712a25e832d92f2aa9473a801c5fe5484ff5fd5116a22cb71ca89717
+
+Package: tzdata-java
+Source: tzdata
+Version: 2016j-0+deb8u1
+Installed-Size: 360
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Depends: tzdata (= 2016j-0+deb8u1)
+Description: time zone and daylight-saving time data for use by java runtimes
+Multi-Arch: foreign
+Homepage: http://www.iana.org/time-zones
+Description-md5: 811cf395ae4cc676283711d9bc20443f
+Tag: field::geography, implemented-in::java, role::app-data, use::timekeeping
+Section: java
+Priority: optional
+Filename: pool/main/t/tzdata/tzdata-java_2016j-0+deb8u1_all.deb
+Size: 81120
+MD5sum: 7c61eb1a4f2453252936278d8351f870
+SHA1: de82006d8510ab914de6180174fcc8c26416e0e3
+SHA256: 798f0d3659b41b4eb586756015a754732b0ed287a908116b00501efd6d2170cc
+
+Package: xscreensaver
+Version: 5.30-1+deb8u2
+Installed-Size: 2377
+Maintainer: Tormod Volden <debian.tormod@gmail.com>
+Architecture: amd64
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.15), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglade2-0 (>= 1:2.6.4-2~), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libice6 (>= 1:1.0.0), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libsm6, libx11-6, libxext6, libxi6, libxinerama1, libxml2 (>= 2.7.4), libxmu6, libxpm4, libxrandr2 (>= 2:1.2.0), libxrender1, libxt6, libxxf86vm1, xscreensaver-data
+Recommends: libjpeg-progs, perl5, miscfiles | wordlist
+Suggests: xfishtank, xdaliclock, xscreensaver-gl, fortune, www-browser, qcam | streamer, gdm3 | kdm-gdmcompat
+Breaks: funny-manpages (<< 1.3-1), gnome-control-center (<< 1:2), suidmanager (<< 0.50), xscreensaver-gnome (<< 4.09-2), xscreensaver-nognome (<< 4.09-2)
+Description: Screensaver daemon and frontend for X11
+Homepage: http://www.jwz.org/xscreensaver/
+Description-md5: 15e58e0cb46072efd851de6fc63fac05
+Tag: interface::x11, role::program, scope::application, uitoolkit::gtk,
+ x11::screensaver
+Section: x11
+Priority: optional
+Filename: pool/main/x/xscreensaver/xscreensaver_5.30-1+deb8u2_amd64.deb
+Size: 560564
+MD5sum: 15d4bdf8e74e83a1d1c914eb1396d18d
+SHA1: a2e0fe14ec65de95ea2c37ead41faccc32859c75
+SHA256: 3840a3aeace26df7caef1e3ee71e76a069c7060e4d319718d76c9d6507ebd8ae
+
+Package: xscreensaver-data
+Source: xscreensaver
+Version: 5.30-1+deb8u2
+Installed-Size: 1427
+Maintainer: Tormod Volden <debian.tormod@gmail.com>
+Architecture: amd64
+Replaces: gnome-screensaver (<< 2.15.4-0ubuntu1), xscreensaver (<< 5.04-3)
+Depends: libc6 (>= 2.14), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libjpeg62-turbo (>= 1.3.1), libsm6, libx11-6, libxext6, libxmu6, libxpm4, libxt6, libwww-perl
+Suggests: xscreensaver
+Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1), xscreensaver (<< 5.04-3)
+Description: Screen saver modules for screensaver frontends
+Homepage: http://www.jwz.org/xscreensaver/
+Description-md5: e7e01a2105444827e4560fcfb1e265ff
+Tag: role::app-data, uitoolkit::gtk, x11::screensaver
+Section: x11
+Priority: optional
+Filename: pool/main/x/xscreensaver/xscreensaver-data_5.30-1+deb8u2_amd64.deb
+Size: 299830
+MD5sum: 32bf8f596643ace92eaafaf25cddb954
+SHA1: 9b05d742ee5ab11968c83516ade7ae32468415d9
+SHA256: 4b1f6d9013ddca309e92efa1638da819a15ba1e3e7e9be9907f8beb66348d243
+
+Package: xscreensaver-data-extra
+Source: xscreensaver
+Version: 5.30-1+deb8u2
+Installed-Size: 6042
+Maintainer: Tormod Volden <debian.tormod@gmail.com>
+Architecture: amd64
+Replaces: xscreensaver (<< 5.04-3)
+Depends: libc6 (>= 2.14), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libsm6, libx11-6, libxext6, libxmu6, libxpm4, libxt6, xscreensaver-data (>= 5.04-3), dictionaries-common, libjpeg-progs, netpbm
+Enhances: gnome-screensaver, xscreensaver
+Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1), xscreensaver (<< 5.04-3)
+Description: Extra screen saver modules for screensaver frontends
+Homepage: http://www.jwz.org/xscreensaver/
+Description-md5: 04c00be2be947aac394708c2711e1d2f
+Tag: interface::x11, role::app-data, uitoolkit::gtk, x11::application,
+ x11::screensaver
+Section: x11
+Priority: optional
+Filename: pool/main/x/xscreensaver/xscreensaver-data-extra_5.30-1+deb8u2_amd64.deb
+Size: 1010724
+MD5sum: 1aa4754144606ab581d3a123ddb74730
+SHA1: de3d29833acfe22f1cb22ccdaaee14e7a9559bca
+SHA256: d936ac341fd4096a0d64c79743ec5840c59d4c2537d6feb419d332d326da7fc1
+
+Package: xscreensaver-gl
+Source: xscreensaver
+Version: 5.30-1+deb8u2
+Installed-Size: 6322
+Maintainer: Tormod Volden <debian.tormod@gmail.com>
+Architecture: amd64
+Replaces: xscreensaver-data (<< 5.10-3)
+Depends: libc6 (>= 2.15), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.12.0), libglu1-mesa | libglu1, libice6 (>= 1:1.0.0), libsm6, libx11-6, libxext6, libxmu6, libxpm4, libxt6, libxxf86vm1
+Suggests: xscreensaver
+Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1), xscreensaver (<< 5.04-3)
+Description: GL(Mesa) screen saver modules for screensaver frontends
+Homepage: http://www.jwz.org/xscreensaver/
+Description-md5: 2a5b272e00b4d71c961d06011fbf9414
+Tag: interface::3d, role::program, scope::application, uitoolkit::gtk,
+ x11::screensaver
+Section: x11
+Priority: optional
+Filename: pool/main/x/xscreensaver/xscreensaver-gl_5.30-1+deb8u2_amd64.deb
+Size: 1061654
+MD5sum: 5841febe678dc0f62e2ac2896668f0fe
+SHA1: 3cffc963c8cf0f4bfdd462d375bfbdca25f310c7
+SHA256: 8b3025b0b8df89749ae3c67d358ad3d14c46aec0e7a53edc353be53836415bf4
+
+Package: xscreensaver-gl-extra
+Source: xscreensaver
+Version: 5.30-1+deb8u2
+Installed-Size: 8500
+Maintainer: Tormod Volden <debian.tormod@gmail.com>
+Architecture: amd64
+Replaces: xscreensaver-gl (<< 5.04-3)
+Depends: libc6 (>= 2.14), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libgle3, libglib2.0-0 (>= 2.12.0), libglu1-mesa | libglu1, libice6 (>= 1:1.0.0), libsm6, libx11-6, libxext6, libxmu6, libxpm4, libxt6, libxxf86vm1, xscreensaver-gl (>= 5.04-3)
+Enhances: gnome-screensaver, xscreensaver
+Breaks: gnome-screensaver (<< 2.26), kscreensaver-xsaver (<= 4:4.2.4-1), xscreensaver (<< 5.04-3)
+Description: Extra GL(Mesa) screen saver modules for screensaver frontends
+Homepage: http://www.jwz.org/xscreensaver/
+Description-md5: 85f869ce19c15adc54890883d0983a5f
+Tag: hardware::opengl, hardware::video, interface::x11, role::app-data,
+ uitoolkit::gtk, x11::screensaver
+Section: x11
+Priority: optional
+Filename: pool/main/x/xscreensaver/xscreensaver-gl-extra_5.30-1+deb8u2_amd64.deb
+Size: 1623976
+MD5sum: 5806273a77c3d2ebfe8adad34ce97490
+SHA1: b59f63689c83ee2570523b7cd284a6e4c7099b85
+SHA256: 63c016840baca7f60d8800415b543b97b482c0b09b4ac3cbaab68ab336425c68
+
+Package: xscreensaver-screensaver-bsod
+Source: xscreensaver
+Version: 5.30-1+deb8u2
+Installed-Size: 576
+Maintainer: Tormod Volden <debian.tormod@gmail.com>
+Architecture: amd64
+Replaces: xscreensaver-data-extra (<< 5.10-4)
+Depends: libc6 (>= 2.14), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libsm6, libx11-6, libxext6, libxmu6, libxpm4, libxt6, xscreensaver-data-extra
+Breaks: xscreensaver-data-extra (<< 5.10-4)
+Description: BSOD screen saver module from XScreenSaver
+Homepage: http://www.jwz.org/xscreensaver/
+Description-md5: 8e30553c8a2f764011e4104c5901f826
+Tag: implemented-in::c, interface::x11, role::program, uitoolkit::gtk,
+ x11::screensaver
+Section: x11
+Priority: optional
+Filename: pool/main/x/xscreensaver/xscreensaver-screensaver-bsod_5.30-1+deb8u2_amd64.deb
+Size: 163038
+MD5sum: 9ffba8eed7b8c32ac3dd7a82e53f7b89
+SHA1: b8f4d94365aa1c8ad8e59c572afe86b252643a7e
+SHA256: 124801ad8dc1098a239b7748d50bd6ecf8531c2e7736acabaa92579f2a0cd3d5
+
+Package: xscreensaver-screensaver-webcollage
+Source: xscreensaver
+Version: 5.30-1+deb8u2
+Installed-Size: 223
+Maintainer: Tormod Volden <debian.tormod@gmail.com>
+Architecture: amd64
+Replaces: xscreensaver-data-extra (<< 5.10-4)
+Depends: libc6 (>= 2.7), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libjpeg62-turbo (>= 1.3.1), libsm6, libx11-6, libxext6, libxmu6, libxpm4, libxt6, xscreensaver-data-extra
+Breaks: xscreensaver-data-extra (<< 5.10-4)
+Description: Webcollage screen saver module from XScreenSaver
+Homepage: http://www.jwz.org/xscreensaver/
+Description-md5: 2a76d44272347c141ccfdd44325bf558
+Tag: game::toys, interface::x11, uitoolkit::gtk, x11::screensaver
+Section: x11
+Priority: optional
+Filename: pool/main/x/xscreensaver/xscreensaver-screensaver-webcollage_5.30-1+deb8u2_amd64.deb
+Size: 61676
+MD5sum: 5942e02665d5bedf2b7ec4e98abdd6cb
+SHA1: 474f24f7e14fba9dfdf1dd66349787f6c89a0503
+SHA256: 2b2a6d720030f0c209b2ed428d93101d03eb17b6e39a089f7c51f9e6d280d819
+

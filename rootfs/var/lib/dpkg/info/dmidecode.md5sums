@@ -1,0 +1,12 @@
+9f3b5877a7d569266b3a8e94fd4a65f5  usr/sbin/biosdecode
+43123bcfced4c9e8f46f60409691f178  usr/sbin/dmidecode
+5afd62dd2f485202df2f8bfd2a2f48fb  usr/sbin/ownership
+abddbf15dbc573ba8627a38c53cac0ea  usr/sbin/vpddecode
+6f250b5c485812ac9f30cb1ac7faa9d6  usr/share/doc/dmidecode/AUTHORS
+1eb4a7b53d14de4778c3784a8a81cc32  usr/share/doc/dmidecode/changelog.Debian.gz
+714984bd88bacb52d7a6932bc1589529  usr/share/doc/dmidecode/changelog.gz
+cd286615dcc503195337086a7a7441ba  usr/share/doc/dmidecode/copyright
+b730cdbac037c57facb71e95c34d64e0  usr/share/man/man8/biosdecode.8.gz
+81182b12e8e3d5a5f2636a1394094f91  usr/share/man/man8/dmidecode.8.gz
+be1fc98c70add807d10e537081358520  usr/share/man/man8/ownership.8.gz
+d5cf30eae3b02f8df1a4f45ba967f3e2  usr/share/man/man8/vpddecode.8.gz

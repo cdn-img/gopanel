@@ -1,0 +1,24 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "remove" ] ; then
+	update-alternatives --remove pbr /usr/bin/python2-pbr
+fi
+
+
+# Automatically added by dhpython:
+if which pyclean >/dev/null 2>&1; then
+	pyclean -p python-pbr 
+else
+	dpkg -L python-pbr | grep \.py$ | while read file
+	do
+		rm -f "${file}"[co] >/dev/null
+  	done
+fi
+
+# End automatically added section
+
+
+exit 0
+

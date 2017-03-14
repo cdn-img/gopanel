@@ -1,0 +1,38 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: php-gettext
+Upstream-Contact: Danilo Segan <danilo@kvota.net>
+                  Nico Kaiser <nico@siriux.net>
+Upstream-Source: https://launchpad.net/php-gettext/+download
+
+
+Files: *
+Copyright: 2003, 2005, 2006, 2009 Danilo Segan <danilo@kvota.net>
+License: GPL-2+
+
+Files: gettext.php
+Copyright: 2003, 2009 Danilo Segan <danilo@kvota.net>
+           2005 Nico Kaiser <nico@siriux.net>
+License: GPL-2+
+
+Files: gettext.inc
+Copyright: 2005 Steven Armstrong <sa@c-area.ch>,
+           2009 Danilo Segan <danilo@kvota.net>
+License: GPL-2+
+
+Files: streams.php
+Copyright: (c) 2003, 2005, 2006, 2009 Danilo Segan <danilo@kvota.net>
+License: GPL-2+
+
+Files: examples/pigs_dropin.php
+       examples/pigs_fallback.php
+Copyright: 2003,2004,2005,2009 Danilo Segan <danilo@kvota.net>
+           2005,2006 Steven Armstrong <sa@c-area.ch>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2006 Marcelo Jorge Vieira <metal@debian.org>
+License: GPL-2+
+
+License: GPL-2+
+  On Debian GNU/Linux systems, the complete text of the GNU General
+  Public License can be found in `/usr/share/common-licenses/GPL-2'.

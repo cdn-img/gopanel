@@ -1,0 +1,2 @@
+php7.1-cgi: embedded-library usr/bin/php-cgi7.1: file
+php7.1-cgi: embedded-library usr/lib/cgi-bin/php7.1: file

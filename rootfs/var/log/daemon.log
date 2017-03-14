@@ -1,0 +1,1418 @@
+Mar 14 07:27:31 my systemd[1]: Starting Create Static Device Nodes in /dev...
+Mar 14 07:27:31 my systemd[1]: Started udev Coldplug all Devices.
+Mar 14 07:27:31 my systemd[1]: Started Create Static Device Nodes in /dev.
+Mar 14 07:27:31 my systemd[1]: Starting udev Kernel Device Manager...
+Mar 14 07:27:31 my systemd[1]: Started udev Kernel Device Manager.
+Mar 14 07:27:31 my systemd[1]: Starting Copy rules generated while the root was ro...
+Mar 14 07:27:31 my systemd[1]: Starting LSB: Set preliminary keymap...
+Mar 14 07:27:31 my systemd[1]: Started Copy rules generated while the root was ro.
+Mar 14 07:27:31 my systemd[1]: Starting system-ifup.slice.
+Mar 14 07:27:31 my systemd[1]: Created slice system-ifup.slice.
+Mar 14 07:27:31 my keyboard-setup[176]: Setting preliminary keymap...done.
+Mar 14 07:27:31 my systemd[1]: Started LSB: Set preliminary keymap.
+Mar 14 07:27:31 my systemd[1]: Starting Remount Root and Kernel File Systems...
+Mar 14 07:27:31 my systemd[1]: Started Remount Root and Kernel File Systems.
+Mar 14 07:27:31 my systemd[1]: Starting Various fixups to make systemd work better on Debian...
+Mar 14 07:27:31 my systemd[1]: Starting Load/Save Random Seed...
+Mar 14 07:27:31 my systemd[1]: Starting Local File Systems (Pre).
+Mar 14 07:27:31 my systemd[1]: Reached target Local File Systems (Pre).
+Mar 14 07:27:31 my systemd[1]: Starting Local File Systems.
+Mar 14 07:27:31 my systemd[1]: Reached target Local File Systems.
+Mar 14 07:27:31 my systemd[1]: Starting Create Volatile Files and Directories...
+Mar 14 07:27:31 my systemd[1]: Starting Remote File Systems.
+Mar 14 07:27:31 my systemd[1]: Reached target Remote File Systems.
+Mar 14 07:27:31 my systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+Mar 14 07:27:31 my systemd[1]: Starting LSB: Prepare console...
+Mar 14 07:27:31 my systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+Mar 14 07:27:31 my systemd[1]: Started Various fixups to make systemd work better on Debian.
+Mar 14 07:27:31 my systemd[1]: Started Load/Save Random Seed.
+Mar 14 07:27:31 my systemd[1]: Starting LSB: Raise network interfaces....
+Mar 14 07:27:31 my systemd[1]: Started Create Volatile Files and Directories.
+Mar 14 07:27:31 my systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 14 07:27:31 my systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 14 07:27:31 my kbd[266]: Setting console screen modes.
+Mar 14 07:27:31 my kbd[266]: setterm: $TERM is not defined.
+Mar 14 07:27:31 my systemd[1]: Started LSB: Prepare console.
+Mar 14 07:27:31 my systemd[1]: Starting LSB: Set console font and keymap...
+Mar 14 07:27:31 my console-setup[308]: Setting up console font and keymap...done.
+Mar 14 07:27:31 my systemd[1]: Started LSB: Set console font and keymap.
+Mar 14 07:27:31 my systemd[1]: Starting Sound Card.
+Mar 14 07:27:31 my systemd[1]: Reached target Sound Card.
+Mar 14 07:27:31 my dhclient: Internet Systems Consortium DHCP Client 4.3.1
+Mar 14 07:27:31 my dhclient: Copyright 2004-2014 Internet Systems Consortium.
+Mar 14 07:27:31 my dhclient: All rights reserved.
+Mar 14 07:27:31 my dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Mar 14 07:27:31 my dhclient: 
+Mar 14 07:27:31 my networking[275]: Configuring network interfaces...Internet Systems Consortium DHCP Client 4.3.1
+Mar 14 07:27:31 my networking[275]: Copyright 2004-2014 Internet Systems Consortium.
+Mar 14 07:27:31 my networking[275]: All rights reserved.
+Mar 14 07:27:31 my networking[275]: For info, please visit https://www.isc.org/software/dhcp/
+Mar 14 07:27:31 my dhclient: Listening on LPF/eth0/00:1c:42:62:48:a4
+Mar 14 07:27:31 my dhclient: Sending on   LPF/eth0/00:1c:42:62:48:a4
+Mar 14 07:27:31 my dhclient: Sending on   Socket/fallback
+Mar 14 07:27:31 my dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Mar 14 07:27:31 my dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Mar 14 07:27:31 my dhclient: DHCPOFFER from 2.0.0.1
+Mar 14 07:27:31 my networking[275]: Listening on LPF/eth0/00:1c:42:62:48:a4
+Mar 14 07:27:31 my networking[275]: Sending on   LPF/eth0/00:1c:42:62:48:a4
+Mar 14 07:27:31 my networking[275]: Sending on   Socket/fallback
+Mar 14 07:27:31 my networking[275]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Mar 14 07:27:31 my networking[275]: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Mar 14 07:27:31 my networking[275]: DHCPOFFER from 2.0.0.1
+Mar 14 07:27:31 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 07:27:31 my dhclient: suspect value in host_name option - discarded
+Mar 14 07:27:31 my networking[275]: DHCPACK from 2.0.0.1
+Mar 14 07:27:31 my networking[275]: suspect value in host_name option - discarded
+Mar 14 07:27:31 my dhclient: bound to 2.0.0.9 -- renewal in 733 seconds.
+Mar 14 07:27:31 my networking[275]: bound to 2.0.0.9 -- renewal in 733 seconds.
+Mar 14 07:27:31 my networking[275]: done.
+Mar 14 07:27:31 my systemd[1]: Started LSB: Raise network interfaces..
+Mar 14 07:27:31 my systemd[1]: Starting ifup for eth0...
+Mar 14 07:27:31 my systemd[1]: Started ifup for eth0.
+Mar 14 07:27:31 my systemd[1]: Starting Network.
+Mar 14 07:27:31 my systemd[1]: Reached target Network.
+Mar 14 07:27:31 my systemd[1]: Starting System Initialization.
+Mar 14 07:27:31 my systemd[1]: Reached target System Initialization.
+Mar 14 07:27:31 my systemd[1]: Starting D-Bus System Message Bus Socket.
+Mar 14 07:27:31 my systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 14 07:27:31 my systemd[1]: Starting ACPID Listen Socket.
+Mar 14 07:27:31 my systemd[1]: Listening on ACPID Listen Socket.
+Mar 14 07:27:31 my systemd[1]: Starting Sockets.
+Mar 14 07:27:31 my systemd[1]: Reached target Sockets.
+Mar 14 07:27:31 my systemd[1]: Starting Daily Cleanup of Temporary Directories.
+Mar 14 07:27:31 my systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 14 07:27:31 my systemd[1]: Starting Timers.
+Mar 14 07:27:31 my systemd[1]: Reached target Timers.
+Mar 14 07:27:31 my systemd[1]: Starting ACPI Events Check.
+Mar 14 07:27:31 my systemd[1]: Started ACPI Events Check.
+Mar 14 07:27:31 my systemd[1]: Starting Paths.
+Mar 14 07:27:31 my systemd[1]: Reached target Paths.
+Mar 14 07:27:31 my systemd[1]: Starting Basic System.
+Mar 14 07:27:31 my systemd[1]: Reached target Basic System.
+Mar 14 07:27:31 my systemd[1]: Started Run anacron jobs.
+Mar 14 07:27:31 my systemd[1]: Starting Regular background program processing daemon...
+Mar 14 07:27:31 my ifup[444]: /sbin/ifup: interface eth0 already configured
+Mar 14 07:27:31 my systemd[1]: Started Regular background program processing daemon.
+Mar 14 07:27:31 my systemd[1]: Starting /etc/rc.local Compatibility...
+Mar 14 07:27:31 my systemd[1]: Starting Login Service...
+Mar 14 07:27:31 my systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar 14 07:27:31 my systemd[1]: Starting D-Bus System Message Bus...
+Mar 14 07:27:31 my systemd[1]: Started D-Bus System Message Bus.
+Mar 14 07:27:31 my dbus[449]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Mar 14 07:27:31 my systemd[1]: Starting System Logging Service...
+Mar 14 07:27:31 my systemd[1]: Starting Permit User Sessions...
+Mar 14 07:27:31 my systemd[1]: Starting ACPI event daemon...
+Mar 14 07:27:31 my systemd[1]: Started ACPI event daemon.
+Mar 14 07:27:31 my systemd[1]: Started /etc/rc.local Compatibility.
+Mar 14 07:27:31 my systemd[1]: Started Permit User Sessions.
+Mar 14 07:27:31 my systemd[1]: Started Login Service.
+Mar 14 07:27:31 my systemd[1]: Starting Getty on tty1...
+Mar 14 07:27:31 my systemd[1]: Started Getty on tty1.
+Mar 14 07:27:31 my systemd[1]: Starting Login Prompts.
+Mar 14 07:27:31 my systemd[1]: Reached target Login Prompts.
+Mar 14 07:27:31 my systemd[1]: Started System Logging Service.
+Mar 14 07:27:31 my systemd[1]: Starting Multi-User System.
+Mar 14 07:27:31 my systemd[1]: Reached target Multi-User System.
+Mar 14 07:27:31 my systemd[1]: Starting Graphical Interface.
+Mar 14 07:27:31 my systemd[1]: Reached target Graphical Interface.
+Mar 14 07:27:31 my systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 14 07:27:31 my systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 14 07:27:31 my systemd[1]: Startup finished in 4.856s (kernel) + 3.535s (userspace) = 8.392s.
+Mar 14 07:27:31 my acpid: starting up with netlink and the input layer
+Mar 14 07:27:31 my acpid: 1 rule loaded
+Mar 14 07:27:31 my acpid: waiting for events: event logging is off
+Mar 14 07:30:01 my systemd[1]: Started Run anacron jobs.
+Mar 14 07:39:44 my dhclient: DHCPREQUEST on eth0 to 2.0.0.1 port 67
+Mar 14 07:39:44 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 07:39:44 my dhclient: suspect value in host_name option - discarded
+Mar 14 07:39:44 my dhclient: suspect value in host_name option - discarded
+Mar 14 07:39:44 my dhclient: bound to 2.0.0.9 -- renewal in 870 seconds.
+Mar 14 07:42:26 my systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 14 07:42:26 my systemd[1]: Started Cleanup of Temporary Directories.
+Mar 14 07:54:14 my dhclient: DHCPREQUEST on eth0 to 2.0.0.1 port 67
+Mar 14 07:54:14 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 07:54:14 my dhclient: suspect value in host_name option - discarded
+Mar 14 07:54:14 my dhclient: suspect value in host_name option - discarded
+Mar 14 07:54:14 my dhclient: bound to 2.0.0.9 -- renewal in 841 seconds.
+Mar 14 08:08:15 my dhclient: DHCPREQUEST on eth0 to 2.0.0.1 port 67
+Mar 14 08:08:15 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 08:08:15 my dhclient: suspect value in host_name option - discarded
+Mar 14 08:08:15 my dhclient: suspect value in host_name option - discarded
+Mar 14 08:08:15 my dhclient: bound to 2.0.0.9 -- renewal in 820 seconds.
+Mar 14 08:21:55 my dhclient: DHCPREQUEST on eth0 to 2.0.0.1 port 67
+Mar 14 08:21:55 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 08:21:55 my dhclient: suspect value in host_name option - discarded
+Mar 14 08:21:55 my dhclient: suspect value in host_name option - discarded
+Mar 14 08:21:55 my dhclient: bound to 2.0.0.9 -- renewal in 749 seconds.
+Mar 14 08:34:24 my dhclient: DHCPREQUEST on eth0 to 2.0.0.1 port 67
+Mar 14 08:34:24 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 08:34:24 my dhclient: suspect value in host_name option - discarded
+Mar 14 08:34:24 my dhclient: suspect value in host_name option - discarded
+Mar 14 08:34:24 my dhclient: bound to 2.0.0.9 -- renewal in 780 seconds.
+Mar 14 08:47:25 my dhclient: DHCPREQUEST on eth0 to 2.0.0.1 port 67
+Mar 14 08:47:25 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 08:47:25 my dhclient: suspect value in host_name option - discarded
+Mar 14 08:47:25 my dhclient: suspect value in host_name option - discarded
+Mar 14 08:47:25 my dhclient: bound to 2.0.0.9 -- renewal in 727 seconds.
+Mar 14 08:59:33 my dhclient: DHCPREQUEST on eth0 to 2.0.0.1 port 67
+Mar 14 08:59:33 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 08:59:33 my dhclient: suspect value in host_name option - discarded
+Mar 14 08:59:33 my dhclient: suspect value in host_name option - discarded
+Mar 14 08:59:33 my dhclient: bound to 2.0.0.9 -- renewal in 859 seconds.
+Mar 14 09:13:52 my dhclient: DHCPREQUEST on eth0 to 2.0.0.1 port 67
+Mar 14 09:13:52 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 09:13:52 my dhclient: suspect value in host_name option - discarded
+Mar 14 09:13:52 my dhclient: suspect value in host_name option - discarded
+Mar 14 09:13:52 my dhclient: bound to 2.0.0.9 -- renewal in 854 seconds.
+Mar 14 09:19:10 my systemd[1]: Reloading.
+Mar 14 09:19:10 my systemd[1]: Started ACPI event daemon.
+Mar 14 09:19:10 my systemd[1]: Listening on ACPID Listen Socket.
+Mar 14 09:19:12 my systemd[1]: Reloading.
+Mar 14 09:19:12 my systemd[1]: Started ACPI event daemon.
+Mar 14 09:19:12 my systemd[1]: Listening on ACPID Listen Socket.
+Mar 14 09:19:12 my systemd[1]: Reloading.
+Mar 14 09:19:12 my systemd[1]: Started ACPI event daemon.
+Mar 14 09:19:12 my systemd[1]: Listening on ACPID Listen Socket.
+Mar 14 09:19:12 my systemd[1]: Reloading.
+Mar 14 09:19:12 my systemd[1]: Started ACPI event daemon.
+Mar 14 09:19:12 my systemd[1]: Listening on ACPID Listen Socket.
+Mar 14 09:19:12 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 09:19:12 my systemd[1]: Started OpenBSD Secure Shell server.
+Mar 14 09:19:12 my systemd[1]: Reloading.
+Mar 14 09:19:12 my systemd[1]: Started ACPI event daemon.
+Mar 14 09:19:12 my systemd[1]: Listening on ACPID Listen Socket.
+Mar 14 09:19:38 my systemd[1]: Stopping OpenBSD Secure Shell server...
+Mar 14 09:19:38 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 09:19:38 my systemd[1]: Started OpenBSD Secure Shell server.
+Mar 14 09:21:26 my systemd[1]: Starting Synchronise Hardware Clock to System Clock...
+Mar 14 09:21:26 my systemd[1]: Starting Unmount All Filesystems.
+Mar 14 09:21:26 my systemd[1]: Reached target Unmount All Filesystems.
+Mar 14 09:21:26 my systemd[1]: Stopping system-ifup.slice.
+Mar 14 09:21:26 my systemd[1]: Removed slice system-ifup.slice.
+Mar 14 09:21:26 my systemd[1]: Stopping Graphical Interface.
+Mar 14 09:21:26 my systemd[1]: Stopped target Graphical Interface.
+Mar 14 09:21:26 my systemd[1]: Stopping Multi-User System.
+Mar 14 09:21:26 my systemd[1]: Stopped target Multi-User System.
+Mar 14 09:21:26 my systemd[1]: Stopping Regular background program processing daemon...
+Mar 14 09:21:26 my systemd[1]: Stopping OpenBSD Secure Shell server...
+Mar 14 09:21:26 my systemd[1]: Stopping D-Bus System Message Bus...
+Mar 14 09:21:26 my systemd[1]: Stopping Login Service...
+Mar 14 16:24:26 my systemd[1]: Started udev Coldplug all Devices.
+Mar 14 16:24:26 my systemd[1]: Started Create Static Device Nodes in /dev.
+Mar 14 16:24:26 my systemd[1]: Starting udev Kernel Device Manager...
+Mar 14 16:24:26 my systemd[1]: Started udev Kernel Device Manager.
+Mar 14 16:24:26 my systemd[1]: Starting Copy rules generated while the root was ro...
+Mar 14 16:24:26 my systemd[1]: Starting LSB: Set preliminary keymap...
+Mar 14 16:24:26 my systemd[1]: Started Copy rules generated while the root was ro.
+Mar 14 16:24:26 my systemd[1]: Starting system-ifup.slice.
+Mar 14 16:24:26 my systemd[1]: Created slice system-ifup.slice.
+Mar 14 16:24:26 my keyboard-setup[176]: Setting preliminary keymap...done.
+Mar 14 16:24:26 my systemd[1]: Started LSB: Set preliminary keymap.
+Mar 14 16:24:26 my systemd[1]: Starting Remount Root and Kernel File Systems...
+Mar 14 16:24:26 my systemd[1]: Started Remount Root and Kernel File Systems.
+Mar 14 16:24:26 my systemd[1]: Started Various fixups to make systemd work better on Debian.
+Mar 14 16:24:26 my systemd[1]: Starting Load/Save Random Seed...
+Mar 14 16:24:26 my systemd[1]: Starting Local File Systems (Pre).
+Mar 14 16:24:26 my systemd[1]: Reached target Local File Systems (Pre).
+Mar 14 16:24:26 my systemd[1]: Starting Local File Systems.
+Mar 14 16:24:26 my systemd[1]: Reached target Local File Systems.
+Mar 14 16:24:26 my systemd[1]: Starting Create Volatile Files and Directories...
+Mar 14 16:24:26 my systemd[1]: Starting Remote File Systems.
+Mar 14 16:24:26 my systemd[1]: Reached target Remote File Systems.
+Mar 14 16:24:26 my systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+Mar 14 16:24:26 my systemd[1]: Starting LSB: Prepare console...
+Mar 14 16:24:26 my systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+Mar 14 16:24:26 my systemd[1]: Started Load/Save Random Seed.
+Mar 14 16:24:26 my systemd[1]: Starting LSB: Raise network interfaces....
+Mar 14 16:24:26 my systemd[1]: Started Create Volatile Files and Directories.
+Mar 14 16:24:26 my systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 14 16:24:26 my systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 14 16:24:26 my kbd[265]: Setting console screen modes.
+Mar 14 16:24:26 my kbd[265]: setterm: $TERM is not defined.
+Mar 14 16:24:26 my systemd[1]: Started LSB: Prepare console.
+Mar 14 16:24:26 my systemd[1]: Starting LSB: Set console font and keymap...
+Mar 14 16:24:26 my console-setup[306]: Setting up console font and keymap...done.
+Mar 14 16:24:26 my systemd[1]: Started LSB: Set console font and keymap.
+Mar 14 16:24:26 my systemd[1]: Starting Sound Card.
+Mar 14 16:24:26 my systemd[1]: Reached target Sound Card.
+Mar 14 16:24:26 my dhclient: Internet Systems Consortium DHCP Client 4.3.1
+Mar 14 16:24:26 my dhclient: Copyright 2004-2014 Internet Systems Consortium.
+Mar 14 16:24:26 my dhclient: All rights reserved.
+Mar 14 16:24:26 my dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Mar 14 16:24:26 my dhclient: 
+Mar 14 16:24:26 my networking[272]: Configuring network interfaces...Internet Systems Consortium DHCP Client 4.3.1
+Mar 14 16:24:26 my networking[272]: Copyright 2004-2014 Internet Systems Consortium.
+Mar 14 16:24:26 my networking[272]: All rights reserved.
+Mar 14 16:24:26 my networking[272]: For info, please visit https://www.isc.org/software/dhcp/
+Mar 14 16:24:26 my dhclient: Listening on LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:24:26 my dhclient: Sending on   LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:24:26 my dhclient: Sending on   Socket/fallback
+Mar 14 16:24:26 my dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Mar 14 16:24:26 my networking[272]: Listening on LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:24:26 my networking[272]: Sending on   LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:24:26 my networking[272]: Sending on   Socket/fallback
+Mar 14 16:24:26 my networking[272]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Mar 14 16:24:26 my dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Mar 14 16:24:26 my dhclient: DHCPOFFER from 2.0.0.1
+Mar 14 16:24:26 my networking[272]: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Mar 14 16:24:26 my networking[272]: DHCPOFFER from 2.0.0.1
+Mar 14 16:24:26 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 16:24:26 my dhclient: suspect value in host_name option - discarded
+Mar 14 16:24:26 my dhclient: suspect value in host_name option - discarded
+Mar 14 16:24:26 my networking[272]: DHCPACK from 2.0.0.1
+Mar 14 16:24:26 my networking[272]: suspect value in host_name option - discarded
+Mar 14 16:24:26 my networking[272]: suspect value in host_name option - discarded
+Mar 14 16:24:26 my dhclient: bound to 2.0.0.9 -- renewal in 805 seconds.
+Mar 14 16:24:26 my networking[272]: bound to 2.0.0.9 -- renewal in 805 seconds.
+Mar 14 16:24:26 my networking[272]: done.
+Mar 14 16:24:26 my systemd[1]: Started LSB: Raise network interfaces..
+Mar 14 16:24:26 my systemd[1]: Starting ifup for eth0...
+Mar 14 16:24:26 my systemd[1]: Started ifup for eth0.
+Mar 14 16:24:26 my systemd[1]: Starting Network.
+Mar 14 16:24:26 my systemd[1]: Reached target Network.
+Mar 14 16:24:26 my systemd[1]: Starting System Initialization.
+Mar 14 16:24:26 my systemd[1]: Reached target System Initialization.
+Mar 14 16:24:26 my systemd[1]: Starting D-Bus System Message Bus Socket.
+Mar 14 16:24:26 my systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 14 16:24:26 my systemd[1]: Starting ACPID Listen Socket.
+Mar 14 16:24:26 my systemd[1]: Listening on ACPID Listen Socket.
+Mar 14 16:24:26 my systemd[1]: Starting Sockets.
+Mar 14 16:24:26 my systemd[1]: Reached target Sockets.
+Mar 14 16:24:26 my systemd[1]: Starting Daily Cleanup of Temporary Directories.
+Mar 14 16:24:26 my systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 14 16:24:26 my systemd[1]: Starting Timers.
+Mar 14 16:24:26 my systemd[1]: Reached target Timers.
+Mar 14 16:24:26 my systemd[1]: Starting ACPI Events Check.
+Mar 14 16:24:26 my ifup[444]: /sbin/ifup: interface eth0 already configured
+Mar 14 16:24:26 my systemd[1]: Started ACPI Events Check.
+Mar 14 16:24:26 my systemd[1]: Starting Paths.
+Mar 14 16:24:26 my systemd[1]: Reached target Paths.
+Mar 14 16:24:26 my systemd[1]: Starting Basic System.
+Mar 14 16:24:26 my systemd[1]: Reached target Basic System.
+Mar 14 16:24:26 my systemd[1]: Starting Run anacron jobs...
+Mar 14 16:24:26 my systemd[1]: Started Run anacron jobs.
+Mar 14 16:24:26 my systemd[1]: Starting Regular background program processing daemon...
+Mar 14 16:24:26 my systemd[1]: Started Regular background program processing daemon.
+Mar 14 16:24:26 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 16:24:26 my systemd[1]: Started OpenBSD Secure Shell server.
+Mar 14 16:24:26 my systemd[1]: Starting /etc/rc.local Compatibility...
+Mar 14 16:24:26 my systemd[1]: Starting Login Service...
+Mar 14 16:24:26 my systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar 14 16:24:26 my systemd[1]: Starting D-Bus System Message Bus...
+Mar 14 16:24:26 my systemd[1]: Started D-Bus System Message Bus.
+Mar 14 16:24:26 my systemd[1]: Starting System Logging Service...
+Mar 14 16:24:26 my systemd[1]: Starting Permit User Sessions...
+Mar 14 16:24:26 my systemd[1]: Starting ACPI event daemon...
+Mar 14 16:24:26 my systemd[1]: Started ACPI event daemon.
+Mar 14 16:24:26 my systemd[1]: Started /etc/rc.local Compatibility.
+Mar 14 16:24:26 my systemd[1]: Started Permit User Sessions.
+Mar 14 16:24:26 my systemd[1]: Started Login Service.
+Mar 14 16:24:26 my systemd[1]: Starting Getty on tty1...
+Mar 14 16:24:26 my systemd[1]: Started Getty on tty1.
+Mar 14 16:24:26 my systemd[1]: Starting Login Prompts.
+Mar 14 16:24:26 my systemd[1]: Reached target Login Prompts.
+Mar 14 16:24:26 my systemd[1]: Started System Logging Service.
+Mar 14 16:24:26 my systemd[1]: Starting Multi-User System.
+Mar 14 16:24:26 my systemd[1]: Reached target Multi-User System.
+Mar 14 16:24:26 my systemd[1]: Starting Graphical Interface.
+Mar 14 16:24:26 my systemd[1]: Reached target Graphical Interface.
+Mar 14 16:24:26 my systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 14 16:24:26 my systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 14 16:24:26 my systemd[1]: Startup finished in 4.783s (kernel) + 3.782s (userspace) = 8.566s.
+Mar 14 16:24:26 my acpid: starting up with netlink and the input layer
+Mar 14 16:24:26 my acpid: 1 rule loaded
+Mar 14 16:24:26 my acpid: waiting for events: event logging is off
+Mar 14 16:31:55 my systemd[1]: Starting Getty on tty6...
+Mar 14 16:31:55 my systemd[1]: Started Getty on tty6.
+Mar 14 16:37:07 my systemd[1]: Stopping ACPI event daemon...
+Mar 14 16:37:07 my acpid: exiting
+Mar 14 16:37:07 my systemd[1]: Stopped ACPI event daemon.
+Mar 14 16:37:07 my systemd[1]: Stopping ACPID Listen Socket.
+Mar 14 16:37:07 my systemd[1]: Closed ACPID Listen Socket.
+Mar 14 16:37:07 my systemd[1]: Stopping ACPI Events Check.
+Mar 14 16:37:07 my systemd[1]: Stopped ACPI Events Check.
+Mar 14 16:37:07 my systemd[1]: Reloading.
+Mar 14 16:37:07 my systemd[1]: Stopped ACPI event daemon.
+Mar 14 16:37:07 my systemd[1]: Reloading.
+Mar 14 16:37:07 my systemd[1]: Reloading.
+Mar 14 16:37:07 my systemd[1]: Reloading.
+Mar 14 16:37:07 my systemd[1]: Reloading.
+Mar 14 16:37:07 my systemd[1]: Reloading.
+Mar 14 16:37:07 my systemd[1]: Reloading.
+Mar 14 16:37:07 my systemd[1]: Reloading.
+Mar 14 16:37:07 my systemd[1]: Reloading.
+Mar 14 16:37:07 my systemd[1]: Reloading.
+Mar 14 16:37:08 my systemd[1]: Reloading.
+Mar 14 16:37:08 my systemd[1]: Reloading.
+Mar 14 16:37:08 my systemd[1]: Reloading.
+Mar 14 16:37:08 my systemd[1]: Reloading.
+Mar 14 16:37:16 my systemd[1]: Reloading.
+Mar 14 16:37:19 my systemd[1]: Reloading.
+Mar 14 16:37:22 my systemd[1]: Reloading.
+Mar 14 16:37:29 my systemd[1]: Reloading.
+Mar 14 16:37:51 my dhclient: DHCPREQUEST on eth0 to 2.0.0.1 port 67
+Mar 14 16:37:51 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 16:37:51 my dhclient: suspect value in host_name option - discarded
+Mar 14 16:37:51 my dhclient: suspect value in host_name option - discarded
+Mar 14 16:37:51 my dhclient: bound to 2.0.0.9 -- renewal in 795 seconds.
+Mar 14 16:39:26 my systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 14 16:39:26 my systemd[1]: Started Cleanup of Temporary Directories.
+Mar 14 16:41:00 my systemd[1]: Reloading.
+Mar 14 16:41:00 my systemd[1]: Reloading.
+Mar 14 16:41:00 my systemd[1]: Reloading.
+Mar 14 16:41:00 my systemd[1]: Reloading.
+Mar 14 16:41:00 my systemd[1]: Started fast remote file copy program daemon.
+Mar 14 16:41:00 my systemd[1]: Reloading.
+Mar 14 16:50:05 my systemd[1]: Started Copy rules generated while the root was ro.
+Mar 14 16:50:05 my keyboard-setup[20]: Setting preliminary keymap...done.
+Mar 14 16:50:05 my systemd[1]: Started LSB: Set preliminary keymap.
+Mar 14 16:50:05 my systemd[1]: Starting Remount Root and Kernel File Systems...
+Mar 14 16:50:05 my systemd-remount-fs[39]: mount: can't find UUID=9aad80cc-de0e-4402-8794-bd35bd2cc4b6
+Mar 14 16:50:05 my systemd-remount-fs[39]: /bin/mount for / exited with exit status 1.
+Mar 14 16:50:05 my systemd[1]: systemd-remount-fs.service: main process exited, code=exited, status=1/FAILURE
+Mar 14 16:50:05 my systemd[1]: Failed to start Remount Root and Kernel File Systems.
+Mar 14 16:50:05 my systemd[1]: Unit systemd-remount-fs.service entered failed state.
+Mar 14 16:50:05 my systemd[1]: Started Various fixups to make systemd work better on Debian.
+Mar 14 16:50:05 my systemd[1]: Starting Local File Systems (Pre).
+Mar 14 16:50:05 my systemd[1]: Reached target Local File Systems (Pre).
+Mar 14 16:50:05 my systemd[1]: Starting Local File Systems.
+Mar 14 16:50:05 my systemd[1]: Reached target Local File Systems.
+Mar 14 16:50:05 my systemd[1]: Starting Create Volatile Files and Directories...
+Mar 14 16:50:05 my systemd[1]: Starting Remote File Systems.
+Mar 14 16:50:05 my systemd[1]: Reached target Remote File Systems.
+Mar 14 16:50:05 my systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+Mar 14 16:50:05 my systemd[1]: Starting LSB: Prepare console...
+Mar 14 16:50:05 my systemd[1]: Starting Load/Save Random Seed...
+Mar 14 16:50:05 my systemd[1]: Started Load/Save Random Seed.
+Mar 14 16:50:05 my systemd[1]: Starting LSB: Raise network interfaces....
+Mar 14 16:50:05 my systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+Mar 14 16:50:05 my kbd[43]: Setting console screen modes.
+Mar 14 16:50:05 my systemd[1]: Started Create Volatile Files and Directories.
+Mar 14 16:50:05 my systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 14 16:50:05 my systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 14 16:50:05 my systemd[1]: Started LSB: Prepare console.
+Mar 14 16:50:05 my systemd[1]: Starting LSB: Set console font and keymap...
+Mar 14 16:50:05 my console-setup[63]: Setting up console font and keymap...We are not on the console, the console is left unconfigured.
+Mar 14 16:50:05 my console-setup[63]: done.
+Mar 14 16:50:05 my systemd[1]: Started LSB: Set console font and keymap.
+Mar 14 16:50:05 my dhclient: Internet Systems Consortium DHCP Client 4.3.1
+Mar 14 16:50:05 my dhclient: Copyright 2004-2014 Internet Systems Consortium.
+Mar 14 16:50:05 my dhclient: All rights reserved.
+Mar 14 16:50:05 my dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Mar 14 16:50:05 my dhclient: 
+Mar 14 16:50:05 my networking[50]: Configuring network interfaces...Internet Systems Consortium DHCP Client 4.3.1
+Mar 14 16:50:05 my networking[50]: Copyright 2004-2014 Internet Systems Consortium.
+Mar 14 16:50:05 my networking[50]: All rights reserved.
+Mar 14 16:50:05 my networking[50]: For info, please visit https://www.isc.org/software/dhcp/
+Mar 14 16:50:05 my dhclient: Listening on LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:50:05 my dhclient: Sending on   LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:50:05 my dhclient: Sending on   Socket/fallback
+Mar 14 16:50:05 my dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Mar 14 16:50:05 my networking[50]: Listening on LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:50:05 my networking[50]: Sending on   LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:50:05 my networking[50]: Sending on   Socket/fallback
+Mar 14 16:50:05 my networking[50]: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Mar 14 16:50:05 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 16:50:05 my dhclient: suspect value in host_name option - discarded
+Mar 14 16:50:05 my networking[50]: DHCPACK from 2.0.0.1
+Mar 14 16:50:05 my networking[50]: suspect value in host_name option - discarded
+Mar 14 16:50:05 my networking[50]: RTNETLINK answers: File exists
+Mar 14 16:50:05 my dhclient: bound to 2.0.0.9 -- renewal in 762 seconds.
+Mar 14 16:50:05 my networking[50]: bound to 2.0.0.9 -- renewal in 762 seconds.
+Mar 14 16:50:05 my networking[50]: done.
+Mar 14 16:50:05 my systemd[1]: Started LSB: Raise network interfaces..
+Mar 14 16:50:05 my systemd[1]: Starting Network.
+Mar 14 16:50:05 my systemd[1]: Reached target Network.
+Mar 14 16:50:05 my systemd[1]: Starting System Initialization.
+Mar 14 16:50:05 my systemd[1]: Reached target System Initialization.
+Mar 14 16:50:05 my systemd[1]: Starting Daily Cleanup of Temporary Directories.
+Mar 14 16:50:05 my systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 14 16:50:05 my systemd[1]: Starting Timers.
+Mar 14 16:50:05 my systemd[1]: Reached target Timers.
+Mar 14 16:50:05 my systemd[1]: Starting D-Bus System Message Bus Socket.
+Mar 14 16:50:05 my systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 14 16:50:05 my systemd[1]: Starting Sockets.
+Mar 14 16:50:05 my systemd[1]: Reached target Sockets.
+Mar 14 16:50:05 my systemd[1]: Starting Basic System.
+Mar 14 16:50:05 my systemd[1]: Reached target Basic System.
+Mar 14 16:50:05 my systemd[1]: Starting Run anacron jobs...
+Mar 14 16:50:05 my systemd[1]: Started Run anacron jobs.
+Mar 14 16:50:05 my systemd[1]: Starting Regular background program processing daemon...
+Mar 14 16:50:05 my systemd[1]: Started Regular background program processing daemon.
+Mar 14 16:50:05 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 16:50:05 my systemd[1]: Started OpenBSD Secure Shell server.
+Mar 14 16:50:05 my systemd[1]: Starting System Logging Service...
+Mar 14 16:50:05 my systemd[1]: Starting /etc/rc.local Compatibility...
+Mar 14 16:50:05 my systemd[1]: Starting Permit User Sessions...
+Mar 14 16:50:05 my systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar 14 16:50:05 my systemd[1]: Starting D-Bus System Message Bus...
+Mar 14 16:50:05 my systemd[1]: Started D-Bus System Message Bus.
+Mar 14 16:50:05 my systemd[1]: Starting Login Service...
+Mar 14 16:50:05 my systemd[1]: Started System Logging Service.
+Mar 14 16:50:05 my systemd[1]: Started /etc/rc.local Compatibility.
+Mar 14 16:50:05 my systemd[1]: Started Permit User Sessions.
+Mar 14 16:50:05 my systemd[1]: Started Getty on tty1.
+Mar 14 16:50:05 my systemd[1]: Starting Console Getty...
+Mar 14 16:50:05 my systemd[1]: Started Console Getty.
+Mar 14 16:50:05 my systemd[1]: Starting Login Prompts.
+Mar 14 16:50:05 my systemd[1]: Reached target Login Prompts.
+Mar 14 16:50:05 my systemd[1]: ssh.service: main process exited, code=exited, status=255/n/a
+Mar 14 16:50:05 my systemd[1]: Unit ssh.service entered failed state.
+Mar 14 16:50:05 my systemd[1]: Started Login Service.
+Mar 14 16:50:05 my systemd[1]: Starting Multi-User System.
+Mar 14 16:50:05 my systemd[1]: Reached target Multi-User System.
+Mar 14 16:50:05 my systemd[1]: Starting Graphical Interface.
+Mar 14 16:50:05 my systemd[1]: Reached target Graphical Interface.
+Mar 14 16:50:05 my systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 14 16:50:05 my systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 14 16:50:05 my systemd[1]: Startup finished in 517ms.
+Mar 14 16:50:05 my systemd[1]: ssh.service holdoff time over, scheduling restart.
+Mar 14 16:50:05 my systemd[1]: Stopping OpenBSD Secure Shell server...
+Mar 14 16:50:05 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 16:50:05 my systemd[1]: Started OpenBSD Secure Shell server.
+Mar 14 16:50:05 my systemd[1]: ssh.service: main process exited, code=exited, status=255/n/a
+Mar 14 16:50:05 my systemd[1]: Unit ssh.service entered failed state.
+Mar 14 16:50:05 my systemd[1]: ssh.service holdoff time over, scheduling restart.
+Mar 14 16:50:05 my systemd[1]: Stopping OpenBSD Secure Shell server...
+Mar 14 16:50:05 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 16:50:05 my systemd[1]: Started OpenBSD Secure Shell server.
+Mar 14 16:50:05 my systemd[1]: ssh.service: main process exited, code=exited, status=255/n/a
+Mar 14 16:50:05 my systemd[1]: Unit ssh.service entered failed state.
+Mar 14 16:50:06 my systemd[1]: ssh.service holdoff time over, scheduling restart.
+Mar 14 16:50:06 my systemd[1]: Stopping OpenBSD Secure Shell server...
+Mar 14 16:50:06 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 16:50:06 my systemd[1]: Started OpenBSD Secure Shell server.
+Mar 14 16:50:06 my systemd[1]: ssh.service: main process exited, code=exited, status=255/n/a
+Mar 14 16:50:06 my systemd[1]: Unit ssh.service entered failed state.
+Mar 14 16:50:06 my systemd[1]: ssh.service holdoff time over, scheduling restart.
+Mar 14 16:50:06 my systemd[1]: Stopping OpenBSD Secure Shell server...
+Mar 14 16:50:06 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 16:50:06 my systemd[1]: Started OpenBSD Secure Shell server.
+Mar 14 16:50:06 my systemd[1]: ssh.service: main process exited, code=exited, status=255/n/a
+Mar 14 16:50:06 my systemd[1]: Unit ssh.service entered failed state.
+Mar 14 16:50:06 my systemd[1]: ssh.service holdoff time over, scheduling restart.
+Mar 14 16:50:06 my systemd[1]: Stopping OpenBSD Secure Shell server...
+Mar 14 16:50:06 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 16:50:06 my systemd[1]: ssh.service start request repeated too quickly, refusing to start.
+Mar 14 16:50:06 my systemd[1]: Failed to start OpenBSD Secure Shell server.
+Mar 14 16:50:06 my systemd[1]: Unit ssh.service entered failed state.
+Mar 14 16:50:29 my systemd[1]: Started Synchronise Hardware Clock to System Clock.
+Mar 14 16:51:47 my systemd[1]: Started Copy rules generated while the root was ro.
+Mar 14 16:51:47 my keyboard-setup[20]: Setting preliminary keymap...done.
+Mar 14 16:51:47 my systemd[1]: Started LSB: Set preliminary keymap.
+Mar 14 16:51:47 my systemd[1]: Starting Remount Root and Kernel File Systems...
+Mar 14 16:51:47 my systemd-remount-fs[39]: mount: can't find UUID=9aad80cc-de0e-4402-8794-bd35bd2cc4b6
+Mar 14 16:51:47 my systemd-remount-fs[39]: /bin/mount for / exited with exit status 1.
+Mar 14 16:51:47 my systemd[1]: systemd-remount-fs.service: main process exited, code=exited, status=1/FAILURE
+Mar 14 16:51:47 my systemd[1]: Failed to start Remount Root and Kernel File Systems.
+Mar 14 16:51:47 my systemd[1]: Unit systemd-remount-fs.service entered failed state.
+Mar 14 16:51:47 my systemd[1]: Started Various fixups to make systemd work better on Debian.
+Mar 14 16:51:47 my systemd[1]: Starting Local File Systems (Pre).
+Mar 14 16:51:47 my systemd[1]: Reached target Local File Systems (Pre).
+Mar 14 16:51:47 my systemd[1]: Starting Local File Systems.
+Mar 14 16:51:47 my systemd[1]: Reached target Local File Systems.
+Mar 14 16:51:47 my systemd[1]: Starting Create Volatile Files and Directories...
+Mar 14 16:51:47 my systemd[1]: Starting Remote File Systems.
+Mar 14 16:51:47 my systemd[1]: Reached target Remote File Systems.
+Mar 14 16:51:47 my systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+Mar 14 16:51:47 my systemd[1]: Starting LSB: Prepare console...
+Mar 14 16:51:47 my systemd[1]: Starting Load/Save Random Seed...
+Mar 14 16:51:47 my systemd[1]: Started Load/Save Random Seed.
+Mar 14 16:51:47 my systemd[1]: Starting LSB: Raise network interfaces....
+Mar 14 16:51:47 my systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+Mar 14 16:51:47 my kbd[43]: Setting console screen modes.
+Mar 14 16:51:47 my systemd[1]: Started LSB: Prepare console.
+Mar 14 16:51:47 my systemd[1]: Starting LSB: Set console font and keymap...
+Mar 14 16:51:47 my systemd[1]: Started Create Volatile Files and Directories.
+Mar 14 16:51:47 my systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 14 16:51:47 my systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 14 16:51:47 my console-setup[64]: Setting up console font and keymap...We are not on the console, the console is left unconfigured.
+Mar 14 16:51:47 my console-setup[64]: done.
+Mar 14 16:51:47 my systemd[1]: Started LSB: Set console font and keymap.
+Mar 14 16:51:47 my dhclient: Internet Systems Consortium DHCP Client 4.3.1
+Mar 14 16:51:47 my dhclient: Copyright 2004-2014 Internet Systems Consortium.
+Mar 14 16:51:47 my dhclient: All rights reserved.
+Mar 14 16:51:47 my dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Mar 14 16:51:47 my dhclient: 
+Mar 14 16:51:47 my networking[48]: Configuring network interfaces...Internet Systems Consortium DHCP Client 4.3.1
+Mar 14 16:51:47 my networking[48]: Copyright 2004-2014 Internet Systems Consortium.
+Mar 14 16:51:47 my networking[48]: All rights reserved.
+Mar 14 16:51:47 my networking[48]: For info, please visit https://www.isc.org/software/dhcp/
+Mar 14 16:51:47 my dhclient: Listening on LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:51:47 my dhclient: Sending on   LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:51:47 my dhclient: Sending on   Socket/fallback
+Mar 14 16:51:47 my dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Mar 14 16:51:47 my dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Mar 14 16:51:47 my dhclient: DHCPOFFER from 2.0.0.1
+Mar 14 16:51:47 my networking[48]: Listening on LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:51:47 my networking[48]: Sending on   LPF/eth0/00:1c:42:62:48:a4
+Mar 14 16:51:47 my networking[48]: Sending on   Socket/fallback
+Mar 14 16:51:47 my networking[48]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Mar 14 16:51:47 my networking[48]: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Mar 14 16:51:47 my networking[48]: DHCPOFFER from 2.0.0.1
+Mar 14 16:51:47 my dhclient: DHCPACK from 2.0.0.1
+Mar 14 16:51:47 my dhclient: suspect value in host_name option - discarded
+Mar 14 16:51:47 my dhclient: suspect value in host_name option - discarded
+Mar 14 16:51:47 my networking[48]: DHCPACK from 2.0.0.1
+Mar 14 16:51:47 my networking[48]: suspect value in host_name option - discarded
+Mar 14 16:51:47 my networking[48]: suspect value in host_name option - discarded
+Mar 14 16:51:47 my networking[48]: RTNETLINK answers: File exists
+Mar 14 16:51:47 my dhclient: bound to 2.0.0.9 -- renewal in 793 seconds.
+Mar 14 16:51:47 my networking[48]: bound to 2.0.0.9 -- renewal in 793 seconds.
+Mar 14 16:51:47 my networking[48]: done.
+Mar 14 16:51:47 my systemd[1]: Started LSB: Raise network interfaces..
+Mar 14 16:51:47 my systemd[1]: Starting Network.
+Mar 14 16:51:47 my systemd[1]: Reached target Network.
+Mar 14 16:51:47 my systemd[1]: Starting System Initialization.
+Mar 14 16:51:47 my systemd[1]: Reached target System Initialization.
+Mar 14 16:51:47 my systemd[1]: Starting Daily Cleanup of Temporary Directories.
+Mar 14 16:51:47 my systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 14 16:51:47 my systemd[1]: Starting Timers.
+Mar 14 16:51:47 my systemd[1]: Reached target Timers.
+Mar 14 16:51:47 my systemd[1]: Starting D-Bus System Message Bus Socket.
+Mar 14 16:51:47 my systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 14 16:51:47 my systemd[1]: Starting Sockets.
+Mar 14 16:51:47 my systemd[1]: Reached target Sockets.
+Mar 14 16:51:47 my systemd[1]: Starting Basic System.
+Mar 14 16:51:47 my systemd[1]: Reached target Basic System.
+Mar 14 16:51:47 my systemd[1]: Starting Run anacron jobs...
+Mar 14 16:51:47 my systemd[1]: Started Run anacron jobs.
+Mar 14 16:51:47 my systemd[1]: Starting Regular background program processing daemon...
+Mar 14 16:51:47 my systemd[1]: Started Regular background program processing daemon.
+Mar 14 16:51:47 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 16:51:47 my systemd[1]: Started OpenBSD Secure Shell server.
+Mar 14 16:51:47 my systemd[1]: Starting System Logging Service...
+Mar 14 16:51:47 my systemd[1]: Starting /etc/rc.local Compatibility...
+Mar 14 16:51:47 my systemd[1]: Starting Permit User Sessions...
+Mar 14 16:51:47 my systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar 14 16:51:47 my systemd[1]: Starting D-Bus System Message Bus...
+Mar 14 16:51:47 my systemd[1]: Started D-Bus System Message Bus.
+Mar 14 16:51:47 my systemd[1]: Starting Login Service...
+Mar 14 16:51:47 my systemd[1]: Started /etc/rc.local Compatibility.
+Mar 14 16:51:47 my systemd[1]: Started Permit User Sessions.
+Mar 14 16:51:47 my systemd[1]: Started System Logging Service.
+Mar 14 16:51:47 my systemd[1]: Started Getty on tty1.
+Mar 14 16:51:47 my systemd[1]: Starting Console Getty...
+Mar 14 16:51:47 my systemd[1]: Started Console Getty.
+Mar 14 16:51:47 my systemd[1]: Starting Login Prompts.
+Mar 14 16:51:47 my systemd[1]: Reached target Login Prompts.
+Mar 14 16:51:47 my systemd[1]: Started Login Service.
+Mar 14 16:51:47 my systemd[1]: Starting Multi-User System.
+Mar 14 16:51:47 my systemd[1]: Reached target Multi-User System.
+Mar 14 16:51:47 my systemd[1]: Starting Graphical Interface.
+Mar 14 16:51:47 my systemd[1]: Reached target Graphical Interface.
+Mar 14 16:51:47 my systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 14 16:51:47 my systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 14 16:51:47 my systemd[1]: Startup finished in 452ms.
+Mar 14 16:53:23 my systemd[1]: Mounted Debug File System.
+Mar 14 16:53:23 my systemd[1]: Mounted POSIX Message Queue File System.
+Mar 14 16:53:23 my systemd[1]: Started Copy rules generated while the root was ro.
+Mar 14 16:53:23 my keyboard-setup[20]: Setting preliminary keymap...done.
+Mar 14 16:53:23 my systemd[1]: Started LSB: Set preliminary keymap.
+Mar 14 16:53:23 my systemd[1]: Starting Remount Root and Kernel File Systems...
+Mar 14 16:53:23 my systemd-remount-fs[39]: mount: can't find UUID=9aad80cc-de0e-4402-8794-bd35bd2cc4b6
+Mar 14 16:53:23 my systemd-remount-fs[39]: /bin/mount for / exited with exit status 1.
+Mar 14 16:53:23 my systemd[1]: systemd-remount-fs.service: main process exited, code=exited, status=1/FAILURE
+Mar 14 16:53:23 my systemd[1]: Failed to start Remount Root and Kernel File Systems.
+Mar 14 16:53:23 my systemd[1]: Unit systemd-remount-fs.service entered failed state.
+Mar 14 16:53:23 my systemd[1]: Started Various fixups to make systemd work better on Debian.
+Mar 14 16:53:23 my systemd[1]: Starting Local File Systems (Pre).
+Mar 14 16:53:23 my systemd[1]: Reached target Local File Systems (Pre).
+Mar 14 16:53:23 my systemd[1]: Starting Local File Systems.
+Mar 14 16:53:23 my systemd[1]: Reached target Local File Systems.
+Mar 14 16:53:23 my systemd[1]: Starting Create Volatile Files and Directories...
+Mar 14 16:53:23 my systemd[1]: Starting Remote File Systems.
+Mar 14 16:53:23 my systemd[1]: Reached target Remote File Systems.
+Mar 14 16:53:23 my systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+Mar 14 16:53:23 my systemd[1]: Starting LSB: Prepare console...
+Mar 14 16:53:23 my systemd[1]: Starting Load/Save Random Seed...
+Mar 14 16:53:23 my systemd[1]: Started Load/Save Random Seed.
+Mar 14 16:53:23 my systemd[1]: Started Create Volatile Files and Directories.
+Mar 14 16:53:23 my systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 14 16:53:23 my systemd[1]: Starting LSB: Raise network interfaces....
+Mar 14 16:53:23 my systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+Mar 14 16:53:23 my systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 14 16:53:23 my kbd[43]: Setting console screen modes.
+Mar 14 16:53:23 my systemd[1]: Started LSB: Prepare console.
+Mar 14 16:53:23 my systemd[1]: Starting LSB: Set console font and keymap...
+Mar 14 16:53:23 my console-setup[70]: Setting up console font and keymap...We are not on the console, the console is left unconfigured.
+Mar 14 16:53:23 my console-setup[70]: done.
+Mar 14 16:53:23 my systemd[1]: Started LSB: Set console font and keymap.
+Mar 14 16:53:23 my networking[50]: Configuring network interfaces...done.
+Mar 14 16:53:23 my systemd[1]: Started LSB: Raise network interfaces..
+Mar 14 16:53:23 my systemd[1]: Starting Network.
+Mar 14 16:53:23 my systemd[1]: Reached target Network.
+Mar 14 16:53:23 my systemd[1]: Starting System Initialization.
+Mar 14 16:53:23 my systemd[1]: Reached target System Initialization.
+Mar 14 16:53:23 my systemd[1]: Starting Daily Cleanup of Temporary Directories.
+Mar 14 16:53:23 my systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 14 16:53:23 my systemd[1]: Starting Timers.
+Mar 14 16:53:23 my systemd[1]: Reached target Timers.
+Mar 14 16:53:23 my systemd[1]: Starting D-Bus System Message Bus Socket.
+Mar 14 16:53:23 my systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 14 16:53:23 my systemd[1]: Starting Sockets.
+Mar 14 16:53:23 my systemd[1]: Reached target Sockets.
+Mar 14 16:53:23 my systemd[1]: Starting Basic System.
+Mar 14 16:53:23 my systemd[1]: Reached target Basic System.
+Mar 14 16:53:23 my systemd[1]: Starting Run anacron jobs...
+Mar 14 16:53:23 my systemd[1]: Started Run anacron jobs.
+Mar 14 16:53:23 my systemd[1]: Starting Regular background program processing daemon...
+Mar 14 16:53:23 my systemd[1]: Started Regular background program processing daemon.
+Mar 14 16:53:23 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 16:53:23 my systemd[1]: Started OpenBSD Secure Shell server.
+Mar 14 16:53:23 my systemd[1]: Starting System Logging Service...
+Mar 14 16:53:23 my systemd[1]: Starting /etc/rc.local Compatibility...
+Mar 14 16:53:23 my systemd[1]: Starting Permit User Sessions...
+Mar 14 16:53:23 my systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar 14 16:53:23 my systemd[1]: Starting D-Bus System Message Bus...
+Mar 14 16:53:23 my systemd[1]: Started D-Bus System Message Bus.
+Mar 14 16:53:23 my systemd[1]: Starting Login Service...
+Mar 14 16:53:23 my systemd[1]: Started System Logging Service.
+Mar 14 16:53:23 my systemd[1]: Started /etc/rc.local Compatibility.
+Mar 14 16:53:23 my systemd[1]: Started Permit User Sessions.
+Mar 14 16:53:23 my systemd[1]: Started Getty on tty1.
+Mar 14 16:53:23 my systemd[1]: Starting Console Getty...
+Mar 14 16:53:23 my systemd[1]: Started Console Getty.
+Mar 14 16:53:23 my systemd[1]: Starting Login Prompts.
+Mar 14 16:53:23 my systemd[1]: Reached target Login Prompts.
+Mar 14 16:53:23 my systemd[1]: Started Login Service.
+Mar 14 16:53:23 my systemd[1]: Starting Multi-User System.
+Mar 14 16:53:23 my systemd[1]: Reached target Multi-User System.
+Mar 14 16:53:23 my systemd[1]: Starting Graphical Interface.
+Mar 14 16:53:23 my systemd[1]: Reached target Graphical Interface.
+Mar 14 16:53:23 my systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 14 16:53:23 my systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 14 16:53:23 my systemd[1]: Startup finished in 211ms.
+Mar 14 16:56:33 my systemd[1]: Reloading.
+Mar 14 16:56:33 my systemd[1]: Failed to open /dev/autofs: No such file or directory
+Mar 14 16:56:33 my systemd[1]: Failed to reload: No such file or directory
+Mar 14 16:56:38 my systemd[1]: Reloading.
+Mar 14 16:56:40 my systemd[1]: Reloading.
+Mar 14 16:56:41 my systemd[1]: Reloading.
+Mar 14 16:56:41 my systemd[1]: Stopped LSB: Start and stop the mysql database server daemon.
+Mar 14 16:56:41 my mysqld_safe[3393]: 170314 16:56:41 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+Mar 14 16:56:41 my mysqld_safe[3393]: 170314 16:56:41 [Note] Ignoring --secure-file-priv value as server is running with --bootstrap.
+Mar 14 16:56:41 my mysqld_safe[3393]: 170314 16:56:41 [Note] /usr/sbin/mysqld (mysqld 5.5.54-0+deb8u1) starting as process 3413 ...
+Mar 14 16:56:41 my mysqld_safe[3393]: 170314 16:56:41 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+Mar 14 16:56:41 my mysqld_safe[3393]: 170314 16:56:41 [Note] Ignoring --secure-file-priv value as server is running with --bootstrap.
+Mar 14 16:56:41 my mysqld_safe[3393]: 170314 16:56:41 [Note] /usr/sbin/mysqld (mysqld 5.5.54-0+deb8u1) starting as process 3420 ...
+Mar 14 16:56:42 my mysqld_safe[3393]: 
+Mar 14 16:56:42 my mysqld_safe[3393]: PLEASE REMEMBER TO SET A PASSWORD FOR THE MySQL root USER !
+Mar 14 16:56:42 my mysqld_safe[3393]: To do so, start the server, then issue the following commands:
+Mar 14 16:56:42 my mysqld_safe[3393]: 
+Mar 14 16:56:42 my mysqld_safe[3393]: /usr/bin/mysqladmin -u root password 'new-password'
+Mar 14 16:56:42 my mysqld_safe[3393]: /usr/bin/mysqladmin -u root -h my password 'new-password'
+Mar 14 16:56:42 my mysqld_safe[3393]: 
+Mar 14 16:56:42 my mysqld_safe[3393]: Alternatively you can run:
+Mar 14 16:56:42 my mysqld_safe[3393]: /usr/bin/mysql_secure_installation
+Mar 14 16:56:42 my mysqld_safe[3393]: 
+Mar 14 16:56:42 my mysqld_safe[3393]: which will also give you the option of removing the test
+Mar 14 16:56:42 my mysqld_safe[3393]: databases and anonymous user created by default.  This is
+Mar 14 16:56:42 my mysqld_safe[3393]: strongly recommended for production servers.
+Mar 14 16:56:42 my mysqld_safe[3393]: 
+Mar 14 16:56:42 my mysqld_safe[3393]: See the manual for more instructions.
+Mar 14 16:56:42 my mysqld_safe[3393]: 
+Mar 14 16:56:42 my mysqld_safe[3393]: Please report any problems at http://bugs.mysql.com/
+Mar 14 16:56:42 my mysqld_safe[3393]: 
+Mar 14 16:56:42 my mysqld_safe[3437]: 170314 16:56:42 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+Mar 14 16:56:42 my mysqld_safe[3437]: 170314 16:56:42 [Note] Ignoring --secure-file-priv value as server is running with --bootstrap.
+Mar 14 16:56:42 my mysqld_safe[3437]: 170314 16:56:42 [Note] /usr/sbin/mysqld (mysqld 5.5.54-0+deb8u1) starting as process 3436 ...
+Mar 14 16:56:47 my mysqld_safe[3480]: 170314 16:56:47 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+Mar 14 16:56:47 my mysqld_safe[3480]: 170314 16:56:47 [Note] Ignoring --secure-file-priv value as server is running with --bootstrap.
+Mar 14 16:56:47 my mysqld_safe[3480]: 170314 16:56:47 [Note] /usr/sbin/mysqld (mysqld 5.5.54-0+deb8u1) starting as process 3479 ...
+Mar 14 16:56:49 my mysqld_safe[3501]: 170314 16:56:49 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+Mar 14 16:56:49 my mysqld_safe[3501]: 170314 16:56:49 [Note] Ignoring --secure-file-priv value as server is running with --bootstrap.
+Mar 14 16:56:49 my mysqld_safe[3501]: 170314 16:56:49 [Note] /usr/sbin/mysqld (mysqld 5.5.54-0+deb8u1) starting as process 3500 ...
+Mar 14 16:56:52 my mysqld_safe[3522]: 170314 16:56:52 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+Mar 14 16:56:52 my mysqld_safe[3522]: 170314 16:56:52 [Note] Ignoring --secure-file-priv value as server is running with --bootstrap.
+Mar 14 16:56:52 my mysqld_safe[3522]: 170314 16:56:52 [Note] /usr/sbin/mysqld (mysqld 5.5.54-0+deb8u1) starting as process 3521 ...
+Mar 14 16:56:54 my systemd[1]: Reloading.
+Mar 14 16:56:54 my systemd[1]: Reloading.
+Mar 14 16:56:54 my systemd[1]: Starting Network is Online.
+Mar 14 16:56:54 my systemd[1]: Reached target Network is Online.
+Mar 14 16:56:54 my systemd[1]: Starting LSB: Start and stop the mysql database server daemon...
+Mar 14 16:56:56 my mysql[3588]: Starting MySQL database server: mysqld ..
+Mar 14 16:56:56 my mysql[3588]: Checking for tables which need an upgrade, are corrupt or were
+Mar 14 16:56:56 my mysql[3588]: not closed cleanly..
+Mar 14 16:56:56 my systemd[1]: Started LSB: Start and stop the mysql database server daemon.
+Mar 14 16:56:56 my /etc/mysql/debian-start[4017]: Upgrading MySQL tables if necessary.
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: Looking for 'mysql' as: /usr/bin/mysql
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: Running 'mysqlcheck' with connection arguments: '--port=3306' '--socket=/var/run/mysqld/mysqld.sock' '--host=localhost' '--socket=/var/run/mysqld/mysqld.sock' '--host=localhost' '--socket=/var/run/mysqld/mysqld.sock'
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: Running 'mysqlcheck' with connection arguments: '--port=3306' '--socket=/var/run/mysqld/mysqld.sock' '--host=localhost' '--socket=/var/run/mysqld/mysqld.sock' '--host=localhost' '--socket=/var/run/mysqld/mysqld.sock'
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.columns_priv                                 OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.db                                           OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.event                                        OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.func                                         OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.general_log                                  OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.help_category                                OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.help_keyword                                 OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.help_relation                                OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.help_topic                                   OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.host                                         OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.ndb_binlog_index                             OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.plugin                                       OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.proc                                         OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.procs_priv                                   OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.proxies_priv                                 OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.servers                                      OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.slow_log                                     OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.tables_priv                                  OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.time_zone                                    OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.time_zone_leap_second                        OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.time_zone_name                               OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.time_zone_transition                         OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.time_zone_transition_type                    OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: mysql.user                                         OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: Running 'mysql_fix_privilege_tables'...
+Mar 14 16:56:57 my /etc/mysql/debian-start[4021]: OK
+Mar 14 16:56:57 my /etc/mysql/debian-start[4076]: Checking for insecure root accounts.
+Mar 14 16:56:57 my /etc/mysql/debian-start[4082]: Triggering myisam-recover for all MyISAM tables
+Mar 14 16:56:57 my systemd[1]: Reloading.
+Mar 14 16:57:00 my systemd[1]: Stopping LSB: Start and stop the mysql database server daemon...
+Mar 14 16:57:01 my mysql[4227]: Stopping MySQL database server: mysqld.
+Mar 14 16:57:01 my systemd[1]: Starting LSB: Start and stop the mysql database server daemon...
+Mar 14 16:57:03 my mysql[4260]: Starting MySQL database server: mysqld ..
+Mar 14 16:57:03 my mysql[4260]: Checking for tables which need an upgrade, are corrupt or were
+Mar 14 16:57:03 my mysql[4260]: not closed cleanly..
+Mar 14 16:57:03 my /etc/mysql/debian-start[4667]: Upgrading MySQL tables if necessary.
+Mar 14 16:57:03 my systemd[1]: Started LSB: Start and stop the mysql database server daemon.
+Mar 14 16:57:03 my /etc/mysql/debian-start[4670]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Mar 14 16:57:03 my /etc/mysql/debian-start[4670]: Looking for 'mysql' as: /usr/bin/mysql
+Mar 14 16:57:03 my /etc/mysql/debian-start[4670]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Mar 14 16:57:03 my /etc/mysql/debian-start[4670]: This installation of MySQL is already upgraded to 5.5.54, use --force if you still need to run mysql_upgrade
+Mar 14 16:57:03 my /etc/mysql/debian-start[4681]: Checking for insecure root accounts.
+Mar 14 16:57:03 my /etc/mysql/debian-start[4686]: Triggering myisam-recover for all MyISAM tables
+Mar 14 16:57:05 my systemd[1]: Reloading.
+Mar 14 16:57:06 my systemd[1]: Reloading.
+Mar 14 16:57:06 my systemd[1]: Reloading.
+Mar 14 16:57:06 my systemd[1]: Reloading.
+Mar 14 16:57:06 my systemd[1]: Starting Internet superserver...
+Mar 14 16:57:06 my systemd[1]: Started Internet superserver.
+Mar 14 16:57:06 my systemd[1]: Reloading.
+Mar 14 16:57:06 my systemd[1]: Reloading.
+Mar 14 16:57:06 my systemd[1]: Starting (null)...
+Mar 14 16:57:06 my pure-ftpd[5465]: Starting ftp server: Running: /usr/sbin/pure-ftpd -l pam -E -J ALL:!aNULL:!SSLv3 -8 UTF-8 -u 1000 -O clf:/var/log/pure-ftpd/transfer.log -B
+Mar 14 16:57:06 my systemd[1]: Started (null).
+Mar 14 16:57:06 my systemd[1]: Reloading.
+Mar 14 16:57:11 my systemd[1]: Stopping (null)...
+Mar 14 16:57:11 my pure-ftpd[5544]: Stopping ftp server: pure-ftpd.
+Mar 14 16:57:11 my systemd[1]: Starting (null)...
+Mar 14 16:57:11 my pure-ftpd[5552]: Starting ftp server: Running: /usr/sbin/pure-ftpd -l pam -l puredb:/etc/pure-ftpd/pureftpd.pdb -E -J ALL:!aNULL:!SSLv3 -p 30000:50000 -A -8 UTF-8 -u 1000 -O clf:/var/log/pure-ftpd/transfer.log -B
+Mar 14 16:57:11 my systemd[1]: Started (null).
+Mar 14 16:57:16 my systemd[1]: Reloading.
+Mar 14 16:57:16 my systemd[1]: Reloading.
+Mar 14 16:57:16 my systemd[1]: Reloading.
+Mar 14 16:57:16 my systemd[1]: Reloading.
+Mar 14 16:57:16 my systemd[1]: Starting A high performance web server and a reverse proxy server...
+Mar 14 16:57:17 my systemd[1]: Started A high performance web server and a reverse proxy server.
+Mar 14 16:57:17 my systemd[1]: Reloading.
+Mar 14 16:57:19 my systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Mar 14 16:57:19 my systemd[1]: Starting A high performance web server and a reverse proxy server...
+Mar 14 16:57:19 my systemd[1]: Started A high performance web server and a reverse proxy server.
+Mar 14 16:58:03 my systemd[1]: Reloading.
+Mar 14 16:58:05 my systemd[1]: Reloading.
+Mar 14 16:58:05 my systemd[1]: Reloading.
+Mar 14 16:58:05 my systemd[1]: Starting LSB: Apache2 web server...
+Mar 14 16:58:05 my apache2[11041]: Starting web server: apache2(98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Mar 14 16:58:05 my apache2[11041]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Mar 14 16:58:05 my apache2[11041]: no listening sockets available, shutting down
+Mar 14 16:58:05 my apache2[11041]: AH00015: Unable to open logs
+Mar 14 16:58:05 my apache2[11041]: Action 'start' failed.
+Mar 14 16:58:05 my apache2[11041]: The Apache error log may have more information.
+Mar 14 16:58:05 my apache2[11041]: .
+Mar 14 16:58:05 my apache2[11063]: Stopping web server: apache2.
+Mar 14 16:58:05 my systemd[1]: Started LSB: Apache2 web server.
+Mar 14 16:58:06 my php5-common: php5_invoke: Enable module pdo for cli SAPI
+Mar 14 16:58:06 my php5-common: php5_invoke: Enable module pdo for apache2 SAPI
+Mar 14 16:58:07 my php5-common: php5_invoke: Enable module opcache for cli SAPI
+Mar 14 16:58:07 my php5-common: php5_invoke: Enable module opcache for apache2 SAPI
+Mar 14 16:58:07 my php5-json: php5_invoke: Enable module json for cli SAPI
+Mar 14 16:58:07 my php5-json: php5_invoke: Enable module json for apache2 SAPI
+Mar 14 16:58:07 my php5-cli: php5_invoke pdo: already enabled for cli SAPI
+Mar 14 16:58:07 my php5-cli: php5_invoke opcache: already enabled for cli SAPI
+Mar 14 16:58:07 my php5-cli: php5_invoke json: already enabled for cli SAPI
+Mar 14 16:58:08 my libapache2-mod-php5: php5_invoke pdo: already enabled for apache2 SAPI
+Mar 14 16:58:08 my libapache2-mod-php5: php5_invoke opcache: already enabled for apache2 SAPI
+Mar 14 16:58:08 my libapache2-mod-php5: php5_invoke json: already enabled for apache2 SAPI
+Mar 14 16:58:08 my libapache2-mod-php5: apache2_switch_mpm Switch to prefork
+Mar 14 16:58:08 my systemd[1]: Reloading.
+Mar 14 16:58:08 my systemd[1]: Starting LSB: Apache2 web server...
+Mar 14 16:58:08 my apache2[12047]: Starting web server: apache2(98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Mar 14 16:58:08 my apache2[12047]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Mar 14 16:58:08 my apache2[12047]: no listening sockets available, shutting down
+Mar 14 16:58:08 my apache2[12047]: AH00015: Unable to open logs
+Mar 14 16:58:08 my apache2[12047]: Action 'start' failed.
+Mar 14 16:58:08 my apache2[12047]: The Apache error log may have more information.
+Mar 14 16:58:08 my apache2[12047]: .
+Mar 14 16:58:08 my apache2[12062]: Stopping web server: apache2.
+Mar 14 16:58:08 my systemd[1]: Started LSB: Apache2 web server.
+Mar 14 16:58:08 my libapache2-mod-php5: apache2_invoke: Enable module php5
+Mar 14 16:58:08 my systemd[1]: Reloading.
+Mar 14 16:58:08 my systemd[1]: Starting LSB: Apache2 web server...
+Mar 14 16:58:08 my apache2[12119]: Starting web server: apache2(98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Mar 14 16:58:08 my apache2[12119]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Mar 14 16:58:08 my apache2[12119]: no listening sockets available, shutting down
+Mar 14 16:58:08 my apache2[12119]: AH00015: Unable to open logs
+Mar 14 16:58:08 my apache2[12119]: Action 'start' failed.
+Mar 14 16:58:08 my apache2[12119]: The Apache error log may have more information.
+Mar 14 16:58:08 my apache2[12119]: .
+Mar 14 16:58:08 my apache2[12134]: Stopping web server: apache2.
+Mar 14 16:58:08 my systemd[1]: Started LSB: Apache2 web server.
+Mar 14 16:58:09 my systemd[1]: Reloading.
+Mar 14 16:58:09 my systemd[1]: Reloading.
+Mar 14 16:58:09 my systemd[1]: Starting Clean PHP session files every 30 mins.
+Mar 14 16:58:09 my systemd[1]: Started Clean PHP session files every 30 mins.
+Mar 14 16:58:09 my php5-readline: php5_invoke: Enable module readline for cli SAPI
+Mar 14 16:58:09 my php5-readline: php5_invoke: Enable module readline for apache2 SAPI
+Mar 14 16:58:09 my php7.1-common: php_invoke calendar: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:10 my php7.1-common: php_invoke calendar: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:10 my php7.1-common: php_invoke calendar: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:10 my php7.1-common: php_invoke ctype: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:10 my php7.1-common: php_invoke ctype: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:10 my php7.1-common: php_invoke ctype: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:10 my php7.1-common: php_invoke exif: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:10 my php7.1-common: php_invoke exif: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:10 my php7.1-common: php_invoke exif: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:11 my php7.1-common: php_invoke fileinfo: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:11 my php7.1-common: php_invoke fileinfo: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:11 my php7.1-common: php_invoke fileinfo: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:11 my php7.1-common: php_invoke ftp: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:11 my php7.1-common: php_invoke ftp: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:11 my php7.1-common: php_invoke ftp: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:12 my php7.1-common: php_invoke gettext: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:12 my php7.1-common: php_invoke gettext: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:12 my php7.1-common: php_invoke gettext: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:12 my php7.1-common: php_invoke iconv: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:12 my php7.1-common: php_invoke iconv: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:12 my php7.1-common: php_invoke iconv: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:13 my php7.1-common: php_invoke pdo: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:13 my php7.1-common: php_invoke pdo: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:13 my php7.1-common: php_invoke pdo: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:13 my php7.1-common: php_invoke phar: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:13 my php7.1-common: php_invoke phar: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:13 my php7.1-common: php_invoke phar: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:14 my php7.1-common: php_invoke posix: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:14 my php7.1-common: php_invoke posix: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:14 my php7.1-common: php_invoke posix: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:14 my php7.1-common: php_invoke shmop: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:14 my php7.1-common: php_invoke shmop: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:14 my php7.1-common: php_invoke shmop: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:14 my php7.1-common: php_invoke sockets: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:14 my php7.1-common: php_invoke sockets: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:14 my php7.1-common: php_invoke sockets: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:15 my php7.1-common: php_invoke sysvmsg: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:15 my php7.1-common: php_invoke sysvmsg: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:15 my php7.1-common: php_invoke sysvmsg: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:15 my php7.1-common: php_invoke sysvsem: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:15 my php7.1-common: php_invoke sysvsem: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:15 my php7.1-common: php_invoke sysvsem: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:16 my php7.1-common: php_invoke sysvshm: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:16 my php7.1-common: php_invoke sysvshm: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:16 my php7.1-common: php_invoke sysvshm: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:16 my php7.1-common: php_invoke tokenizer: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:16 my php7.1-common: php_invoke tokenizer: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:16 my php7.1-common: php_invoke tokenizer: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:17 my php7.1-json: php_invoke json: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:17 my php7.1-json: php_invoke json: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:17 my php7.1-json: php_invoke json: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:17 my php7.1-opcache: php_invoke opcache: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:17 my php7.1-opcache: php_invoke opcache: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:17 my php7.1-opcache: php_invoke opcache: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:17 my php7.1-readline: php_invoke readline: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:17 my php7.1-readline: php_invoke readline: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:17 my php7.1-readline: php_invoke readline: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke posix: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke phar: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke pdo: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke opcache: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke iconv: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke calendar: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke gettext: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke sysvshm: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke ftp: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke ctype: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke tokenizer: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke readline: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke fileinfo: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke sysvsem: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke shmop: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke exif: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke sockets: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke sysvmsg: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:18 my php7.1-cli: php_invoke json: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke posix: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke phar: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke pdo: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke opcache: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke iconv: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke calendar: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke gettext: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke sysvshm: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke ftp: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke ctype: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke tokenizer: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke readline: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke fileinfo: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke sysvsem: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke shmop: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke exif: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke sockets: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke sysvmsg: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: php_invoke json: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:19 my php7.1-fpm: NOTICE: Not enabling PHP 7.1 FPM by default.
+Mar 14 16:58:19 my php7.1-fpm: NOTICE: To enable PHP 7.1 FPM in Apache2 do:
+Mar 14 16:58:19 my php7.1-fpm: NOTICE: a2enmod proxy_fcgi setenvif
+Mar 14 16:58:19 my php7.1-fpm: NOTICE: a2enconf php7.1-fpm
+Mar 14 16:58:19 my php7.1-fpm: NOTICE: You are seeing this message because you have apache2 package installed.
+Mar 14 16:58:19 my systemd[1]: Reloading.
+Mar 14 16:58:19 my systemd[1]: Reloading.
+Mar 14 16:58:19 my systemd[1]: Reloading.
+Mar 14 16:58:19 my systemd[1]: Starting The PHP 7.1 FastCGI Process Manager...
+Mar 14 16:58:19 my systemd[1]: Started The PHP 7.1 FastCGI Process Manager.
+Mar 14 16:58:20 my php7.1-cgi: php_invoke posix: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke phar: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke pdo: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke opcache: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke iconv: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke calendar: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke gettext: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke sysvshm: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke ftp: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke ctype: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke tokenizer: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke readline: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke fileinfo: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke sysvsem: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke shmop: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke exif: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke sockets: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke sysvmsg: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-cgi: php_invoke json: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-curl: php_invoke curl: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:20 my php7.1-curl: php_invoke curl: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:20 my php7.1-curl: php_invoke curl: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:21 my php7.1-gd: php_invoke gd: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:21 my php7.1-gd: php_invoke gd: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:21 my php7.1-gd: php_invoke gd: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:21 my php7.1-imap: php_invoke imap: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:21 my php7.1-imap: php_invoke imap: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:21 my php7.1-imap: php_invoke imap: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:22 my php7.1-intl: php_invoke intl: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:22 my php7.1-intl: php_invoke intl: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:22 my php7.1-intl: php_invoke intl: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:22 my php7.1-ldap: php_invoke ldap: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:22 my php7.1-ldap: php_invoke ldap: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:22 my php7.1-ldap: php_invoke ldap: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:22 my php7.1-mbstring: php_invoke mbstring: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:23 my php7.1-mbstring: php_invoke mbstring: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:23 my php7.1-mbstring: php_invoke mbstring: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:23 my php7.1-mcrypt: php_invoke mcrypt: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:23 my php7.1-mcrypt: php_invoke mcrypt: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:23 my php7.1-mcrypt: php_invoke mcrypt: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:23 my php7.1-mysql: php_invoke mysqlnd: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:23 my php7.1-mysql: php_invoke mysqlnd: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:23 my php7.1-mysql: php_invoke mysqlnd: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:24 my php7.1-mysql: php_invoke mysqli: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:24 my php7.1-mysql: php_invoke mysqli: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:24 my php7.1-mysql: php_invoke mysqli: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:24 my php7.1-mysql: php_invoke pdo_mysql: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:24 my php7.1-mysql: php_invoke pdo_mysql: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:24 my php7.1-mysql: php_invoke pdo_mysql: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:25 my php7.1-sqlite3: php_invoke sqlite3: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:25 my php7.1-sqlite3: php_invoke sqlite3: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:25 my php7.1-sqlite3: php_invoke sqlite3: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:25 my php7.1-sqlite3: php_invoke pdo_sqlite: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:25 my php7.1-sqlite3: php_invoke pdo_sqlite: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:25 my php7.1-sqlite3: php_invoke pdo_sqlite: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:26 my php7.1-sybase: php_invoke pdo_dblib: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:26 my php7.1-sybase: php_invoke pdo_dblib: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:26 my php7.1-sybase: php_invoke pdo_dblib: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:26 my php7.1-xml: php_invoke dom: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:26 my php7.1-xml: php_invoke dom: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:26 my php7.1-xml: php_invoke dom: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:26 my php7.1-xml: php_invoke simplexml: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:26 my php7.1-xml: php_invoke simplexml: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:26 my php7.1-xml: php_invoke simplexml: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:27 my php7.1-xml: php_invoke wddx: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:27 my php7.1-xml: php_invoke wddx: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:27 my php7.1-xml: php_invoke wddx: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:27 my php7.1-xml: php_invoke xml: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:27 my php7.1-xml: php_invoke xml: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:27 my php7.1-xml: php_invoke xml: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:28 my php7.1-xml: php_invoke xmlreader: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:28 my php7.1-xml: php_invoke xmlreader: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:28 my php7.1-xml: php_invoke xmlreader: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:28 my php7.1-xml: php_invoke xmlwriter: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:28 my php7.1-xml: php_invoke xmlwriter: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:28 my php7.1-xml: php_invoke xmlwriter: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:28 my php7.1-xml: php_invoke xsl: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:28 my php7.1-xml: php_invoke xsl: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:28 my php7.1-xml: php_invoke xsl: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:29 my php7.1-xmlrpc: php_invoke xmlrpc: already enabled for PHP 7.1 fpm sapi
+Mar 14 16:58:29 my php7.1-xmlrpc: php_invoke xmlrpc: already enabled for PHP 7.1 cgi sapi
+Mar 14 16:58:29 my php7.1-xmlrpc: php_invoke xmlrpc: already enabled for PHP 7.1 cli sapi
+Mar 14 16:58:29 my systemd[1]: Reloading.
+Mar 14 16:58:29 my systemd[1]: Reloading.
+Mar 14 16:58:29 my systemd[1]: Stopping The PHP 7.1 FastCGI Process Manager...
+Mar 14 16:58:29 my systemd[1]: Starting The PHP 7.1 FastCGI Process Manager...
+Mar 14 16:58:29 my systemd[1]: Started The PHP 7.1 FastCGI Process Manager.
+Mar 14 16:58:29 my php7.1-fpm: NOTICE: Not enabling PHP 7.1 FPM by default.
+Mar 14 16:58:29 my php7.1-fpm: NOTICE: To enable PHP 7.1 FPM in Apache2 do:
+Mar 14 16:58:29 my php7.1-fpm: NOTICE: a2enmod proxy_fcgi setenvif
+Mar 14 16:58:29 my php7.1-fpm: NOTICE: a2enconf php7.1-fpm
+Mar 14 16:58:29 my php7.1-fpm: NOTICE: You are seeing this message because you have apache2 package installed.
+Mar 14 16:58:32 my systemd[1]: Stopping The PHP 7.1 FastCGI Process Manager...
+Mar 14 16:58:32 my systemd[1]: Starting The PHP 7.1 FastCGI Process Manager...
+Mar 14 16:58:32 my systemd[1]: Started The PHP 7.1 FastCGI Process Manager.
+Mar 14 16:58:32 my systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Mar 14 16:58:32 my systemd[1]: Starting A high performance web server and a reverse proxy server...
+Mar 14 16:58:32 my systemd[1]: Started A high performance web server and a reverse proxy server.
+Mar 14 16:58:44 my systemd[1]: Reloading.
+Mar 14 16:58:44 my systemd[1]: Reloading.
+Mar 14 16:58:47 my systemd[1]: Reloading.
+Mar 14 16:58:47 my systemd[1]: Starting LSB: Postfix Mail Transport Agent...
+Mar 14 16:58:47 my postfix[27594]: Starting Postfix Mail Transport Agent: postfix.
+Mar 14 16:58:47 my systemd[1]: Started LSB: Postfix Mail Transport Agent.
+Mar 14 16:58:47 my systemd[1]: Starting Mail Transport Agent.
+Mar 14 16:58:47 my systemd[1]: Reached target Mail Transport Agent.
+Mar 14 16:58:47 my systemd[1]: Reloading.
+Mar 14 16:58:56 my systemd[1]: Reloading.
+Mar 14 16:59:00 my systemd[1]: Reloading.
+Mar 14 16:59:01 my systemd[1]: Reloading.
+Mar 14 16:59:01 my systemd[1]: Reloading.
+Mar 14 16:59:01 my systemd[1]: Reloading.
+Mar 14 16:59:01 my systemd[1]: Starting Dovecot IMAP/POP3 email server...
+Mar 14 16:59:01 my systemd[1]: Started Dovecot IMAP/POP3 email server.
+Mar 14 16:59:03 my systemd[1]: Reloading.
+Mar 14 16:59:03 my systemd[1]: Reloading.
+Mar 14 16:59:03 my systemd[1]: Stopping Dovecot IMAP/POP3 email server...
+Mar 14 16:59:03 my systemd[1]: Starting Dovecot IMAP/POP3 email server...
+Mar 14 16:59:03 my systemd[1]: Started Dovecot IMAP/POP3 email server.
+Mar 14 16:59:04 my systemd[1]: Reloading.
+Mar 14 16:59:04 my systemd[1]: Reloading.
+Mar 14 16:59:04 my systemd[1]: Started Dovecot IMAP/POP3 email server.
+Mar 14 16:59:19 my systemd[1]: Stopping Mail Transport Agent.
+Mar 14 16:59:19 my systemd[1]: Stopping LSB: Postfix Mail Transport Agent...
+Mar 14 16:59:19 my postfix[31197]: Stopping Postfix Mail Transport Agent: postfix.
+Mar 14 16:59:19 my systemd[1]: Starting LSB: Postfix Mail Transport Agent...
+Mar 14 16:59:19 my postfix[31219]: Starting Postfix Mail Transport Agent: postfix.
+Mar 14 16:59:19 my systemd[1]: Started LSB: Postfix Mail Transport Agent.
+Mar 14 16:59:19 my systemd[1]: Starting Mail Transport Agent.
+Mar 14 16:59:19 my systemd[1]: Reached target Mail Transport Agent.
+Mar 14 16:59:19 my systemd[1]: Stopping Dovecot IMAP/POP3 email server...
+Mar 14 16:59:19 my systemd[1]: Starting Dovecot IMAP/POP3 email server...
+Mar 14 16:59:19 my systemd[1]: Started Dovecot IMAP/POP3 email server.
+Mar 14 17:00:31 my systemd[1]: Reloading.
+Mar 14 17:00:31 my systemd[1]: Reloading.
+Mar 14 17:00:31 my systemd[1]: Starting Run certbot twice daily.
+Mar 14 17:00:31 my systemd[1]: Started Run certbot twice daily.
+Mar 14 17:00:41 my systemd[1]: Reloading.
+Mar 14 17:00:42 my systemd[1]: Reloading.
+Mar 14 17:00:42 my systemd[1]: Reloading.
+Mar 14 17:00:42 my systemd[1]: Starting LSB: Start/stop fail2ban...
+Mar 14 17:00:42 my fail2ban[352]: Starting authentication failure monitor: fail2ban.
+Mar 14 17:00:42 my systemd[1]: Started LSB: Start/stop fail2ban.
+Mar 14 17:00:43 my systemd[1]: Reloading.
+Mar 14 17:00:44 my systemd[1]: Stopping LSB: Start/stop fail2ban...
+Mar 14 17:00:45 my fail2ban[412]: Stopping authentication failure monitor: fail2ban.
+Mar 14 17:00:45 my systemd[1]: Starting LSB: Start/stop fail2ban...
+Mar 14 17:00:46 my fail2ban[430]: Starting authentication failure monitor: fail2ban.
+Mar 14 17:00:46 my systemd[1]: Started LSB: Start/stop fail2ban.
+Mar 14 17:01:01 my systemd[1]: Reloading.
+Mar 14 17:01:01 my systemd[1]: Reloading.
+Mar 14 17:01:01 my systemd[1]: Reloading.
+Mar 14 17:01:01 my systemd[1]: Reloading.
+Mar 14 17:01:02 my systemd[1]: Starting ConfigServer Firewall & Security - csf...
+Mar 14 17:01:02 my csf[1054]: *WARNING* URLGET set to use LWP but perl module is not installed, reverting to HTTP::Tiny
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: csf: FASTSTART loading DROP no logging (IPv4)
+Mar 14 17:01:02 my csf[1054]: csf: FASTSTART loading DROP no logging (IPv6)
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: csf: FASTSTART loading Packet Filter (IPv4)
+Mar 14 17:01:02 my csf[1054]: csf: FASTSTART loading Packet Filter (IPv6)
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: csf: FASTSTART loading csf.allow (IPv4)
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:02 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:02 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:02 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: csf: FASTSTART loading TCP_IN (IPv4)
+Mar 14 17:01:03 my csf[1054]: csf: FASTSTART loading TCP6_IN (IPv6)
+Mar 14 17:01:03 my csf[1054]: csf: FASTSTART loading TCP_OUT (IPv4)
+Mar 14 17:01:03 my csf[1054]: csf: FASTSTART loading TCP6_OUT (IPv6)
+Mar 14 17:01:03 my csf[1054]: csf: FASTSTART loading UDP_IN (IPv4)
+Mar 14 17:01:03 my csf[1054]: csf: FASTSTART loading UDP6_IN (IPv6)
+Mar 14 17:01:03 my csf[1054]: csf: FASTSTART loading UDP_OUT (IPv4)
+Mar 14 17:01:03 my csf[1054]: csf: FASTSTART loading UDP6_OUT (IPv6)
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: csf: FASTSTART loading DNS (IPv4)
+Mar 14 17:01:03 my csf[1054]: csf: FASTSTART loading DNS (IPv6)
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: iptables v1.4.21: can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps iptables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my csf[1054]: modprobe: ERROR: could not insert 'ip6_tables': Operation not permitted
+Mar 14 17:01:03 my csf[1054]: ip6tables v1.4.21: can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Mar 14 17:01:03 my csf[1054]: Perhaps ip6tables or your kernel needs to be upgraded.
+Mar 14 17:01:03 my systemd[1]: Started ConfigServer Firewall & Security - csf.
+Mar 14 17:01:03 my systemd[1]: Starting ConfigServer Firewall & Security - lfd...
+Mar 14 17:01:03 my lfd[1325]: Can't locate IO/Socket/SSL.pm in @INC (you may need to install the IO::Socket::SSL module) (@INC contains: /usr/local/csf/lib /usr/local/cpanel /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at /usr/sbin/lfd line 83.
+Mar 14 17:01:03 my systemd[1]: lfd.service: control process exited, code=exited status=2
+Mar 14 17:01:03 my systemd[1]: Failed to start ConfigServer Firewall & Security - lfd.
+Mar 14 17:01:03 my systemd[1]: Unit lfd.service entered failed state.
+Mar 14 17:01:10 my systemd[1]: Stopping (null)...
+Mar 14 17:01:10 my pure-ftpd[2151]: Stopping ftp server: pure-ftpd.
+Mar 14 17:01:10 my systemd[1]: Starting (null)...
+Mar 14 17:01:11 my pure-ftpd[2159]: Starting ftp server: Running: /usr/sbin/pure-ftpd -l pam -l puredb:/etc/pure-ftpd/pureftpd.pdb -Y 1 -E -J ALL:!aNULL:!SSLv3 -p 30000:50000 -A -8 UTF-8 -u 1000 -O clf:/var/log/pure-ftpd/transfer.log -B
+Mar 14 17:01:11 my systemd[1]: Started (null).

@@ -1,0 +1,10 @@
+acme==0.9.3
+certbot==0.9.3
+python-augeas
+zope.component
+zope.interface
+mock
+
+[docs]
+Sphinx>=1.0
+sphinx_rtd_theme

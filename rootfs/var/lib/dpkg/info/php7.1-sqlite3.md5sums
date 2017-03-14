@@ -1,0 +1,7 @@
+bcb85116607edde8bdd19ee0be5539a0  usr/lib/php/20160303/pdo_sqlite.so
+23fb4e4edfbd90e236c0158d015458d3  usr/lib/php/20160303/sqlite3.so
+0b05fa39906fc4d624a8fa5fd0db38eb  usr/share/bug/php7.1-sqlite3/control
+114381096628d86de77f709f8f71b720  usr/share/bug/php7.1-sqlite3/script
+2c6a065d03ba2385ff0156eb6a27db99  usr/share/lintian/overrides/php7.1-sqlite3
+16c52ce1d8de3456721f6c6afc8fb292  usr/share/php7.1-sqlite3/sqlite3/pdo_sqlite.ini
+51a5922cd6800aa9cfb64e055b8a0745  usr/share/php7.1-sqlite3/sqlite3/sqlite3.ini

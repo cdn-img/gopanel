@@ -1,0 +1,40 @@
+pure-ftpd for Debian
+--------------------
+
+Please note that these packages use a complete new configuration scheme,
+read the pure-ftpd-wrapper manual page for more information.
+
+pure-ftpd for Debian is provided in 4 flavours: vanilla (pure-ftpd),
+MySQL (pure-ftpd-mysql), PostgreSQL (pure-ftpd-postgresql) and LDAP
+(pure-ftpd-ldap). The pure-ftpd-control script invokes the init
+script for the installed flavour.
+
+Each flavour comes with two binaries, one with support for virtual
+chroots and one without, e.g. /usr/sbin/pure-ftpd-virtualchroot
+and /usr/sbin/pure-ftpd. You can select which binary is called by the
+init script via debconf or by editing /etc/default/pure-ftpd-common.
+
+The location of the file with the directory aliases is 
+/etc/pure-ftpd/pureftpd-dir-aliases.
+
+Using PureDB
+------------
+
+Initialize the database with at least one user:
+
+pure-pw useradd www -u 1000 -g 1000 -d /www
+pure-pw mkdb
+
+Create symlink to add PureDB to authentication methods:
+
+cd /etc/pure-ftpd/auth
+ln -s ../conf/PureDB 50pure
+
+Disable PAM authentication unless you need it:
+
+echo no > /etc/pure-ftpd/conf/PAMAuthentication
+
+Restart PureFTPd with the corresponding init script
+for your selected Debian package (usually /etc/init.d/pure-ftpd).
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>, Wed Aug  3 00:10:58 2005

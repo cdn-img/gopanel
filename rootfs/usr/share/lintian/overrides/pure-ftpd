@@ -1,0 +1,10 @@
+# manpages are in pure-ftpd-common
+pure-ftpd: binary-without-manpage usr/bin/pure-pw
+pure-ftpd: binary-without-manpage usr/bin/pure-pwconvert
+pure-ftpd: binary-without-manpage usr/bin/pure-statsdecode
+pure-ftpd: binary-without-manpage usr/sbin/pure-authd
+pure-ftpd: binary-without-manpage usr/sbin/pure-ftpd
+pure-ftpd: binary-without-manpage usr/sbin/pure-ftpwho
+pure-ftpd: binary-without-manpage usr/sbin/pure-mrtginfo
+pure-ftpd: binary-without-manpage usr/sbin/pure-quotacheck
+pure-ftpd: binary-without-manpage usr/sbin/pure-uploadscript

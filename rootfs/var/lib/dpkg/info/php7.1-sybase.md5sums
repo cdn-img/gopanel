@@ -1,0 +1,5 @@
+2f8f079afe8db7bea14c2fc17d0bd033  usr/lib/php/20160303/pdo_dblib.so
+0b05fa39906fc4d624a8fa5fd0db38eb  usr/share/bug/php7.1-sybase/control
+087283265bdee08ea59babfc10621f15  usr/share/bug/php7.1-sybase/script
+28903db97e2478ccae11a329baabb11f  usr/share/lintian/overrides/php7.1-sybase
+985fbb28eff0b7b476f4e9bc61bc49b7  usr/share/php7.1-sybase/sybase/pdo_dblib.ini

@@ -1,0 +1,17 @@
+[%
+USE Whostmgr;
+USE JSON;
+
+SET myStyles = [
+	'/cgi/configserver/csf/bootstrap/css/bootstrap.min.css',
+	'/cgi/configserver/csf/configserver.css'
+];
+
+breadcrumburl = '/cgi/configserver/csf.cgi',
+hide_license_warnings = 1,
+stylesheets = myStyles,
+theme='bootstrap';
+
+PROCESS master_templates/_defheader.tmpl
+
+%]

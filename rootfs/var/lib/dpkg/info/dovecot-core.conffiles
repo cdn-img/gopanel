@@ -1,0 +1,4 @@
+/etc/default/dovecot
+/etc/dovecot/README
+/etc/init.d/dovecot
+/etc/pam.d/dovecot

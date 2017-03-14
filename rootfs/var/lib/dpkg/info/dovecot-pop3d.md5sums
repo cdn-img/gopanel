@@ -1,0 +1,7 @@
+1262d911438dd824fbaaf01f2d1a874d  usr/lib/dovecot/pop3
+01da05fc93bec5fde4e2770400ff8e18  usr/lib/dovecot/pop3-login
+83c6eca7d2314d34fa3c979b8bd8e9f4  usr/share/doc/dovecot-pop3d/changelog.Debian.gz
+2bc7ba91309c23704d4009c2bf7646f6  usr/share/doc/dovecot-pop3d/changelog.gz
+72f5d634266d31a510c2ee87b700ecda  usr/share/doc/dovecot-pop3d/copyright
+2313cd006dd4d6075156d93257131c07  usr/share/dovecot/conf.d/20-pop3.conf
+4763a4c26ee206955632ae2068d5f555  usr/share/lintian/overrides/dovecot-pop3d

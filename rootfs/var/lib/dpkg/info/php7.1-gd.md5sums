@@ -1,0 +1,5 @@
+a7c0ef82f9534ffac4a304fb4ccf4f84  usr/lib/php/20160303/gd.so
+0b05fa39906fc4d624a8fa5fd0db38eb  usr/share/bug/php7.1-gd/control
+d54fc49d01650f5d83b6979166e10595  usr/share/bug/php7.1-gd/script
+52fa5108ea9de44b9ca343348b9a7168  usr/share/lintian/overrides/php7.1-gd
+dcba6b3c7745411277aa243c2920ae70  usr/share/php7.1-gd/gd/gd.ini

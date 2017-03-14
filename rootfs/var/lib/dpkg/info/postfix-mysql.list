@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/postfix-mysql
+/usr/share/doc/postfix-mysql/changelog.gz
+/usr/share/doc/postfix-mysql/changelog.Debian.gz
+/usr/share/doc/postfix-mysql/README.Debian
+/usr/share/doc/postfix-mysql/copyright
+/usr/lib
+/usr/lib/postfix
+/usr/lib/postfix/dict_mysql.so

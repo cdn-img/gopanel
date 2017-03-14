@@ -1,0 +1,13 @@
+543c695e07d1f1ceddfb86721439a075  usr/share/doc-base/python-iniparse
+6c9eb54897245d2c0862b20d8019d159  usr/share/doc/python-iniparse/NEWS.Debian.gz
+0c70d79d67ba272d182343fb682805f7  usr/share/doc/python-iniparse/changelog.Debian.gz
+c41423a859063bca57a73fd2de36655c  usr/share/doc/python-iniparse/changelog.gz
+6cb002b8c62aebf7b8741c0b6c40f5cc  usr/share/doc/python-iniparse/copyright
+44038f32592695bd5f1a570cf77dc9a4  usr/share/doc/python-iniparse/html/index.html
+d2a0b07e14008b0b55c832277fd4a23f  usr/share/doc/python-iniparse/html/style.css
+5044516ed5c7f702c402d7ebd126fe34  usr/share/pyshared/iniparse-0.4.egg-info
+880fff85e4886f40bb20e98e4423bd38  usr/share/pyshared/iniparse/__init__.py
+2a0509811850765e0ac69e3bbe7431db  usr/share/pyshared/iniparse/compat.py
+bc1f0ab720bb38f350549576d3b7eb9b  usr/share/pyshared/iniparse/config.py
+cf090a399d25a4aa8d4ab382b5260f1f  usr/share/pyshared/iniparse/ini.py
+640b0e74a6183d8b399c26e889370b1d  usr/share/pyshared/iniparse/utils.py

@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-configargparse
+/usr/share/doc/python-configargparse/copyright
+/usr/share/doc/python-configargparse/README.rst.gz
+/usr/share/doc/python-configargparse/changelog.Debian.gz
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/configargparse.py
+/usr/lib/python2.7/dist-packages/ConfigArgParse-0.11.0.egg-info
+/usr/lib/python2.7/dist-packages/ConfigArgParse-0.11.0.egg-info/dependency_links.txt
+/usr/lib/python2.7/dist-packages/ConfigArgParse-0.11.0.egg-info/PKG-INFO
+/usr/lib/python2.7/dist-packages/ConfigArgParse-0.11.0.egg-info/top_level.txt
+/usr/lib/python2.7/dist-packages/ConfigArgParse-0.11.0.egg-info/requires.txt

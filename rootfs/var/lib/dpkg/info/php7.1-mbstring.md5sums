@@ -1,0 +1,5 @@
+4515b25af4a54e0086c9854aec79f722  usr/lib/php/20160303/mbstring.so
+0b05fa39906fc4d624a8fa5fd0db38eb  usr/share/bug/php7.1-mbstring/control
+f132b9ab98aaadc9fcbd97610bd5a7a0  usr/share/bug/php7.1-mbstring/script
+74ac676cae95c1b0a3fd6a790fcd2ee7  usr/share/lintian/overrides/php7.1-mbstring
+4036a043c18d96704cf2913442c2b3c9  usr/share/php7.1-mbstring/mbstring/mbstring.ini

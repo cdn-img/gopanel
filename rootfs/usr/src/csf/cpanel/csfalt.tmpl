@@ -1,0 +1,29 @@
+[%
+USE Whostmgr;
+USE JSON;
+ 
+SET myStyles = [
+	'/cgi/configserver/csf/bootstrap/css/bootstrap.min.css',
+	'/cgi/configserver/csf/configserver.css'
+];
+
+SET myExtra = '
+        </style>
+        <script src="csf/jquery.min.js"></script>
+        <script src="csf/bootstrap/js/bootstrap.min.js"></script>
+        <style>';
+
+WRAPPER 'master_templates/master.tmpl'
+	header = 'ConfigServer Security & Firewall'
+	breadcrumburl = '/cgi/configserver/csf.cgi'
+	skipsupport = 1
+	skipheader = 1
+	hide_license_warnings = 1
+	stylesheets = myStyles
+	theme='bootstrap'
+	extrastyle = myExtra
+%]
+ 
+[% csf_output %]
+
+[% END %]

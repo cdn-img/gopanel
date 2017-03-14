@@ -1,0 +1,44 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "configure" ]; then
+    update-alternatives \
+        --install /usr/bin/php php /usr/bin/php5 50 \
+        --slave /usr/share/man/man1/php.1.gz php.1.gz /usr/share/man/man1/php5.1.gz
+    update-alternatives \
+        --install /usr/bin/phar phar /usr/bin/phar5 50 \
+        --slave /usr/share/man/man1/phar.1.gz phar.1.gz /usr/share/man/man1/phar5.1.gz
+fi
+
+CONFDIR=/etc/php5/cli/conf.d
+
+if [ -L $CONFDIR ]; then
+    rm $CONFDIR
+    mkdir $CONFDIR
+fi
+
+if [ "$1" = "configure" ]; then
+    phpini="/etc/php5/cli/php.ini"
+
+    if [ "cli" = "cli" ]; then
+	ucf /usr/share/php5/php.ini-production.cli $phpini
+    else
+	ucf /usr/share/php5/php.ini-production $phpini
+    fi
+    ucfr php5-cli $phpini
+
+    if [ -e /usr/share/php5/php5-maintscript-helper ]; then
+	. /usr/share/php5/php5-maintscript-helper
+	
+	mods=$(php5query -M)
+	for mod in $mods; do
+	    php5_invoke enmod cli $mod
+	done
+    fi
+
+fi
+
+
+
+exit 0

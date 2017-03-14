@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+
+if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ]; then
+    if [ -e /usr/share/php5/php5-maintscript-helper ] ; then
+	. /usr/share/php5/php5-maintscript-helper
+
+	for dsoname in pdo opcache ; do
+	    php5_invoke dismod ALL ${dsoname}
+	done
+    fi
+fi
+
+
+
+exit 0

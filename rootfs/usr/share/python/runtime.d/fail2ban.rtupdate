@@ -1,0 +1,6 @@
+#! /bin/sh
+set -e
+if [ "$1" = rtupdate ]; then
+	pyclean -p fail2ban /usr/share/fail2ban
+	pycompile -p fail2ban  /usr/share/fail2ban
+fi

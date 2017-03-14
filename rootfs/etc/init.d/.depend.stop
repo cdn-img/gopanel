@@ -1,0 +1,11 @@
+TARGETS = php7.1-fpm apache2 openbsd-inetd nginx fail2ban pure-ftpd bluetooth postfix urandom dovecot mysql sendsigs rsyslog umountnfs.sh networking umountfs umountroot halt reboot
+dovecot: postfix
+mysql: pure-ftpd dovecot postfix
+sendsigs: openbsd-inetd pure-ftpd dovecot bluetooth mysql postfix nginx php7.1-fpm apache2 fail2ban
+rsyslog: openbsd-inetd pure-ftpd dovecot bluetooth mysql postfix sendsigs nginx apache2 fail2ban
+umountnfs.sh: openbsd-inetd pure-ftpd dovecot sendsigs bluetooth mysql postfix rsyslog nginx php7.1-fpm apache2 fail2ban
+networking: umountnfs.sh dovecot mysql postfix nginx php7.1-fpm apache2 fail2ban
+umountfs: openbsd-inetd pure-ftpd umountnfs.sh dovecot urandom bluetooth mysql postfix networking nginx php7.1-fpm apache2 fail2ban
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

@@ -1,0 +1,11 @@
+2fda35ea36acbcf6fc7e92c6f8017735  usr/bin/pure-pw
+1a795db927dd10969a9235abf39f7b58  usr/bin/pure-pwconvert
+3a165bb18121d700d1d94a452fea25b7  usr/bin/pure-statsdecode
+ff88c620f6e4a635a5dfec9001caa16c  usr/sbin/pure-authd
+754052bedb0708ecd52c1e4eccd088ba  usr/sbin/pure-ftpd
+1a3bacd747c8c3b590ad8b2f547dcebf  usr/sbin/pure-ftpd-virtualchroot
+ba81b31fe6f79258d73534a1a0087ff8  usr/sbin/pure-ftpwho
+c11d19752761b0666df6af12b60a7965  usr/sbin/pure-mrtginfo
+3bcc5702ac67a506a8ccf35664a87502  usr/sbin/pure-quotacheck
+42c878568005b0979322e3cbd8e90ec1  usr/sbin/pure-uploadscript
+aeec07d149e1493acd5d4c70db7cc1b8  usr/share/lintian/overrides/pure-ftpd

@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/php5
+/usr/lib/php5/20131226
+/usr/lib/php5/20131226/readline.so
+/usr/share
+/usr/share/php5
+/usr/share/php5/readline
+/usr/share/php5/readline/readline.ini
+/usr/share/bug
+/usr/share/bug/php5-readline
+/usr/share/bug/php5-readline/script
+/usr/share/bug/php5-readline/control
+/usr/share/doc
+/usr/share/doc/php5-readline

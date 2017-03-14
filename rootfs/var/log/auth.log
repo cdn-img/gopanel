@@ -1,0 +1,120 @@
+Mar 14 07:27:31 my systemd-logind[448]: Watching system buttons on /dev/input/event2 (Power Button)
+Mar 14 07:27:31 my systemd-logind[448]: Watching system buttons on /dev/input/event3 (Sleep Button)
+Mar 14 07:27:31 my systemd-logind[448]: New seat seat0.
+Mar 14 07:30:01 my CRON[466]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 07:30:01 my CRON[466]: pam_unix(cron:session): session closed for user root
+Mar 14 08:17:01 my CRON[569]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 08:17:01 my CRON[569]: pam_unix(cron:session): session closed for user root
+Mar 14 09:17:01 my CRON[682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 09:17:01 my CRON[682]: pam_unix(cron:session): session closed for user root
+Mar 14 09:17:29 my login[456]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Mar 14 09:17:29 my login[687]: ROOT LOGIN  on '/dev/tty1'
+Mar 14 09:19:11 my groupadd[2066]: group added to /etc/group: name=ssh, GID=112
+Mar 14 09:19:11 my groupadd[2066]: group added to /etc/gshadow: name=ssh
+Mar 14 09:19:11 my groupadd[2066]: new group: name=ssh, GID=112
+Mar 14 09:19:11 my useradd[2112]: new user: name=sshd, UID=106, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Mar 14 09:19:11 my usermod[2117]: change user 'sshd' password
+Mar 14 09:19:11 my chage[2122]: changed password expiry for sshd
+Mar 14 09:19:12 my sshd[2199]: Server listening on 0.0.0.0 port 22.
+Mar 14 09:19:12 my sshd[2199]: Server listening on :: port 22.
+Mar 14 09:19:38 my sshd[2199]: Received signal 15; terminating.
+Mar 14 09:19:38 my sshd[2251]: Server listening on 0.0.0.0 port 22.
+Mar 14 09:19:38 my sshd[2251]: Server listening on :: port 22.
+Mar 14 09:19:43 my sshd[2269]: Accepted password for root from 2.0.0.2 port 53087 ssh2
+Mar 14 09:19:43 my sshd[2269]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 14 16:24:26 my systemd-logind[450]: Watching system buttons on /dev/input/event2 (Power Button)
+Mar 14 16:24:26 my systemd-logind[450]: Watching system buttons on /dev/input/event3 (Sleep Button)
+Mar 14 16:24:26 my systemd-logind[450]: New seat seat0.
+Mar 14 16:24:26 my sshd[448]: Server listening on 0.0.0.0 port 22.
+Mar 14 16:24:26 my sshd[448]: Server listening on :: port 22.
+Mar 14 16:25:14 my login[458]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Mar 14 16:25:14 my login[467]: ROOT LOGIN  on '/dev/tty1'
+Mar 14 16:37:03 my sshd[1647]: Accepted password for root from 2.0.0.2 port 53208 ssh2
+Mar 14 16:37:03 my sshd[1647]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 14 16:50:05 my sshd[169]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mar 14 16:50:05 my sshd[169]: error: Bind to port 22 on :: failed: Address already in use.
+Mar 14 16:50:05 my sshd[169]: fatal: Cannot bind any address.
+Mar 14 16:50:05 my systemd-logind[177]: New seat seat0.
+Mar 14 16:50:05 my sshd[181]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mar 14 16:50:05 my sshd[181]: error: Bind to port 22 on :: failed: Address already in use.
+Mar 14 16:50:05 my sshd[181]: fatal: Cannot bind any address.
+Mar 14 16:50:05 my sshd[182]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mar 14 16:50:05 my sshd[182]: error: Bind to port 22 on :: failed: Address already in use.
+Mar 14 16:50:05 my sshd[182]: fatal: Cannot bind any address.
+Mar 14 16:50:06 my sshd[183]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mar 14 16:50:06 my sshd[183]: error: Bind to port 22 on :: failed: Address already in use.
+Mar 14 16:50:06 my sshd[183]: fatal: Cannot bind any address.
+Mar 14 16:50:06 my sshd[184]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Mar 14 16:50:06 my sshd[184]: error: Bind to port 22 on :: failed: Address already in use.
+Mar 14 16:50:06 my sshd[184]: fatal: Cannot bind any address.
+Mar 14 16:50:11 my login[178]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Mar 14 16:50:11 my login[186]: ROOT LOGIN  on '/dev/console'
+Mar 14 16:51:47 my systemd-logind[174]: New seat seat0.
+Mar 14 16:51:47 my sshd[169]: Server listening on 0.0.0.0 port 22.
+Mar 14 16:51:47 my sshd[169]: Server listening on :: port 22.
+Mar 14 16:51:53 my login[178]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Mar 14 16:51:53 my login[182]: ROOT LOGIN  on '/dev/console'
+Mar 14 16:53:23 my sshd[125]: Server listening on 0.0.0.0 port 22.
+Mar 14 16:53:23 my sshd[125]: Server listening on :: port 22.
+Mar 14 16:53:23 my systemd-logind[133]: New seat seat0.
+Mar 14 16:53:32 my sshd[137]: Accepted password for root from 2.0.0.2 port 53573 ssh2
+Mar 14 16:53:32 my sshd[137]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 14 16:55:02 my sshd[287]: Accepted password for root from 2.0.0.2 port 53583 ssh2
+Mar 14 16:55:02 my sshd[287]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 14 16:55:16 my sshd[322]: Accepted password for root from 2.0.0.2 port 53584 ssh2
+Mar 14 16:55:16 my sshd[322]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 14 16:55:24 my sshd[324]: Accepted password for root from 2.0.0.2 port 53586 ssh2
+Mar 14 16:55:24 my sshd[324]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 14 16:56:33 my groupadd[2408]: group added to /etc/group: name=mysql, GID=113
+Mar 14 16:56:33 my groupadd[2408]: group added to /etc/gshadow: name=mysql
+Mar 14 16:56:33 my groupadd[2408]: new group: name=mysql, GID=113
+Mar 14 16:56:33 my useradd[2414]: new user: name=mysql, UID=107, GID=113, home=/nonexistent, shell=/bin/false
+Mar 14 16:56:33 my chage[2419]: changed password expiry for mysql
+Mar 14 16:56:33 my chfn[2422]: changed user 'mysql' information
+Mar 14 16:56:57 my groupadd[4080]: group added to /etc/group: name=utempter, GID=114
+Mar 14 16:56:57 my groupadd[4080]: group added to /etc/gshadow: name=utempter
+Mar 14 16:56:57 my groupadd[4080]: new group: name=utempter, GID=114
+Mar 14 16:57:08 my groupadd[5492]: group added to /etc/group: name=ftp_sys, GID=1001
+Mar 14 16:57:08 my groupadd[5492]: group added to /etc/gshadow: name=ftp_sys
+Mar 14 16:57:08 my groupadd[5492]: new group: name=ftp_sys, GID=1001
+Mar 14 16:57:09 my useradd[5496]: failed adding user 'egeneralov', data deleted
+Mar 14 16:57:19 my usermod[5998]: add 'www-data' to group 'ftp_sys'
+Mar 14 16:57:19 my usermod[5998]: add 'www-data' to shadow group 'ftp_sys'
+Mar 14 16:57:19 my usermod[6003]: add 'egeneralov' to group 'www-data'
+Mar 14 16:57:19 my usermod[6003]: add 'egeneralov' to shadow group 'www-data'
+Mar 14 16:58:29 my groupadd[26189]: group added to /etc/group: name=ssl-cert, GID=115
+Mar 14 16:58:29 my groupadd[26189]: group added to /etc/gshadow: name=ssl-cert
+Mar 14 16:58:29 my groupadd[26189]: new group: name=ssl-cert, GID=115
+Mar 14 16:58:45 my groupadd[27437]: group added to /etc/group: name=postfix, GID=116
+Mar 14 16:58:45 my groupadd[27437]: group added to /etc/gshadow: name=postfix
+Mar 14 16:58:45 my groupadd[27437]: new group: name=postfix, GID=116
+Mar 14 16:58:45 my useradd[27443]: new user: name=postfix, UID=108, GID=116, home=/var/spool/postfix, shell=/bin/false
+Mar 14 16:58:45 my usermod[27448]: change user 'postfix' password
+Mar 14 16:58:45 my chage[27453]: changed password expiry for postfix
+Mar 14 16:58:45 my groupadd[27499]: group added to /etc/group: name=postdrop, GID=117
+Mar 14 16:58:45 my groupadd[27499]: group added to /etc/gshadow: name=postdrop
+Mar 14 16:58:45 my groupadd[27499]: new group: name=postdrop, GID=117
+Mar 14 16:58:57 my groupadd[28273]: group added to /etc/group: name=dovecot, GID=118
+Mar 14 16:58:57 my groupadd[28273]: group added to /etc/gshadow: name=dovecot
+Mar 14 16:58:57 my groupadd[28273]: new group: name=dovecot, GID=118
+Mar 14 16:58:57 my useradd[28277]: new user: name=dovecot, UID=109, GID=118, home=/usr/lib/dovecot, shell=/bin/false
+Mar 14 16:58:57 my usermod[28282]: change user 'dovecot' password
+Mar 14 16:58:57 my chage[28287]: changed password expiry for dovecot
+Mar 14 16:58:57 my chfn[28290]: changed user 'dovecot' information
+Mar 14 16:58:57 my groupadd[28296]: group added to /etc/group: name=dovenull, GID=119
+Mar 14 16:58:57 my groupadd[28296]: group added to /etc/gshadow: name=dovenull
+Mar 14 16:58:57 my groupadd[28296]: new group: name=dovenull, GID=119
+Mar 14 16:58:57 my useradd[28300]: new user: name=dovenull, UID=110, GID=119, home=/nonexistent, shell=/bin/false
+Mar 14 16:58:58 my usermod[28305]: change user 'dovenull' password
+Mar 14 16:58:58 my chage[28310]: changed password expiry for dovenull
+Mar 14 16:58:58 my chfn[28313]: changed user 'dovenull' information
+Mar 14 16:59:12 my groupadd[31121]: group added to /etc/group: name=vmail, GID=5000
+Mar 14 16:59:12 my groupadd[31121]: group added to /etc/gshadow: name=vmail
+Mar 14 16:59:12 my groupadd[31121]: new group: name=vmail, GID=5000
+Mar 14 16:59:12 my useradd[31125]: new user: name=vmail, UID=5000, GID=5000, home=/home/vmail, shell=/usr/bin/nologin
+Mar 14 16:59:20 my sshd[31338]: Accepted password for root from 2.0.0.2 port 53625 ssh2
+Mar 14 16:59:20 my sshd[31338]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 14 17:00:38 my sshd[32402]: Accepted password for root from 2.0.0.2 port 53644 ssh2
+Mar 14 17:00:39 my sshd[32402]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 14 17:01:11 my sshd[2168]: Accepted password for root from 2.0.0.2 port 53652 ssh2
+Mar 14 17:01:11 my sshd[2168]: pam_unix(sshd:session): session opened for user root by (uid=0)

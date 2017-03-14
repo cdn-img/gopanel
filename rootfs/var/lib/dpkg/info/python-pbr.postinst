@@ -1,0 +1,19 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "configure" ] ; then
+	update-alternatives --install /usr/bin/pbr pbr /usr/bin/python2-pbr 300
+fi
+
+
+# Automatically added by dhpython:
+if which pycompile >/dev/null 2>&1; then
+	pycompile -p python-pbr 
+fi
+
+# End automatically added section
+
+
+exit 0
+

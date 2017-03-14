@@ -1,0 +1,5 @@
+a85fa1c3cd5eb1732cd9821f3b4ea6b3  usr/lib/php/20160303/mcrypt.so
+0b05fa39906fc4d624a8fa5fd0db38eb  usr/share/bug/php7.1-mcrypt/control
+a5e889fd1091a3a5ba8a617b8f7c3f6b  usr/share/bug/php7.1-mcrypt/script
+d2be7fad8324e05165a5643561af726a  usr/share/lintian/overrides/php7.1-mcrypt
+d73fdad7bc7d2117f82733ed56a57857  usr/share/php7.1-mcrypt/mcrypt/mcrypt.ini

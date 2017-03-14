@@ -1,0 +1,5 @@
+b664403a1e36c0c2c610609eeb947fff  usr/lib/postfix/dict_mysql.so
+30a15fa6c5e1198a0641eb83471d35e8  usr/share/doc/postfix-mysql/README.Debian
+f700a2cc32dee0c088f8b4ec5be98a84  usr/share/doc/postfix-mysql/changelog.Debian.gz
+610803c48f4a75a692e3e609b77bde15  usr/share/doc/postfix-mysql/changelog.gz
+b50d845db5c378fcd429197772004819  usr/share/doc/postfix-mysql/copyright

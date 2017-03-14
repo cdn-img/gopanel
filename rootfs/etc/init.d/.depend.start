@@ -1,0 +1,19 @@
+TARGETS = rsyslog php7.1-fpm motd killprocs bootlogs apache2 single openbsd-inetd mysql dbus nginx rsync cron anacron ssh fail2ban pure-ftpd dovecot bluetooth postfix rmnologin rc.local
+INTERACTIVE = apache2
+apache2: rsyslog
+single: killprocs motd bootlogs
+openbsd-inetd: rsyslog
+mysql: rsyslog
+dbus: rsyslog
+nginx: rsyslog
+rsync: rsyslog
+cron: rsyslog
+anacron: rsyslog
+ssh: rsyslog
+fail2ban: rsyslog
+pure-ftpd: rsyslog mysql
+dovecot: rsyslog mysql
+bluetooth: rsyslog dbus
+postfix: rsyslog mysql dovecot
+rmnologin: openbsd-inetd rsyslog pure-ftpd mysql dovecot bluetooth dbus postfix nginx php7.1-fpm apache2 motd bootlogs rsync cron anacron ssh fail2ban
+rc.local: openbsd-inetd rsyslog pure-ftpd mysql dovecot bluetooth dbus postfix nginx php7.1-fpm apache2 motd bootlogs rsync cron anacron ssh fail2ban

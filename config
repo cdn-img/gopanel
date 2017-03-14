@@ -1,0 +1,15 @@
+# Template used to create this container: /usr/share/lxc/templates/lxc-debian
+# Parameters passed to the template:
+# For additional config options, please look at lxc.container.conf(5)
+lxc.network.type = none
+lxc.rootfs = /var/lib/lxc/dump/rootfs
+
+# Common configuration
+lxc.include = /usr/share/lxc/config/debian.common.conf
+
+# Container specific configuration
+lxc.mount = /var/lib/lxc/dump/fstab
+lxc.utsname = dump
+lxc.arch = amd64
+lxc.autodev = 1
+lxc.kmsg = 0

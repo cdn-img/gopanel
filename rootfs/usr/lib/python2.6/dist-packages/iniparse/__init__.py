@@ -1,0 +1,1 @@
+../../../../share/pyshared/iniparse/__init__.py

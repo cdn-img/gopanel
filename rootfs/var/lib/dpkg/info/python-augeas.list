@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-augeas
+/usr/share/doc/python-augeas/changelog.Debian.gz
+/usr/share/doc/python-augeas/copyright
+/usr/share/doc/python-augeas/README.txt
+/usr/share/pyshared
+/usr/share/pyshared/python_augeas-0.4.1.egg-info
+/usr/share/pyshared/augeas.py
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/python_augeas-0.4.1.egg-info
+/usr/lib/python2.7/dist-packages/augeas.py

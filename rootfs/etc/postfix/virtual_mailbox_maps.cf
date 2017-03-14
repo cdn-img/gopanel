@@ -1,0 +1,7 @@
+user = C43564C0_mail
+password = S5Vj+CnvM
+hosts = localhost
+dbname = C43564C0_maildatabase
+table = users
+select_field = concat(domain,'/',email,'/')
+where_field = email

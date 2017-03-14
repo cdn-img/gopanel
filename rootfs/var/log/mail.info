@@ -1,0 +1,13 @@
+Mar 14 16:58:47 my postfix/master[27705]: daemon started -- version 2.11.3, configuration /etc/postfix
+Mar 14 16:59:01 my dovecot: master: Dovecot v2.2.13 starting up without any protocols (core dumps disabled)
+Mar 14 16:59:01 my dovecot: ssl-params: Generating SSL parameters
+Mar 14 16:59:03 my dovecot: master: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Mar 14 16:59:03 my dovecot: log: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Mar 14 16:59:03 my dovecot: master: Dovecot v2.2.13 starting up for imap, pop3 (core dumps disabled)
+Mar 14 16:59:03 my dovecot: ssl-params: Generating SSL parameters
+Mar 14 16:59:12 my dovecot: ssl-params: SSL parameters regeneration completed
+Mar 14 16:59:19 my postfix/master[27705]: terminating on signal 15
+Mar 14 16:59:19 my postfix/master[31326]: daemon started -- version 2.11.3, configuration /etc/postfix
+Mar 14 16:59:19 my dovecot: log: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Mar 14 16:59:19 my dovecot: master: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Mar 14 16:59:19 my dovecot: master: Dovecot v2.2.13 starting up for imap, pop3 (core dumps disabled)

@@ -1,0 +1,13 @@
+f9e23da11e4529eb244b839af99f7b28  usr/share/doc/libgd-text-perl/README.gz
+00f1740b83e6f84ba98b3e5e143ee44e  usr/share/doc/libgd-text-perl/buildinfo_all.gz
+c56c8fa03f04ede9d5dfcd11165766a2  usr/share/doc/libgd-text-perl/changelog.Debian.gz
+da850ca94f8b9bf011bc3a44f709bed2  usr/share/doc/libgd-text-perl/changelog.gz
+eae1445a524916e5c24a59c7ba6e9e68  usr/share/doc/libgd-text-perl/copyright
+1631800d73f425fca3a6c6c99f0b084c  usr/share/doc/libgd-text-perl/examples/demo/GDWrap.pl
+6e948f433709dd66446dc3b7edeb16fd  usr/share/doc/libgd-text-perl/examples/demo/GDWrap.ref.png
+a9a91fe96a108e7daa28169281dd3dac  usr/share/man/man3/GD::Text.3pm.gz
+e22b5b272c7a0c40e57713e8c0ac4147  usr/share/man/man3/GD::Text::Align.3pm.gz
+6683f34564b1d43d66c082cc9e37c468  usr/share/man/man3/GD::Text::Wrap.3pm.gz
+0373550a55bb3f2141d9e715567d49e1  usr/share/perl5/GD/Text.pm
+c92221e544c84f44ac7e36df9234b49a  usr/share/perl5/GD/Text/Align.pm
+22455814e4472d0a5ad204949c43b141  usr/share/perl5/GD/Text/Wrap.pm

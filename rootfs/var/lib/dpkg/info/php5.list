@@ -1,0 +1,9 @@
+/.
+/usr
+/usr/share
+/usr/share/bug
+/usr/share/bug/php5
+/usr/share/bug/php5/control
+/usr/share/doc
+/usr/share/bug/php5/script
+/usr/share/doc/php5

@@ -1,0 +1,12 @@
+auto
+/usr/bin/phar
+phar.1.gz
+/usr/share/man/man1/phar.1.gz
+
+/usr/bin/phar5
+50
+/usr/share/man/man1/phar5.1.gz
+/usr/bin/phar7.1
+71
+/usr/share/man/man1/phar7.1.1.gz
+

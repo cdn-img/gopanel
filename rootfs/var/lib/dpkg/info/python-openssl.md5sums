@@ -1,0 +1,14 @@
+172731977e5beede3a3559e0c6f9778f  usr/lib/python2.7/dist-packages/OpenSSL/SSL.py
+86ffa979130870ab927bdae45b41f1cd  usr/lib/python2.7/dist-packages/OpenSSL/__init__.py
+dd9d9df1f204f2b592d1ac4edd58d1a3  usr/lib/python2.7/dist-packages/OpenSSL/_util.py
+688efc0a09422648f2580eca34816e89  usr/lib/python2.7/dist-packages/OpenSSL/crypto.py
+2b0ce3db412c3aa7dcfeec4aa52bda01  usr/lib/python2.7/dist-packages/OpenSSL/rand.py
+3e6152471ae4f833ff25a925f18aa2c3  usr/lib/python2.7/dist-packages/OpenSSL/tsafe.py
+4af3f4ee9cec7c7a6cb2dd31292c6297  usr/lib/python2.7/dist-packages/OpenSSL/version.py
+64ccd07aefc008b893ffed0c4a67b976  usr/lib/python2.7/dist-packages/pyOpenSSL-16.0.0.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python2.7/dist-packages/pyOpenSSL-16.0.0.egg-info/dependency_links.txt
+0a980157f4f2560cd4fb4fdbb2335074  usr/lib/python2.7/dist-packages/pyOpenSSL-16.0.0.egg-info/requires.txt
+1b83158a5ddc854e51861cbf63ab927f  usr/lib/python2.7/dist-packages/pyOpenSSL-16.0.0.egg-info/top_level.txt
+180807638d84cb4c4ce3d0236a2f83d2  usr/share/doc/python-openssl/changelog.Debian.gz
+73d963b5a82eae376f4b0ef1f5325ddf  usr/share/doc/python-openssl/changelog.gz
+11a72261d51e08cdba1d9e781dd7d8a3  usr/share/doc/python-openssl/copyright

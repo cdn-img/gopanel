@@ -1,0 +1,30 @@
+2017-03-14 17:00:42,770 fail2ban.server [362]: INFO    Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.13
+2017-03-14 17:00:42,771 fail2ban.jail   [362]: INFO    Creating new jail 'ssh'
+2017-03-14 17:00:42,809 fail2ban.jail   [362]: INFO    Jail 'ssh' uses pyinotify
+2017-03-14 17:00:42,829 fail2ban.jail   [362]: INFO    Initiated 'pyinotify' backend
+2017-03-14 17:00:42,831 fail2ban.filter [362]: INFO    Added logfile = /var/log/auth.log
+2017-03-14 17:00:42,832 fail2ban.filter [362]: INFO    Set maxRetry = 6
+2017-03-14 17:00:42,833 fail2ban.filter [362]: INFO    Set findtime = 600
+2017-03-14 17:00:42,834 fail2ban.actions[362]: INFO    Set banTime = 600
+2017-03-14 17:00:42,869 fail2ban.jail   [362]: INFO    Jail 'ssh' started
+2017-03-14 17:00:42,911 fail2ban.actions.action[362]: ERROR   iptables -N fail2ban-ssh
+iptables -A fail2ban-ssh -j RETURN
+iptables -I INPUT -p tcp -m multiport --dports ssh -j fail2ban-ssh returned 300
+2017-03-14 17:00:45,016 fail2ban.server [362]: INFO    Stopping all jails
+2017-03-14 17:00:45,928 fail2ban.actions.action[362]: ERROR   iptables -D INPUT -p tcp -m multiport --dports ssh -j fail2ban-ssh
+iptables -F fail2ban-ssh
+iptables -X fail2ban-ssh returned 300
+2017-03-14 17:00:45,929 fail2ban.jail   [362]: INFO    Jail 'ssh' stopped
+2017-03-14 17:00:45,929 fail2ban.server [362]: INFO    Exiting Fail2ban
+2017-03-14 17:00:46,477 fail2ban.server [440]: INFO    Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.13
+2017-03-14 17:00:46,478 fail2ban.jail   [440]: INFO    Creating new jail 'ssh'
+2017-03-14 17:00:46,496 fail2ban.jail   [440]: INFO    Jail 'ssh' uses pyinotify
+2017-03-14 17:00:46,513 fail2ban.jail   [440]: INFO    Initiated 'pyinotify' backend
+2017-03-14 17:00:46,515 fail2ban.filter [440]: INFO    Added logfile = /var/log/auth.log
+2017-03-14 17:00:46,516 fail2ban.filter [440]: INFO    Set maxRetry = 6
+2017-03-14 17:00:46,517 fail2ban.filter [440]: INFO    Set findtime = 600
+2017-03-14 17:00:46,517 fail2ban.actions[440]: INFO    Set banTime = 600
+2017-03-14 17:00:46,552 fail2ban.jail   [440]: INFO    Jail 'ssh' started
+2017-03-14 17:00:46,563 fail2ban.actions.action[440]: ERROR   iptables -N fail2ban-ssh
+iptables -A fail2ban-ssh -j RETURN
+iptables -I INPUT -p tcp -m multiport --dports ssh -j fail2ban-ssh returned 300

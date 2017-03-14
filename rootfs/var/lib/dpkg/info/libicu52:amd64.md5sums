@@ -1,0 +1,12 @@
+bbce60d7f7bbab812397628865f9cc48  usr/lib/x86_64-linux-gnu/libicudata.so.52.1
+0802045eb54e738764414657e2e56d14  usr/lib/x86_64-linux-gnu/libicui18n.so.52.1
+18a5f07957f53b127df8324abf219453  usr/lib/x86_64-linux-gnu/libicuio.so.52.1
+84f185be70d70e8a4c464c9b17cb4b33  usr/lib/x86_64-linux-gnu/libicule.so.52.1
+3dd3ab10e20fea7503ec181cdaaf3c6c  usr/lib/x86_64-linux-gnu/libiculx.so.52.1
+ab115c0d2a41ae739184c330fc7cea59  usr/lib/x86_64-linux-gnu/libicutest.so.52.1
+7059e8aadfbda386ee4cbaf6a14f4d3b  usr/lib/x86_64-linux-gnu/libicutu.so.52.1
+180df76577ba49e8dc995df106ed21e6  usr/lib/x86_64-linux-gnu/libicuuc.so.52.1
+9c69789ded16fb0ebc4e278ce0502678  usr/share/doc/libicu52/NEWS.Debian.gz
+48855d74b8174e0eef2ef2243d0f4da0  usr/share/doc/libicu52/changelog.Debian.gz
+e9d091d4b40db057d22a5f40b7caa2a0  usr/share/doc/libicu52/copyright
+09a71baab561f39389aed4e504a90e6b  usr/share/lintian/overrides/libicu52

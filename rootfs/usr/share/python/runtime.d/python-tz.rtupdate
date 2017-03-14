@@ -1,0 +1,6 @@
+#! /bin/sh
+set -e
+if [ "$1" = rtupdate ]; then
+	pyclean -p python-tz /usr/lib/python-tz
+	pycompile -p python-tz -V 2.4- /usr/lib/python-tz
+fi

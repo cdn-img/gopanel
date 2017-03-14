@@ -1,0 +1,63 @@
+#! /usr/bin/perl
+#
+# Copyright 2004,2009 by Stefan Hornburg (Racke) <racke@linuxia.de>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public
+# License along with this program; if not, write to the Free
+# Software Foundation, Inc., 59 Temple Place, Suite 330, Boston,
+# MA  02111-1307  USA.
+
+use strict;
+use warnings;
+
+my @names = qw(pure-ftpd pure-ftpd-mysql pure-ftpd-postgresql pure-ftpd-ldap);
+my $binary;
+
+for (@names) {
+	$binary = "/usr/sbin/$_";
+
+	if (-x $binary && ! -l $binary) {
+		# binary found, call init script with args passed to this script
+		exec ("/etc/init.d/$_", @ARGV);
+		die "$0: failed to execute $binary: $!\n";
+	}
+}
+
+__END__
+
+=head1 NAME
+
+pure-ftpd-control - invokes init script for installed Pure-FTPd flavour
+
+=head1 SYNOPSIS
+
+  pure-ftpd-control start
+  pure-ftpd-control stop
+  pure-ftpd-control restart
+
+=head1 DESCRIPTION
+
+There are four flavours for the Pure-FTPd daemon in Debian: pure-ftpd,
+pure-ftpd-mysql, pure-ftpd-postgresql and pure-ftpd-ldap.
+This script invokes the init script for the flavour installed, if any.
+
+=head1 SEE ALSO
+	
+L<pure-ftpd-wrapper>(8)
+
+=head1 AUTHOR
+
+This manual page was written by Stefan Hornburg (Racke) <racke@linuxia.de>
+for the Debian GNU/Linux system.
+
+	

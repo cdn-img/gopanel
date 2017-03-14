@@ -1,0 +1,2 @@
+SHELL=/bin/sh
+32 23 * * * root /usr/sbin/csf -u

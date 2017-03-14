@@ -1,0 +1,5 @@
+bcd57bf244d6180683fc5b5beadf898a  usr/lib/x86_64-linux-gnu/libgd.so.3.0.0
+4cfd9bcd97bee39bfc9482a6242e70cc  usr/share/doc/libgd3/changelog.Debian.gz
+6b7b51e8a11597e6401226a5eb5381f2  usr/share/doc/libgd3/changelog.gz
+44d425370e923133371e193527f1f69f  usr/share/doc/libgd3/copyright
+43a0895ba7ba88ad91e8dcea5b1520cf  usr/share/lintian/overrides/libgd3
