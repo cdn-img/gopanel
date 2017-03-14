@@ -960,3 +960,4 @@ Mar 14 16:51:47 my rsyslogd-2007: action 'action 17' suspended, next retry is Tu
 Mar 14 16:52:31 my rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="170" x-info="http://www.rsyslog.com"] exiting on signal 15.
 Mar 14 16:53:23 my rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="126" x-info="http://www.rsyslog.com"] start
 Mar 14 16:53:23 my rsyslogd-2007: action 'action 17' suspended, next retry is Tue Mar 14 16:53:53 2017 [try http://www.rsyslog.com/e/2007 ]
+Mar 14 18:02:27 my rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="126" x-info="http://www.rsyslog.com"] exiting on signal 15.

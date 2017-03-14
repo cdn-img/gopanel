@@ -11,3 +11,5 @@
 [14-Mar-2017 16:58:32] NOTICE: fpm is running, pid 26375
 [14-Mar-2017 16:58:32] NOTICE: ready to handle connections
 [14-Mar-2017 16:58:32] NOTICE: systemd monitor interval set to 10000ms
+[14-Mar-2017 18:02:27] NOTICE: Terminating ...
+[14-Mar-2017 18:02:27] NOTICE: exiting, bye-bye!

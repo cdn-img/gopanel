@@ -11,3 +11,9 @@ Mar 14 16:59:19 my postfix/master[31326]: daemon started -- version 2.11.3, conf
 Mar 14 16:59:19 my dovecot: log: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
 Mar 14 16:59:19 my dovecot: master: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
 Mar 14 16:59:19 my dovecot: master: Dovecot v2.2.13 starting up for imap, pop3 (core dumps disabled)
+Mar 14 18:00:02 my postfix/pickup[31327]: DBBB8E4D1D: uid=0 from=<root>
+Mar 14 18:00:02 my postfix/cleanup[2509]: DBBB8E4D1D: message-id=<20170314150002.DBBB8E4D1D@example.com>
+Mar 14 18:00:02 my postfix/qmgr[31328]: DBBB8E4D1D: from=<root@example.com>, size=669, nrcpt=1 (queue active)
+Mar 14 18:00:33 my postfix/smtp[2513]: connect to example.com[93.184.216.34]:25: Connection timed out
+Mar 14 18:00:33 my postfix/smtp[2513]: connect to example.com[2606:2800:220:1:248:1893:25c8:1946]:25: Network is unreachable
+Mar 14 18:00:33 my postfix/smtp[2513]: DBBB8E4D1D: to=<root@example.com>, orig_to=<root>, relay=none, delay=31, delays=0.12/0.01/31/0, dsn=4.4.1, status=deferred (connect to example.com[2606:2800:220:1:248:1893:25c8:1946]:25: Network is unreachable)

@@ -28,3 +28,9 @@ iptables -X fail2ban-ssh returned 300
 2017-03-14 17:00:46,563 fail2ban.actions.action[440]: ERROR   iptables -N fail2ban-ssh
 iptables -A fail2ban-ssh -j RETURN
 iptables -I INPUT -p tcp -m multiport --dports ssh -j fail2ban-ssh returned 300
+2017-03-14 18:02:27,629 fail2ban.server [440]: INFO    Stopping all jails
+2017-03-14 18:02:28,454 fail2ban.actions.action[440]: ERROR   iptables -D INPUT -p tcp -m multiport --dports ssh -j fail2ban-ssh
+iptables -F fail2ban-ssh
+iptables -X fail2ban-ssh returned 300
+2017-03-14 18:02:28,454 fail2ban.jail   [440]: INFO    Jail 'ssh' stopped
+2017-03-14 18:02:28,455 fail2ban.server [440]: INFO    Exiting Fail2ban

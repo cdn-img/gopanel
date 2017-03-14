@@ -1,0 +1,5 @@
+      lxc-start 1489503655.036 ERROR    lxc_commands - failed (98) to create the command service point /var/lib/lxc/dump/command
+      lxc-start 1489503655.036 ERROR    lxc_commands - ##
+      lxc-start 1489503655.036 ERROR    lxc_commands - # The container appears to be already running!
+      lxc-start 1489503655.036 ERROR    lxc_commands - ##
+      lxc-start 1489503655.036 ERROR    lxc_start - failed to initialize the container

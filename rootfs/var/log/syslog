@@ -2764,3 +2764,37 @@ Mar 14 17:01:10 my pure-ftpd[2151]: Stopping ftp server: pure-ftpd.
 Mar 14 17:01:10 my systemd[1]: Starting (null)...
 Mar 14 17:01:11 my pure-ftpd[2159]: Starting ftp server: Running: /usr/sbin/pure-ftpd -l pam -l puredb:/etc/pure-ftpd/pureftpd.pdb -Y 1 -E -J ALL:!aNULL:!SSLv3 -p 30000:50000 -A -8 UTF-8 -u 1000 -O clf:/var/log/pure-ftpd/transfer.log -B
 Mar 14 17:01:11 my systemd[1]: Started (null).
+Mar 14 17:06:32 my systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 14 17:06:32 my systemd[1]: Started Cleanup of Temporary Directories.
+Mar 14 17:09:01 my systemd[1]: Starting Clean php session files...
+Mar 14 17:09:01 my CRON[2322]: (root) CMD (  [ -x /usr/lib/php5/sessionclean ] && /usr/lib/php5/sessionclean)
+Mar 14 17:09:01 my CRON[2321]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Mar 14 17:09:01 my systemd[1]: Started Clean php session files.
+Mar 14 17:17:01 my CRON[2409]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 14 17:39:01 my CRON[2413]: (root) CMD (  [ -x /usr/lib/php5/sessionclean ] && /usr/lib/php5/sessionclean)
+Mar 14 17:39:01 my CRON[2415]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Mar 14 17:39:01 my systemd[1]: Starting Clean php session files...
+Mar 14 17:39:02 my systemd[1]: Started Clean php session files.
+Mar 14 18:00:01 my CRON[2501]: (root) CMD (certbot renew --quiet --pre-hook 'service nginx stop' --post-hook 'service nginx start' )
+Mar 14 18:00:02 my postfix/pickup[31327]: DBBB8E4D1D: uid=0 from=<root>
+Mar 14 18:00:02 my postfix/cleanup[2509]: DBBB8E4D1D: message-id=<20170314150002.DBBB8E4D1D@example.com>
+Mar 14 18:00:02 my postfix/qmgr[31328]: DBBB8E4D1D: from=<root@example.com>, size=669, nrcpt=1 (queue active)
+Mar 14 18:00:33 my postfix/smtp[2513]: connect to example.com[93.184.216.34]:25: Connection timed out
+Mar 14 18:00:33 my postfix/smtp[2513]: connect to example.com[2606:2800:220:1:248:1893:25c8:1946]:25: Network is unreachable
+Mar 14 18:00:33 my postfix/smtp[2513]: DBBB8E4D1D: to=<root@example.com>, orig_to=<root>, relay=none, delay=31, delays=0.12/0.01/31/0, dsn=4.4.1, status=deferred (connect to example.com[2606:2800:220:1:248:1893:25c8:1946]:25: Network is unreachable)
+Mar 14 18:02:27 my systemd[1]: Started Synchronise Hardware Clock to System Clock.
+Mar 14 18:02:27 my systemd[1]: Starting Unmount All Filesystems.
+Mar 14 18:02:27 my systemd[1]: Reached target Unmount All Filesystems.
+Mar 14 18:02:27 my systemd[1]: Stopping system-getty.slice.
+Mar 14 18:02:27 my systemd[1]: Removed slice system-getty.slice.
+Mar 14 18:02:27 my systemd[1]: Stopping Graphical Interface.
+Mar 14 18:02:27 my systemd[1]: Stopped target Graphical Interface.
+Mar 14 18:02:27 my systemd[1]: Stopping Multi-User System.
+Mar 14 18:02:27 my systemd[1]: Stopped target Multi-User System.
+Mar 14 18:02:27 my systemd[1]: Stopping ConfigServer Firewall & Security - csf...
+Mar 14 18:02:27 my systemd[1]: Stopping The PHP 7.1 FastCGI Process Manager...
+Mar 14 18:02:27 my systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Mar 14 18:02:27 my systemd[1]: Stopping Regular background program processing daemon...
+Mar 14 18:02:27 my systemd[1]: Stopping Internet superserver...
+Mar 14 18:02:27 my systemd[1]: Stopping OpenBSD Secure Shell server...
+Mar 14 18:02:27 my rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="126" x-info="http://www.rsyslog.com"] exiting on signal 15.

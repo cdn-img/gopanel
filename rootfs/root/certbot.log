@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/usr/bin/certbot", line 9, in <module>
+    load_entry_point('certbot==0.9.3', 'console_scripts', 'certbot')()
+  File "/usr/lib/python2.7/dist-packages/certbot/main.py", line 735, in main
+    args = cli.prepare_and_parse_args(plugins, cli_args)
+  File "/usr/lib/python2.7/dist-packages/certbot/cli.py", line 903, in prepare_and_parse_args
+    return helpful.parse_args()
+  File "/usr/lib/python2.7/dist-packages/certbot/cli.py", line 403, in parse_args
+    hooks.validate_hooks(parsed_args)
+  File "/usr/lib/python2.7/dist-packages/certbot/hooks.py", line 15, in validate_hooks
+    _validate_hook(config.pre_hook, "pre")
+  File "/usr/lib/python2.7/dist-packages/certbot/hooks.py", line 35, in _validate_hook
+    raise errors.HookCommandNotFound(msg)
+HookCommandNotFound: Unable to find pre-hook command service in the PATH.
+(PATH is /usr/bin:/bin)

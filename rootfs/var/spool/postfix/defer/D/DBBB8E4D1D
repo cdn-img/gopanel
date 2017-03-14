@@ -1,0 +1,9 @@
+
+<root@example.com>: connect to example.com[2606:2800:220:1:248:1893:25c8:1946]:25: Network is unreachable
+recipient=root@example.com
+original_recipient=root
+offset=215
+status=4.4.1
+action=delayed
+reason=connect to example.com[2606:2800:220:1:248:1893:25c8:1946]:25: Network is unreachable
+

@@ -118,3 +118,24 @@ Mar 14 17:00:38 my sshd[32402]: Accepted password for root from 2.0.0.2 port 536
 Mar 14 17:00:39 my sshd[32402]: pam_unix(sshd:session): session opened for user root by (uid=0)
 Mar 14 17:01:11 my sshd[2168]: Accepted password for root from 2.0.0.2 port 53652 ssh2
 Mar 14 17:01:11 my sshd[2168]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 14 17:09:01 my CRON[2320]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 17:09:01 my CRON[2319]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 17:09:01 my CRON[2319]: pam_unix(cron:session): session closed for user root
+Mar 14 17:09:01 my CRON[2320]: pam_unix(cron:session): session closed for user root
+Mar 14 17:17:01 my CRON[2408]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 17:17:01 my CRON[2408]: pam_unix(cron:session): session closed for user root
+Mar 14 17:37:28 my sshd[32402]: pam_unix(sshd:session): session closed for user root
+Mar 14 17:37:28 my sshd[31338]: pam_unix(sshd:session): session closed for user root
+Mar 14 17:37:28 my sshd[322]: pam_unix(sshd:session): session closed for user root
+Mar 14 17:37:28 my sshd[2168]: pam_unix(sshd:session): session closed for user root
+Mar 14 17:37:28 my sshd[137]: pam_unix(sshd:session): session closed for user root
+Mar 14 17:37:28 my sshd[287]: pam_unix(sshd:session): session closed for user root
+Mar 14 17:37:28 my sshd[324]: pam_unix(sshd:session): session closed for user root
+Mar 14 17:39:01 my CRON[2411]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 17:39:01 my CRON[2412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 17:39:01 my CRON[2411]: pam_unix(cron:session): session closed for user root
+Mar 14 17:39:01 my CRON[2412]: pam_unix(cron:session): session closed for user root
+Mar 14 18:00:01 my CRON[2500]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 14 18:00:02 my CRON[2500]: pam_unix(cron:session): session closed for user root
+Mar 14 18:01:19 my sshd[2518]: Accepted password for root from 2.0.0.2 port 54814 ssh2
+Mar 14 18:01:19 my sshd[2518]: pam_unix(sshd:session): session opened for user root by (uid=0)

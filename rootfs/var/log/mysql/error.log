@@ -131,3 +131,10 @@ Version: '5.5.54-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (
 170314 16:57:02 [Note] Event Scheduler: Loaded 0 events
 170314 16:57:02 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.5.54-0+deb8u1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Debian)
+170314 18:02:27 [Note] /usr/sbin/mysqld: Normal shutdown
+
+170314 18:02:27 [Note] Event Scheduler: Purging the queue. 0 events
+170314 18:02:27  InnoDB: Starting shutdown...
+170314 18:02:29  InnoDB: Shutdown completed; log sequence number 1604248
+170314 18:02:29 [Note] /usr/sbin/mysqld: Shutdown complete
+

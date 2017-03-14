@@ -19,3 +19,7 @@ lxc-ls
 netstat -anp | grep tcp | grep LISTEN
 halt 
 nano /etc/resolv.conf 
+ls
+cd
+ls
+halt
