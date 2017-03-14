@@ -2798,3 +2798,172 @@ Mar 14 18:02:27 my systemd[1]: Stopping Regular background program processing da
 Mar 14 18:02:27 my systemd[1]: Stopping Internet superserver...
 Mar 14 18:02:27 my systemd[1]: Stopping OpenBSD Secure Shell server...
 Mar 14 18:02:27 my rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="126" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Mar 14 18:05:03 my rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="138" x-info="http://www.rsyslog.com"] start
+Mar 14 18:05:03 my rsyslogd-2039: Could not open output pipe '/dev/xconsole': No such file or directory [try http://www.rsyslog.com/e/2039 ]
+Mar 14 18:05:03 my systemd[1]: Started Copy rules generated while the root was ro.
+Mar 14 18:05:03 my systemd[1]: Mounted Huge Pages File System.
+Mar 14 18:05:03 my systemd[1]: Mounted POSIX Message Queue File System.
+Mar 14 18:05:03 my keyboard-setup[20]: Setting preliminary keymap...done.
+Mar 14 18:05:03 my systemd[1]: Started LSB: Set preliminary keymap.
+Mar 14 18:05:03 my systemd[1]: Starting Remount Root and Kernel File Systems...
+Mar 14 18:05:03 my systemd-remount-fs[39]: mount: can't find UUID=9aad80cc-de0e-4402-8794-bd35bd2cc4b6
+Mar 14 18:05:03 my systemd-remount-fs[39]: /bin/mount for / exited with exit status 1.
+Mar 14 18:05:03 my systemd[1]: systemd-remount-fs.service: main process exited, code=exited, status=1/FAILURE
+Mar 14 18:05:03 my systemd[1]: Failed to start Remount Root and Kernel File Systems.
+Mar 14 18:05:03 my systemd[1]: Unit systemd-remount-fs.service entered failed state.
+Mar 14 18:05:03 my systemd[1]: Started Various fixups to make systemd work better on Debian.
+Mar 14 18:05:03 my systemd[1]: Starting Local File Systems (Pre).
+Mar 14 18:05:03 my systemd[1]: Reached target Local File Systems (Pre).
+Mar 14 18:05:03 my systemd[1]: Starting Local File Systems.
+Mar 14 18:05:03 my systemd[1]: Reached target Local File Systems.
+Mar 14 18:05:03 my systemd[1]: Starting Create Volatile Files and Directories...
+Mar 14 18:05:03 my systemd[1]: Starting Remote File Systems.
+Mar 14 18:05:03 my systemd[1]: Reached target Remote File Systems.
+Mar 14 18:05:03 my systemd[1]: Starting Trigger Flushing of Journal to Persistent Storage...
+Mar 14 18:05:03 my systemd[1]: Starting LSB: Prepare console...
+Mar 14 18:05:03 my systemd[1]: Starting Load/Save Random Seed...
+Mar 14 18:05:03 my systemd[1]: Started Load/Save Random Seed.
+Mar 14 18:05:03 my systemd[1]: Started Trigger Flushing of Journal to Persistent Storage.
+Mar 14 18:05:03 my systemd[1]: Starting LSB: Raise network interfaces....
+Mar 14 18:05:03 my systemd[1]: Started Create Volatile Files and Directories.
+Mar 14 18:05:03 my systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 14 18:05:03 my systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 14 18:05:03 my kbd[43]: Setting console screen modes.
+Mar 14 18:05:03 my systemd[1]: Started LSB: Prepare console.
+Mar 14 18:05:03 my systemd[1]: Starting LSB: Set console font and keymap...
+Mar 14 18:05:03 my console-setup[76]: Setting up console font and keymap...We are not on the console, the console is left unconfigured.
+Mar 14 18:05:03 my console-setup[76]: done.
+Mar 14 18:05:03 my systemd[1]: Started LSB: Set console font and keymap.
+Mar 14 18:05:03 my networking[45]: Configuring network interfaces...done.
+Mar 14 18:05:03 my systemd[1]: Started LSB: Raise network interfaces..
+Mar 14 18:05:03 my systemd[1]: Starting Network.
+Mar 14 18:05:03 my systemd[1]: Reached target Network.
+Mar 14 18:05:03 my systemd[1]: Starting Network is Online.
+Mar 14 18:05:03 my systemd[1]: Reached target Network is Online.
+Mar 14 18:05:03 my systemd[1]: Starting System Initialization.
+Mar 14 18:05:03 my systemd[1]: Reached target System Initialization.
+Mar 14 18:05:03 my systemd[1]: Starting Dovecot IMAP/POP3 email server activation socket.
+Mar 14 18:05:03 my systemd[1]: Listening on Dovecot IMAP/POP3 email server activation socket.
+Mar 14 18:05:03 my systemd[1]: Starting D-Bus System Message Bus Socket.
+Mar 14 18:05:03 my systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 14 18:05:03 my systemd[1]: Starting Sockets.
+Mar 14 18:05:03 my systemd[1]: Reached target Sockets.
+Mar 14 18:05:03 my systemd[1]: Starting Run certbot twice daily.
+Mar 14 18:05:03 my systemd[1]: Started Run certbot twice daily.
+Mar 14 18:05:03 my systemd[1]: Starting Clean PHP session files every 30 mins.
+Mar 14 18:05:03 my systemd[1]: Started Clean PHP session files every 30 mins.
+Mar 14 18:05:03 my systemd[1]: Starting Daily Cleanup of Temporary Directories.
+Mar 14 18:05:03 my systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 14 18:05:03 my systemd[1]: Starting Timers.
+Mar 14 18:05:03 my systemd[1]: Reached target Timers.
+Mar 14 18:05:03 my systemd[1]: Starting Basic System.
+Mar 14 18:05:03 my systemd[1]: Reached target Basic System.
+Mar 14 18:05:03 my systemd[1]: Starting ConfigServer Firewall & Security - csf...
+Mar 14 18:05:03 my systemd[1]: Starting The PHP 7.1 FastCGI Process Manager...
+Mar 14 18:05:03 my systemd[1]: Starting A high performance web server and a reverse proxy server...
+Mar 14 18:05:03 my systemd[1]: Starting Run anacron jobs...
+Mar 14 18:05:03 my systemd[1]: Started Run anacron jobs.
+Mar 14 18:05:03 my systemd[1]: Starting Regular background program processing daemon...
+Mar 14 18:05:03 my cron[135]: (CRON) INFO (pidfile fd = 3)
+Mar 14 18:05:03 my systemd[1]: Started Regular background program processing daemon.
+Mar 14 18:05:03 my systemd[1]: Starting Internet superserver...
+Mar 14 18:05:03 my systemd[1]: Started Internet superserver.
+Mar 14 18:05:03 my systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 14 18:05:03 my systemd[1]: Started OpenBSD Secure Shell server.
+Mar 14 18:05:03 my systemd[1]: Starting System Logging Service...
+Mar 14 18:05:03 my cron[135]: (CRON) INFO (Running @reboot jobs)
+Mar 14 18:05:03 my systemd[1]: Starting /etc/rc.local Compatibility...
+Mar 14 18:05:03 my anacron[134]: Anacron 2.3 started on 2017-03-14
+Mar 14 18:05:03 my anacron[134]: Normal exit (0 jobs run)
+Mar 14 18:05:03 my systemd[1]: Starting D-Bus System Message Bus...
+Mar 14 18:05:03 my systemd[1]: Started D-Bus System Message Bus.
+Mar 14 18:05:03 my rsyslogd-2007: action 'action 17' suspended, next retry is Tue Mar 14 18:05:33 2017 [try http://www.rsyslog.com/e/2007 ]
+Mar 14 18:05:03 my systemd[1]: Starting Permit User Sessions...
+Mar 14 18:05:03 my systemd[1]: Starting Login Service...
+Mar 14 18:05:03 my systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar 14 18:05:03 my systemd[1]: Starting LSB: Apache2 web server...
+Mar 14 18:05:03 my systemd[1]: Starting Dovecot IMAP/POP3 email server...
+Mar 14 18:05:03 my systemd[1]: Started Dovecot IMAP/POP3 email server.
+Mar 14 18:05:03 my systemd[1]: Starting LSB: Start/stop fail2ban...
+Mar 14 18:05:03 my systemd[1]: Starting LSB: Start and stop the mysql database server daemon...
+Mar 14 18:05:03 my systemd[1]: Started System Logging Service.
+Mar 14 18:05:03 my systemd[1]: Started /etc/rc.local Compatibility.
+Mar 14 18:05:03 my systemd[1]: Started Permit User Sessions.
+Mar 14 18:05:03 my systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 14 18:05:03 my systemd[1]: Started Getty on tty1.
+Mar 14 18:05:03 my systemd[1]: Starting Console Getty...
+Mar 14 18:05:03 my dovecot[147]: Error: systemd listens on port 993, but it's not configured in Dovecot. Closing.
+Mar 14 18:05:03 my systemd[1]: Started Console Getty.
+Mar 14 18:05:03 my systemd[1]: Starting Login Prompts.
+Mar 14 18:05:03 my systemd[1]: Reached target Login Prompts.
+Mar 14 18:05:03 my dovecot: master: Error: systemd listens on port 993, but it's not configured in Dovecot. Closing.
+Mar 14 18:05:03 my dovecot[147]: Error: systemd listens on port 993, but it's not configured in Dovecot. Closing.
+Mar 14 18:05:03 my dovecot: master: Error: systemd listens on port 993, but it's not configured in Dovecot. Closing.
+Mar 14 18:05:03 my dovecot: master: Dovecot v2.2.13 starting up for imap, pop3 (core dumps disabled)
+Mar 14 18:05:03 my systemd[1]: Started Login Service.
+Mar 14 18:05:03 my systemd[1]: Started Cleanup of Temporary Directories.
+Mar 14 18:05:03 my systemd[1]: Failed to read PID from file /run/nginx.pid: Invalid argument
+Mar 14 18:05:03 my systemd[1]: Started A high performance web server and a reverse proxy server.
+Mar 14 18:05:03 my systemd[1]: Started The PHP 7.1 FastCGI Process Manager.
+Mar 14 18:05:03 my apache2[146]: Starting web server: apache2(98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+Mar 14 18:05:03 my apache2[146]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+Mar 14 18:05:03 my apache2[146]: no listening sockets available, shutting down
+Mar 14 18:05:03 my apache2[146]: AH00015: Unable to open logs
+Mar 14 18:05:03 my apache2[146]: Action 'start' failed.
+Mar 14 18:05:03 my apache2[146]: The Apache error log may have more information.
+Mar 14 18:05:03 my apache2[146]: .
+Mar 14 18:05:04 my apache2[303]: Stopping web server: apache2.
+Mar 14 18:05:04 my systemd[1]: Started LSB: Apache2 web server.
+Mar 14 18:05:04 my csf[131]: *WARNING* URLGET set to use LWP but perl module is not installed, reverting to HTTP::Tiny
+Mar 14 18:05:04 my csf[131]: (restoring iptables) (restoring ip6tables)
+Mar 14 18:05:04 my systemd[1]: Started ConfigServer Firewall & Security - csf.
+Mar 14 18:05:04 my systemd[1]: Starting ConfigServer Firewall & Security - lfd...
+Mar 14 18:05:04 my fail2ban[148]: Starting authentication failure monitor: fail2ban.
+Mar 14 18:05:04 my systemd[1]: Started LSB: Start/stop fail2ban.
+Mar 14 18:05:04 my lfd[464]: Can't locate IO/Socket/SSL.pm in @INC (you may need to install the IO::Socket::SSL module) (@INC contains: /usr/local/csf/lib /usr/local/cpanel /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.20.2 /usr/local/share/perl/5.20.2 /usr/lib/x86_64-linux-gnu/perl5/5.20 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.20 /usr/share/perl/5.20 /usr/local/lib/site_perl .) at /usr/sbin/lfd line 83.
+Mar 14 18:05:04 my systemd[1]: lfd.service: control process exited, code=exited status=2
+Mar 14 18:05:04 my systemd[1]: Failed to start ConfigServer Firewall & Security - lfd.
+Mar 14 18:05:04 my systemd[1]: Unit lfd.service entered failed state.
+Mar 14 18:05:05 my mysql[149]: Starting MySQL database server: mysqld ..
+Mar 14 18:05:05 my mysql[149]: Checking for tables which need an upgrade, are corrupt or were
+Mar 14 18:05:05 my mysql[149]: not closed cleanly..
+Mar 14 18:05:05 my systemd[1]: Started LSB: Start and stop the mysql database server daemon.
+Mar 14 18:05:05 my systemd[1]: Starting LSB: Postfix Mail Transport Agent...
+Mar 14 18:05:05 my systemd[1]: Starting (null)...
+Mar 14 18:05:05 my /etc/mysql/debian-start[651]: Upgrading MySQL tables if necessary.
+Mar 14 18:05:05 my pure-ftpd[653]: Starting ftp server: Running: /usr/sbin/pure-ftpd -l pam -l puredb:/etc/pure-ftpd/pureftpd.pdb -Y 1 -E -J ALL:!aNULL:!SSLv3 -p 30000:50000 -A -8 UTF-8 -u 1000 -O clf:/var/log/pure-ftpd/transfer.log -B
+Mar 14 18:05:05 my systemd[1]: Started (null).
+Mar 14 18:05:05 my /etc/mysql/debian-start[656]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Mar 14 18:05:05 my /etc/mysql/debian-start[656]: Looking for 'mysql' as: /usr/bin/mysql
+Mar 14 18:05:05 my /etc/mysql/debian-start[656]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Mar 14 18:05:05 my /etc/mysql/debian-start[656]: This installation of MySQL is already upgraded to 5.5.54, use --force if you still need to run mysql_upgrade
+Mar 14 18:05:05 my /etc/mysql/debian-start[700]: Checking for insecure root accounts.
+Mar 14 18:05:05 my /etc/mysql/debian-start[706]: Triggering myisam-recover for all MyISAM tables
+Mar 14 18:05:06 my postfix[652]: Starting Postfix Mail Transport Agent: postfix.
+Mar 14 18:05:06 my systemd[1]: Started LSB: Postfix Mail Transport Agent.
+Mar 14 18:05:06 my systemd[1]: Starting Multi-User System.
+Mar 14 18:05:06 my systemd[1]: Reached target Multi-User System.
+Mar 14 18:05:06 my systemd[1]: Starting Graphical Interface.
+Mar 14 18:05:06 my systemd[1]: Reached target Graphical Interface.
+Mar 14 18:05:06 my systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 14 18:05:06 my systemd[1]: Starting Mail Transport Agent.
+Mar 14 18:05:06 my systemd[1]: Reached target Mail Transport Agent.
+Mar 14 18:05:06 my systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 14 18:05:06 my systemd[1]: Startup finished in 2.843s.
+Mar 14 18:05:06 my postfix/master[850]: daemon started -- version 2.11.3, configuration /etc/postfix
+Mar 14 18:06:46 my systemd[1]: Started Synchronise Hardware Clock to System Clock.
+Mar 14 18:06:46 my systemd[1]: Starting Unmount All Filesystems.
+Mar 14 18:06:46 my systemd[1]: Reached target Unmount All Filesystems.
+Mar 14 18:06:46 my systemd[1]: Stopping system-getty.slice.
+Mar 14 18:06:46 my systemd[1]: Removed slice system-getty.slice.
+Mar 14 18:06:46 my systemd[1]: Stopping Graphical Interface.
+Mar 14 18:06:46 my systemd[1]: Stopped target Graphical Interface.
+Mar 14 18:06:46 my systemd[1]: Stopping Multi-User System.
+Mar 14 18:06:46 my systemd[1]: Stopped target Multi-User System.
+Mar 14 18:06:46 my systemd[1]: Stopping ConfigServer Firewall & Security - csf...
+Mar 14 18:06:46 my systemd[1]: Stopping The PHP 7.1 FastCGI Process Manager...
+Mar 14 18:06:46 my systemd[1]: Stopping A high performance web server and a reverse proxy server...
+Mar 14 18:06:46 my systemd[1]: Stopping Regular background program processing daemon...
+Mar 14 18:06:46 my systemd[1]: Stopping Internet superserver...
+Mar 14 18:06:46 my systemd[1]: Stopping OpenBSD Secure Shell server...
+Mar 14 18:06:46 my rsyslogd: [origin software="rsyslogd" swVersion="8.4.2" x-pid="138" x-info="http://www.rsyslog.com"] exiting on signal 15.

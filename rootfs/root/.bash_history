@@ -23,3 +23,4 @@ ls
 cd
 ls
 halt
+halt

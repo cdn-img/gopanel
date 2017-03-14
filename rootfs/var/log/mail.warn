@@ -2,3 +2,5 @@ Mar 14 16:59:03 my dovecot: master: Warning: Killed with signal 15 (by pid=1 uid
 Mar 14 16:59:03 my dovecot: log: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
 Mar 14 16:59:19 my dovecot: log: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
 Mar 14 16:59:19 my dovecot: master: Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Mar 14 18:05:03 my dovecot: master: Error: systemd listens on port 993, but it's not configured in Dovecot. Closing.
+Mar 14 18:05:03 my dovecot: master: Error: systemd listens on port 993, but it's not configured in Dovecot. Closing.

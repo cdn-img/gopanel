@@ -139,3 +139,10 @@ Mar 14 18:00:01 my CRON[2500]: pam_unix(cron:session): session opened for user r
 Mar 14 18:00:02 my CRON[2500]: pam_unix(cron:session): session closed for user root
 Mar 14 18:01:19 my sshd[2518]: Accepted password for root from 2.0.0.2 port 54814 ssh2
 Mar 14 18:01:19 my sshd[2518]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 14 18:05:03 my sshd[137]: Server listening on 0.0.0.0 port 22.
+Mar 14 18:05:03 my sshd[137]: Server listening on :: port 22.
+Mar 14 18:05:03 my systemd-logind[145]: New seat seat0.
+Mar 14 18:05:12 my sshd[860]: Accepted password for root from 2.0.0.2 port 54880 ssh2
+Mar 14 18:05:12 my sshd[860]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 14 18:06:35 my sshd[860]: pam_unix(sshd:session): session closed for user root
+Mar 14 18:06:46 my sshd[137]: Received signal 15; terminating.
